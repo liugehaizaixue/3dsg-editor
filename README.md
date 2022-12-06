@@ -16,6 +16,9 @@
 # 访问
     http://localhost:3000
 
+# 效果
+    <img src="./demo.png">
+
 # 更多信息
     Vite: https://cn.vitejs.dev/guide/
     jtopo: www.jtopo.com
