@@ -17,7 +17,7 @@
     http://localhost:3000
 
 # 效果
-    <img src="./demo.png">
+    ![截图(./demo.png)
 
 # 更多信息
     Vite: https://cn.vitejs.dev/guide/
