@@ -1,7 +1,10 @@
 export const version = '1.4.0';
 
 /** 文本位置 */
-export type TextPosition = 'lt' | 'ct' | 'rt' | 'lm' | 'center' | 'rm' | 'lb' | 'cb' | 'rb' | 'nearest';
+export type TextPosition = 'lt' | 'ct' | 'rt' | 'lm' | 'center' | 'rm' | 'lb' | 'cb' | 'rb';
+
+/** 连接点 */
+export type ConnectPosition = 'lt' | 'ct' | 'rt' | 'lm' | 'center' | 'rm' | 'lb' | 'cb' | 'rb' | 'nearest' | null;
 
 /** 文本对齐 */
 export type TextAlign = 'start' | 'end' | 'left' | 'right' | 'center';
@@ -542,18 +545,22 @@ export class RatioNode extends Node {
  * 连线对象
  */
 export class Link extends DisplayObject {
+
+    constructor(name:null|string, begin: DisplayObject, end: DisplayObject, beginPosition: ConnectPosition, endPosition: ConnectPosition);
 }
 
 /**
  * 半圆弧
  */
 export class ArcLink extends Link {
+    constructor(name:null|string, begin: DisplayObject, end: DisplayObject, beginPosition: ConnectPosition, endPosition: ConnectPosition);
 }
 
 /**
  * 贝塞尔
  */
 export class BesizerLink extends Link {
+    constructor(name:null|string, begin: DisplayObject, end: DisplayObject, beginPosition: ConnectPosition, endPosition: ConnectPosition);
 }
 
 
@@ -561,6 +568,7 @@ export class BesizerLink extends Link {
  * 弧线
  */
 export class CurveLink extends Link {
+    constructor(name:null|string, begin: DisplayObject, end: DisplayObject, beginPosition: ConnectPosition, endPosition: ConnectPosition);
     /**
      * 控制点的偏移方向
      */
