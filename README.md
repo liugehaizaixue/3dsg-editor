@@ -16,8 +16,6 @@
 # 访问
     http://localhost:3000
 
-# 效果
-    [![demo.png](https://gitee.com/nengduan/jtopo_vue_vite/raw/master/demo.png)](http://www.jtopo.com/helloworld.html)
 
 # 更多信息
     Vite: https://cn.vitejs.dev/guide/

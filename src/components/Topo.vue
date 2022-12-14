@@ -11,7 +11,7 @@
         var stage = new Stage('divId');
         var layer = new Layer('default');
         stage.addChild(layer);
-
+        
         stage.show();
 
         // 方便调测
@@ -28,9 +28,8 @@
         var toNode   = new Node('To',   400, 200, 40, 40);
 
         // 设置节点填充颜色
-        fromNode.css('background', 'orange');
+        fromNode.css('background', 'red');
         toNode.css('background', 'blue');
-
         var link = new Link('Link',fromNode,toNode);
         layer.addChild(link);
 
