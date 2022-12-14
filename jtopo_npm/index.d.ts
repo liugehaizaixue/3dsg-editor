@@ -1,20 +1,24 @@
 export const version = '1.4.0';
 
 /** 文本位置 */
-export type TextPosition = 'lt'|'ct'|'rt'| 'lm'|'center'|'rm'| 'lb'| 'cb' | 'rb' | 'nearest';
+export type TextPosition = 'lt' | 'ct' | 'rt' | 'lm' | 'center' | 'rm' | 'lb' | 'cb' | 'rb' | 'nearest';
 
 /** 文本对齐 */
-export type TextAlign = 'start'|'end'|'left'| 'right'|'center';
+export type TextAlign = 'start' | 'end' | 'left' | 'right' | 'center';
 
 /** 文本基线 */
-export type TextBaseline =  'top' | 'bottom' | 'middle' | 'alphabetic' | 'hanging';
+export type TextBaseline = 'top' | 'bottom' | 'middle' | 'alphabetic' | 'hanging';
 
 /** Stage模式 */
-export type StageMode = 'normal'|'drag'|'edit'|'view'|'select';
+export type StageMode = 'normal' | 'drag' | 'edit' | 'view' | 'select';
 
 /** 鼠标事件 */
-export type MouseEventType = 'mousedown' | 'mouseup' | 'mousemove' | 'mouseenter' 
-| 'mouseout' | 'mousewheel' | 'click' | 'dblclick';
+export type MouseEventType = 'mousedown' | 'mouseup' | 'mousemove' | 'mouseenter'
+    | 'mouseout' | 'mousewheel' | 'click' | 'dblclick';
+
+
+export type RatioDirection = 'up' | 'down' | 'left' | 'right';
+export type LinkDirection = 'horizontal' | 'vertical';
 
 export class EventTarget {
 
@@ -82,7 +86,7 @@ export class HtmlImage {
 }
 
 
-export class DisplayObject extends EventTarget{
+export class DisplayObject extends EventTarget {
     setXY(x: number, y: number): DisplayObject;
 
     getName(): string;
@@ -396,7 +400,9 @@ export class DisplayObject extends EventTarget{
 
 export class Style {
     /** 边框 */
-    border:string;
+    border: 'solid 1px gray' | '';
+
+    borderStyle: 'solid' | 'dashed';
 
     /** 边框颜色 */
     borderColor: string;
@@ -404,15 +410,29 @@ export class Style {
     /** 边框宽度 */
     borderWidth: number;
 
-    background: string;
+    background: 'white url("./xx.png") no-repeat';
 
+    /** 
+     * 节点图片 或者 背景图片
+    */
+    backgroundImage: 'url("./xx/xxx.png")' | '';
     backgroundColor: string;
 
-    font: string;
+    font: 'bold 12px arial' | '';
 
     textPosition: TextPosition;
-    textBaseLine: string;
-    textAlign: string;
+    textAlign: TextAlign;
+    textBaseLine: TextBaseline;
+
+    /**
+     * 透明度
+     */
+    globalAlpha: number;
+
+    /**
+     * lineCap
+     */
+    lineCap: 'butt' | 'round' | 'square';
 }
 
 
@@ -500,6 +520,25 @@ export class PolygonNode extends Node {
 
 
 /**
+ * 比率节点 ，用矩形填充的方式表达：比例、利用率、占比、进度条
+ * <p>可以设置方向</p>
+ */
+export class RatioNode extends Node {
+    /**
+    * 比率：通常取值范围是[0-1], 默认: 0.5
+    * @alias RatioNode.prototype.ratio
+    * @type number 
+    */
+    ratio: number;
+
+    /**
+    * 方向，朝向：right、left、up、down ，默认：right
+    */
+    direction: RatioDirection;
+}
+
+
+/**
  * 连线对象
  */
 export class Link extends DisplayObject {
@@ -517,6 +556,7 @@ export class ArcLink extends Link {
 export class BesizerLink extends Link {
 }
 
+
 /**
  * 弧线
  */
@@ -524,7 +564,7 @@ export class CurveLink extends Link {
     /**
      * 控制点的偏移方向
      */
-    direction: 'horizontal' | 'vertical';
+    direction: LinkDirection;
 }
 
 /**
@@ -534,7 +574,7 @@ export class FoldLink extends Link {
     /**
      * 方向，有垂直、水平两种 取值为：'horizontal' 或者 'vertical' ，默认为 'horizontal'
      */
-    direction: 'horizontal' | 'vertical';
+    direction: LinkDirection;
 }
 
 /**
@@ -702,6 +742,24 @@ export class Stage extends EventTarget {
     hideToolbar(): void;
 
     /**
+     * 显示缩略图 （所在div的css属性position为 absolute）
+     * <pre>
+     * 可通过css样式来定位，例如：
+    stage.showOverview({
+        left: 0,
+        bottom: -1
+    });
+     * </pre>
+     * @param {Object} styles
+     */
+    showOverview(styles: Object): void;
+
+    /**
+   * 隐藏缩略图
+   */
+    hideOverview(): void;
+
+    /**
     * 设置场景模式,模式有：normal（默认值)、select(框选)、edit(编辑)、drag(拖拽)
     * 
     * 触发 'modeChange'事件，可捕获
@@ -730,4 +788,5 @@ export class Stage extends EventTarget {
    * @param {String} fileName
    */
     download(fileName: string): void;
+
 }

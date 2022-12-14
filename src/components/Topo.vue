@@ -28,10 +28,21 @@
         var toNode   = new Node('To',   400, 200, 40, 40);
 
         // 设置节点填充颜色
-        fromNode.css('background', 'red');
-        toNode.css('background', 'blue');
+        fromNode.css({
+            backgroundColor: 'orange',
+            border: 'solid 1px gray',
+            font: 'bold 12px arial',
+        });
+
+        toNode.css({
+            background: 'blue',
+        });
         var link = new Link('Link',fromNode,toNode);
         layer.addChild(link);
+
+        fromNode.on('mousedown', (event)=>{
+            fromNode.text = 'mousedown';
+        });
 
         layer.addChild(fromNode);
         layer.addChild(toNode);
