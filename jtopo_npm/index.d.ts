@@ -1,4 +1,4 @@
-export const version = '1.4.0';
+export const version = '1.4.6';
 
 /** 文本位置 */
 export type TextPosition = 'lt' | 'ct' | 'rt' | 'lm' | 'center' | 'rm' | 'lb' | 'cb' | 'rb';

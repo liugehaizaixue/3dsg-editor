@@ -14,7 +14,7 @@
         
         stage.show();
 
-        // 方便调测
+        // 方便控制台调测
         window.stage = stage;
         window.layer = layer;
 
