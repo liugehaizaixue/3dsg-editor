@@ -1,6 +1,6 @@
 
 # jtopo 上手项目模版
-    jtopo: 1.4.6 试用版
+    jtopo: 1.4.6_5 试用版
     UI框架：VUE
     打包工具: Vite
 
@@ -9,7 +9,10 @@ npm 或者 yarn都可以，这里npm演示
 
     npm install
 
-    npm install ./jtopo_npm
+    npm install ./jtopo_core
+
+# 卸载
+    npm uninstall @jtopo/core 
 
 # 运行
     npm run dev
@@ -27,5 +30,5 @@ npm 或者 yarn都可以，这里npm演示
 
 # 目录结构说明
     src         源码
-    jtopo_npm   jtopo的本地npm目录
+    jtopo_core   jtopo的本地npm目录
     dist        打包的目录
