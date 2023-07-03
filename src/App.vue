@@ -24,19 +24,19 @@
     }
 
     function drawData(layer){
-        var fromNode = new Node('From', 200, 200, 40, 40);
-        var toNode   = new Node('To',   400, 200, 40, 40);
+        var fromNode = new Node('From', -100, 0, 40, 40);
+        var toNode   = new Node('To',   100, 0, 40, 40);
 
         // 设置节点填充颜色
         fromNode.css({
-            backgroundColor: 'orange',
-            border: 'solid 1px gray',
+            fillStyle: 'orange',
             font: 'bold 12px arial',
         });
 
         toNode.css({
-            background: 'blue',
+            fillStyle: 'blue',
         });
+
         var link = new Link('Link',fromNode,toNode);
         layer.addChild(link);
 
