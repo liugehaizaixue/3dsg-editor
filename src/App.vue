@@ -5,7 +5,7 @@
 </template>
 
 <script>
-    import {Stage, Layer, Node, Link} from '@jtopo/core';
+    import {Stage, Layer, Node, Link, VERSION} from '@jtopo/core';
 
     function initCreate(){
         var stage = new Stage('divId');
@@ -13,6 +13,8 @@
         stage.addChild(layer);
         
         stage.show();
+
+        console.log('version', VERSION);
 
         // 方便控制台调测
         window.stage = stage;

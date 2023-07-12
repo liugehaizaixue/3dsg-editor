@@ -1,6 +1,6 @@
 {
     "name": "@jtopo/core",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "author": "jitusoft",
     "description": "javascript topo graph engine",
     "module": "./index.js",

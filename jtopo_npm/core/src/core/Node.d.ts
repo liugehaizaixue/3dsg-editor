@@ -177,7 +177,7 @@ export declare class Node extends DisplayObject {
     _calcTextPosition(borderWidth?: number, padding?: number): any;
     _paintText(ctx: any): any;
     getLinkChildren(recursive: any): any[];
-    nearest(x: any, y: any): any;
+    nearest(x: number, y: number): any;
     /**
      * 设置旋转中心
      */

@@ -3,6 +3,7 @@ import { Point } from './Point';
 import { Endpoint, LinkTarget } from './Endpoint';
 import Node from './Node';
 import { ConnectPosition, PointLike, Vec2 } from './jtopo_type';
+import { Transform } from './Transform';
 /**
  * 连线对象，有起点和终端;
  *
@@ -154,11 +155,11 @@ export declare class Link extends DisplayObject {
     /**
      * @Override
      */
-    getTransform(): import("./Transform").Transform;
+    getTransform(): Transform;
     /**
      * @Override
      */
-    getTransformByDeep(deep: any): import("./Transform").Transform;
+    getTransformByDeep(deep: any): Transform;
     nearest(x: any, y: any): import("..").Intersect | {
         x: any;
         y: any;

@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@jtopo/core": "file:jtopo_npm/core",
     "vue": "^3.2.25"
   },
   "devDependencies": {

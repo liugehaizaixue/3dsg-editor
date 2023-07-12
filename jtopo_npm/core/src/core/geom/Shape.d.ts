@@ -1,4 +1,9 @@
 import { PointLike, Vec2 } from '../jtopo_type';
+/**
+ * 多边形抽象，核心是维护一个点坐标列表，点坐标为单位化后的
+ *
+ * 单位化的含义: x和y始终在一个区间范围内 x:[-0.5, 0.5] y: [-0.5, 0.5]
+ */
 export declare class Shape {
     className: any;
     /**
@@ -17,14 +22,27 @@ export declare class Shape {
     draw(projecitionPoints: Array<PointLike>, ctx: CanvasRenderingContext2D): void;
     rotate(angle: number): this;
     scale(sx: number, sy: number): this;
+    /**
+     * 已过时，不推荐使用，未来将移除
+     * @deprecated
+     */
+    static Scale(scaleX: any, scaleY: any): (p: any) => any;
+    /**
+     * 已过时，不推荐使用，未来将移除
+     * @deprecated
+     */
+    static Rotate(angle: any): (p: any) => any;
     skew(sx: number, sy: number): this;
     static pointToSize(shape: Shape, width: number, height: number, keepAspectRatio?: boolean): {
         x: number;
         y: number;
     }[];
-    static Polygon(edgeCount?: number, initAngle?: number): Shape;
-    static Scale(scaleX: any, scaleY: any): (p: any) => any;
-    static Rotate(angle: any): (p: any) => any;
+    /**
+     * 生成多边形Shape对象
+     * @param edgeCount 边的条数
+     * @param initAngle 初始角度
+     */
+    static polygon(edgeCount?: number, initAngle?: number): Shape;
     /**
      * 菱形
      */
@@ -32,27 +50,18 @@ export declare class Shape {
     /**
      * 三角, 右朝向
      */
-    static triangle(angle?: number): {
-        x: number;
-        y: number;
-    }[];
+    static Triangle: Shape;
     /**
      * 平行四边形（上面一条边向右倾斜）
      * @param beginX X偏移百分比
      */
-    static parallelogram(beginX?: number): {
-        x: number;
-        y: number;
-    }[];
-    static tip(): {
-        x: number;
-        y: number;
-    }[];
+    static parallelogram(beginX?: number): Shape;
+    static tip: Shape;
     /**
      * cos函数
      * @returns
      */
-    static Cos(opt: {
+    static cos(opt: {
         begin: number;
         end: number;
         step: number;
@@ -63,10 +72,7 @@ export declare class Shape {
         end: number;
         step: number;
         pointCount?: number;
-    }): {
-        x: number;
-        y: number;
-    }[];
+    }): Shape;
     /**
      * 自定义函数来构
      * @param f
@@ -79,16 +85,38 @@ export declare class Shape {
      * @param cols 列
      * @returns 一维数组(单位坐标)
      */
-    static outerGrid(rows: any, cols: any): any[];
+    static outerGrid(rows: number, cols: number): Shape;
     /**
      * 生成内网格坐标
      * @param rows 行
      * @param cols 列
-     * @returns 一维数组
      */
-    static innerGrid(rows: any, cols: any): any[];
+    static innerGrid(rows: number, cols: number): Shape;
+    /**
+     * 箭头形状实例对象
+     */
+    static Arrow: any;
+    /**
+    * 矩形实例对象
+    */
+    static Rect: any;
+    /**
+     * 已过时，不推荐使用，请使用 Shape.Arrow 来替代： Shape.ArrowShape
+     * @deprecated
+     */
     static ArrowShape: any;
+    /**
+     * 已过时，不推荐使用，，请使用 Shape.Rect 来替代： Shape.RectShape
+     * @deprecated
+     */
     static RectShape: any;
+    /**
+     * 生成多边形对象
+     *
+     * 已过时，不推荐使用，，请使用小写的 Shape.polygon 来替代：Shape.Polygon
+     * @deprecated
+     */
+    static Polygon: any;
 }
 /**
  * 箭头形状

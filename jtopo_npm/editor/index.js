@@ -1,1315 +1,1308 @@
-import { EventTarget as hx, Position as u, ColorKeywords as gx, LinkHelper as u0, getClass as Q0, Link as H, Node as q, PositionInvertMap as yx, CircleNode as nx, DefaultZIndexs as Z0, Cursor as T, AutoFoldLink as X, isHorizontal as q0, CurveLink as mx, BezierLink as wx, Style as Cx, assertNotNull as sx, EndpointSegment as fx, EndpointFixedName as ux, EndpointFunction as vx, getNearestPointOnObjectsOBB as kx, getNearestAnchorOnObjects as Sx, DisplayObject as _x, LayerLocalDeep as $0, PopupMenu as Lx, EventNames as f0, StageMode as Ex, ResourceLoader as ix, InputTextfield as Px, Tooltip as Hx } from "@jtopo/core";
-const G = n0;
-(function(n, t) {
-  const x = n0, e = n();
+import { EventTarget as hx, Position as u, ColorKeywords as Ix, LinkHelper as p0, getClass as xx, Link as P, Node as Q, PositionInvertMap as yx, CircleNode as sx, DefaultZIndexs as Q0, Cursor as O, AutoFoldLink as X, isHorizontal as $0, CurveLink as mx, BezierLink as wx, Style as Cx, assertNotNull as ix, EndpointSegment as ux, EndpointFixedName as px, EndpointFunction as vx, getNearestPointOnObjectsOBB as kx, getNearestAnchorOnObjects as Sx, DisplayObject as _x, LayerLocalDeep as ex, PopupMenu as Lx, EventNames as u0, StageMode as Tx, ResourceLoader as ax, InputTextfield as Ax, Tooltip as Px } from "@jtopo/core";
+const M = i0;
+function i0(n, e) {
+  const x = _0();
+  return i0 = function(t, s) {
+    return t = t - 208, x[t];
+  }, i0(n, e);
+}
+(function(n, e) {
+  const x = i0, t = n();
   for (; []; )
     try {
-      if (-parseInt(x(175)) / 1 * (parseInt(x(164)) / 2) + -parseInt(x(176)) / 3 + -parseInt(x(183)) / 4 * (parseInt(x(189)) / 5) + -parseInt(x(180)) / 6 * (parseInt(x(187)) / 7) + parseInt(x(167)) / 8 + -parseInt(x(186)) / 9 * (parseInt(x(172)) / 10) + -parseInt(x(191)) / 11 * (-parseInt(x(160)) / 12) === t)
+      if (parseInt(x(212)) / 1 * (parseInt(x(235)) / 2) + -parseInt(x(217)) / 3 + parseInt(x(218)) / 4 + parseInt(x(232)) / 5 * (parseInt(x(223)) / 6) + -parseInt(x(230)) / 7 * (-parseInt(x(227)) / 8) + parseInt(x(237)) / 9 + -parseInt(x(226)) / 10 * (parseInt(x(245)) / 11) === e)
         break;
-      e.push(e.shift());
+      t.push(t.shift());
     } catch {
-      e.push(e.shift());
+      t.push(t.shift());
     }
-})(_0, 492452);
-function n0(n, t) {
-  const x = _0();
-  return n0 = function(e, s) {
-    return e = e - 156, x[e];
-  }, n0(n, t);
-}
-class ht extends hx {
-  constructor(t) {
-    const x = n0;
-    super(), this[x(188)] = t, this[x(162)], this.initDom(), this.hide();
+})(_0, 142714);
+class fe extends hx {
+  constructor(e) {
+    const x = i0;
+    super(), this.stage = e, this[x(225)], this[x(228)](), this[x(222)]();
   }
-  [G(182)]() {
-    const t = G;
-    let x = document[t(178)](t(179));
-    return x.classList.add(t(158)), this[t(188)][t(184)][t(168)](x), this[t(162)] = x, this;
+  [M(228)]() {
+    const e = M;
+    let x = document[e(224)](e(214));
+    return x[e(236)][e(211)](e(213)), this[e(220)][e(240)][e(241)](x), this[e(225)] = x, this;
   }
-  [G(190)]() {
-    const t = G;
-    return this[t(162)][t(156)].display = "none", this;
+  [M(222)]() {
+    const e = M;
+    return this.domElement[e(229)][e(238)] = e(239), this;
   }
-  [G(157)]() {
-    const t = G;
-    return this.domElement[t(156)][t(163)] = t(169), this;
+  [M(233)]() {
+    const e = M;
+    return this[e(225)].style[e(238)] = e(216), this;
   }
-  [G(181)]() {
-    return this[G(170)];
+  [M(221)]() {
+    return this[M(210)];
   }
-  [G(165)](t) {
-    const x = G;
-    let e = this;
-    return t[x(177)][x(174)](function(s) {
-      const a = x;
-      let i = document.createElement(a(179));
-      i[a(185)].add(a(166)), i[a(171)] = s[a(161)], i.setAttribute(a(173), !![]), i[a(159)] = function(r) {
-        const o = a;
-        e[o(170)] = s;
-      }, e[a(162)].appendChild(i);
+  [M(243)](e) {
+    const x = M;
+    let t = this;
+    return e[x(209)][x(231)](function(s) {
+      const i = x;
+      let r = document.createElement("div");
+      r[i(236)][i(211)](i(244)), r[i(219)] = s[i(234)], r[i(208)](i(242), !![]), r[i(215)] = function(a) {
+        const o = i;
+        t[o(210)] = s;
+      }, t[i(225)].appendChild(r);
     }), this;
   }
 }
 function _0() {
-  const n = ["172FIopvc", "layersContainer", "classList", "51156IWFLeD", "1206751eyfQAt", "stage", "85695yhBPgt", "hide", "24211CRFLTK", "style", "show", "jtopo_iconsPanel", "ondragstart", "13404nbUDrC", "iconHtml", "domElement", "display", "2iBeKOf", "setConfig", "item", "5837984SeNkmi", "appendChild", "block", "dargItem", "innerHTML", "380spkeQu", "draggable", "forEach", "281481BhzpJa", "2832552VIFjfC", "items", "createElement", "div", "18pgcTte", "getDragItem", "initDom"];
+  const n = ["initDom", "style", "203roNDqg", "forEach", "5YBxltT", "show", "iconHtml", "198754pxJzAB", "classList", "907344KwAsJs", "display", "none", "layersContainer", "appendChild", "draggable", "setConfig", "item", "2856579sbRDqE", "setAttribute", "items", "dargItem", "add", "2gUujYA", "jtopo_iconsPanel", "div", "ondragstart", "block", "719022nyQGMj", "761244Yjbxgf", "innerHTML", "stage", "getDragItem", "hide", "594930KbbXDp", "createElement", "domElement", "10aWXFsR", "14632tUwtLo"];
   return _0 = function() {
     return n;
   }, _0();
 }
-(function(n, t) {
-  const x = b0, e = n();
+(function(n, e) {
+  const x = b0, t = n();
   for (; []; )
     try {
-      if (-parseInt(x(180)) / 1 * (parseInt(x(184)) / 2) + parseInt(x(188)) / 3 * (parseInt(x(170)) / 4) + parseInt(x(164)) / 5 + -parseInt(x(179)) / 6 + -parseInt(x(186)) / 7 * (parseInt(x(152)) / 8) + parseInt(x(181)) / 9 * (-parseInt(x(157)) / 10) + parseInt(x(185)) / 11 === t)
+      if (parseInt(x(258)) / 1 + -parseInt(x(278)) / 2 * (-parseInt(x(283)) / 3) + -parseInt(x(287)) / 4 + parseInt(x(275)) / 5 + -parseInt(x(284)) / 6 * (-parseInt(x(281)) / 7) + -parseInt(x(268)) / 8 * (-parseInt(x(263)) / 9) + -parseInt(x(264)) / 10 === e)
         break;
-      e.push(e.shift());
+      t.push(t.shift());
     } catch {
-      e.push(e.shift());
+      t.push(t.shift());
     }
-})(p0, 353213);
-function p0() {
-  const n = ["textOffsetY", "draggable", "_#endArrow", "removeAllChild", "_#label", "2244910yoGMQx", "userData", "filter", "origin", "begin", "setBegin", "4ECSXYj", "updatePoints", "label", "_#beginArrow", "name", "editable", "target", "replaceChild", "inLinks", "2452620MGiZOK", "29509sbNEyu", "9mtJvus", "forEach", "outLinks", "18OkleTR", "15123878Iqnxiw", "364259JJgHoj", "getSegmentPoints", "515793DplWiP", "end", "104kqDcta", "frozen", "style", "updatezIndex", "children", "2917660RvBaRp", "endArrow"];
-  return p0 = function() {
-    return n;
-  }, p0();
+})(g0, 977839);
+function b0(n, e) {
+  const x = g0();
+  return b0 = function(t, s) {
+    return t = t - 252, x[t];
+  }, b0(n, e);
 }
-function b0(n, t) {
-  const x = p0();
-  return b0 = function(e, s) {
-    return e = e - 152, x[e];
-  }, b0(n, t);
-}
-function Ax(n, t) {
+function Ex(n, e) {
   const x = b0;
-  ["id", x(154), x(174), "x", "y", x(153), x(175), x(160), x(165), "textOffsetX", x(159)][x(166)]((i) => i != "className")[x(182)]((i) => {
-    n[i] = t[i];
-  }), n[x(169)](t[x(168)][x(176)], t[x(168)]), n.setEnd(t.end.target, t[x(189)]), n[x(162)](), n.addChilds(t[x(156)]);
-  const s = t.parent;
-  s && (s[x(177)](t, n), s[x(155)](), s.updateChildrenDeep(!![])), n[x(171)]();
-  let a = n[x(187)]().length;
-  n.children[x(182)]((i) => {
-    const r = x;
-    i[r(167)][0] + 1 >= a && (i[r(167)][0] = 0), i.name == r(163) ? n[r(172)] = i : i.name == r(173) ? (n.beginArrow = i, i[r(154)] = n[r(154)]) : i.name == r(161) && (n[r(158)] = i, i.style = n[r(154)]);
-  }), t[x(178)] && t[x(178)].forEach((i) => {
-    let o = i[x(189)];
-    o.target = i;
-  }), t[x(183)] && t[x(183)][x(182)]((i) => {
-    let o = i[x(168)];
-    o.target = i;
+  ["id", x(261), "name", "x", "y", x(288), x(270), x(289), x(254), x(279), x(255)].filter((r) => r != x(265))[x(271)]((r) => {
+    n[r] = e[r];
+  }), n[x(276)](e[x(285)].target, e.begin), n[x(277)](e[x(262)][x(274)], e[x(262)]), n.removeAllChild(), n[x(269)](e[x(252)]);
+  const s = e[x(259)];
+  s && (s.replaceChild(e, n), s[x(282)](), s[x(280)](!![])), n[x(290)]();
+  let i = n[x(266)]().length;
+  n.children[x(271)]((r) => {
+    const a = x;
+    r[a(273)][0] + 1 >= i && (r[a(273)][0] = 0), r[a(260)] == a(267) ? n[a(256)] = r : r[a(260)] == a(253) ? (n.beginArrow = r, r[a(261)] = n[a(261)]) : r[a(260)] == a(272) && (n[a(286)] = r, r.style = n[a(261)]);
+  }), e.inLinks && e[x(257)][x(271)]((r) => {
+    let o = r[x(262)];
+    o.target = r;
+  }), e.outLinks && e.outLinks[x(271)]((r) => {
+    const a = x;
+    let o = r[a(285)];
+    o[a(274)] = r;
   });
 }
-const y = s0;
-function I0() {
-  const n = ["borderRadius", "endArrow", "setCurrentObject", "inputSystem", "normal 10px arial", "selectedGroup", "2430855LJnGjs", "borderWidth", "open", "Link", "getValue", "BezierLink", "基线对齐", "normal", "appendChild", "textOffsetX", "CurveLink", "frozen", "beginOffset", "basic", "replace", "update", "string", "absolute", "left", "可拖拽", "italic", "domElement", "beginArrowSize", "setBeginArrow", "垂直偏移量", "0px", "property", "split", "resizeTo", "backgroundColor", "beginArrow", "__folders", "globalAlpha", "13301448gMLojf", "右下角", "Georgia", "display", "text", "stage", "square", "fontWeight", "1,0", "remove", "__controllers", "createArrow", "hide", "getCtrollerValue", "font", "close", "round", "isLink", "lineDash", "currentLayer", "style", "folders", "className", "textAlign", "block", "object", "结束偏移", "setEndArrow", "8062945jydMvP", "字体重量", "showProperty", "edges", "末端样式", "2,2", "attachTo", "ArcLink", "图片路径", "show", "左上角", "center", "onChange", "forEach", "textPosition", "isNode", "endArrowSize", "label", "newFolder", "butt", "setFolderValues", "visible", "右上角", "AutoFoldLink", "文本对齐", "fontFamily", "endOffset", "Arial", "onFinishChange", "connectable", "height", "旋转度数", "fontSize", "圆弧方向", "top", "3,3", "边框/线宽度", "连线属性", "dat", "圆角大小", "zIndex", "gui", "3,7", "px ", "3830876fQlElu", "文本位置", "基础属性", "1472538wEBmHt", "direction", "节点属性", "水平偏移量", "textBaseline", "indexOf", "6637482EMplZx", "init", "边的条数", "add", "width", "开始偏移", "#000000", "color", "结束箭头大小", "addColor", "bottom", "position", "Color", "updatezIndex", "right", "可连线", "7,3", "middle", "editor", "nodeCtrlBox", "7qSyBhs", "绘制不重叠部", "toLowerCase", "find", "parentId", "rotation", "Verdana", "bold", "name", "1803072BvYPlx", "draggable", "getFolder", "addFolder", "可被编辑", "keys"];
-  return I0 = function() {
-    return n;
-  }, I0();
-}
-function s0(n, t) {
-  const x = I0();
-  return s0 = function(e, s) {
-    return e = e - 275, x[e];
-  }, s0(n, t);
-}
-(function(n, t) {
-  const x = s0, e = n();
-  for (; []; )
-    try {
-      if (-parseInt(x(287)) / 1 + parseInt(x(407)) / 2 + parseInt(x(299)) / 3 + -parseInt(x(404)) / 4 + parseInt(x(360)) / 5 + -parseInt(x(413)) / 6 + parseInt(x(278)) / 7 * (parseInt(x(332)) / 8) === t)
-        break;
-      e.push(e.shift());
-    } catch {
-      e.push(e.shift());
-    }
-})(I0, 954786);
-class ft {
-  constructor(t, x) {
-    const e = s0;
-    this[e(276)] = t, this[e(398)] = x, this[e(401)] = new x.GUI(), this[e(357)], this[e(353)] = {};
-  }
-  [y(295)](t) {
-    const x = y, e = this[x(276)], s = this[x(276)][x(337)];
-    s[x(296)].pickedObject = t, s[x(298)].removeAll().add(t), t.isLink ? e.linkCtrlBox[x(366)](t) : t[x(375)] && e[x(277)][x(366)](t), e[x(314)](), this[x(362)](t);
-  }
-  [y(362)](t) {
-    const x = y;
-    if (t == null)
-      return;
-    this[x(312)] = { id: t.id, name: "", parentId: t[x(282)], x: 1, y: 1, imageSrc: "", width: 1, height: 1, text: "", zIndex: 1, beginArrowSize: 0, endArrowSize: 0, beginOffset: 0, endOffset: 0, edges: 3, rotation: 0, className: x(383), direction: 1, frozen: ![], draggable: !![], editable: !![], connectable: !![] }, t[x(349)] && (t[x(329)] && t[x(329)][x(381)] && (this.basic[x(321)] = t[x(329)][x(417)]), t[x(294)] && t[x(294)][x(381)] && (this[x(312)][x(376)] = t[x(294)][x(417)])), this.style = { lineDash: null, backgroundColor: null, textPosition: u[x(371)], textAlign: "", borderRadius: 0, textBaseline: "", borderColor: null, color: x(419), borderWidth: 1, fontWeight: x(285), fontSize: "12", fontFamily: "arial", lineCap: "butt", globalAlpha: 1, textOffsetX: 0, textOffsetY: 0 };
-    const e = this[x(312)], s = this.style;
-    Object[x(292)](e).forEach(function(o) {
-      if (t[o] != null) {
-        let d = t[o];
-        o == "rotation" && (d = d * (180 / Math.PI)), e[o] = d;
-      }
-    }), Object[x(292)](s)[x(373)](function(o) {
-      const d = x;
-      let c = t[d(352)][o];
-      if (t.style[o] != null && (s[o] = c), o[d(412)](d(425)) != -1 && c && c[d(280)]) {
-        let l = gx[c[d(280)]()];
-        l && (s[o] = l);
-      }
-    }), this[x(357)] == null && (this.object = t, this[x(414)]()), this[x(357)] = t;
-    let a = t[x(352)][x(300)];
-    a == null && (a = 1), s[x(300)] = a;
-    let i = t[x(352)][x(346)];
-    i == null && (i = x(297));
-    const r = i[x(326)](" ");
-    s[x(339)] = r[0], s[x(392)] = r[1][x(313)]("px", ""), s[x(385)] = r[2], this[x(380)](e, s), t.isNode && this[x(289)](x(409)) != null ? (this.getFolder(x(409))[x(369)](), this[x(289)](x(397))[x(344)]()) : this.getFolder(x(397)) != null && (this.getFolder(x(397))[x(369)](), this[x(289)](x(409)).hide());
-  }
-  [y(378)](t) {
-    const x = y, e = this.gui[x(290)](t);
-    return this.folders[t] = e, e;
-  }
-  [y(289)](t) {
-    return this[y(353)][t];
-  }
-  [y(345)](t, x) {
-    const e = y;
-    return this.getCtroller(t, x)[e(303)]();
-  }
-  getCtroller(t, x) {
-    const e = y;
-    return this.getFolder(t)[e(342)][e(281)]((a) => a[e(325)] == x);
-  }
-  [y(380)](t, x) {
-    const e = y;
-    Object[e(292)](this[e(401)][e(330)])[e(373)]((a) => {
-      const i = e;
-      this[i(401)].__folders[a][i(342)][i(373)](function(d) {
-        let l = d[i(325)];
-        t[l] != null ? d.setValue(t[l]) : x[l] != null && d.setValue(x[l]);
-      });
-    });
-  }
-  [y(414)]() {
-    const t = y, x = this, e = this[t(276)], s = e.stage, a = e[t(351)], i = this[t(312)], r = this.style, o = [t(370), "顶部", t(382), "右边", "中心", "右边", "左下角", "底部", t(333)], d = ["lt", "ct", "rt", "lm", t(371), "rm", "lb", "cb", "rb"], c = {};
-    o.forEach(function(f, w) {
-      c[f] = d[w];
-    });
-    let l = { 居中: "center", 左: t(317), 右: t(427) }, _ = { 顶部: t(394), 中心: t(275), 底部: t(423) }, p = { 正常: t(306), 加粗: t(285), 斜体: t(319) }, g = { 直线: t(302), 自动折线: t(383), 圆弧: t(367), 曲线: t(309), 贝塞尔曲线: t(304) }, D = { 顺时针: -1, 逆时针: 1 }, R = { 实线: t(340), "虚线1,1": "1,1", "虚线2,2": t(365), "虚线3,3": t(395), "虚线7,3": t(429), "虚线3,7": t(402), "虚线10,1": "10,1", "虚线1,10": "1,10" }, P = [t(387), "宋体", t(334), t(284), "仿宋", "隶书"], Ix = { 默认: t(379), 圆形: t(348), 矩形: t(338) };
-    t(279);
-    function b() {
-      const f = t;
-      let w = this[f(325)], m = this[f(303)]();
-      w == f(400) ? a[f(426)]() : w == f(283) && (m = m * (Math.PI / 180));
-      let I = x.object;
-      if (I[f(349)]) {
-        if (w == f(321))
-          if (m != 0) {
-            let k = I[f(329)];
-            k == null ? (k = u0[f(343)](), I[f(322)](k)) : k.resizeTo(m, m), k[f(369)]();
-          } else
-            I[f(329)] && I[f(329)].hide();
-        else if (w == "endArrowSize")
-          if (m != 0) {
-            let k = I[f(294)];
-            k == null ? (k = u0[f(343)](), I[f(359)](k)) : k[f(327)](m, m), k[f(369)]();
-          } else
-            I[f(294)] && I[f(294)].hide();
-        else if (w == "className") {
-          let k = m;
-          if (I.className !== k) {
-            let X0 = Q0(k), ax = new X0();
-            Ax(ax, I), I = ax, x[f(295)](I);
-          }
-        }
-      }
-      w != f(354) && (I[w] = m), I.imageSrc != null && (I[f(352)][f(328)] = null), e[f(314)]();
-    }
-    function A() {
-      const f = t;
-      let w = this[f(325)], m = this[f(303)](), I = x[f(357)], k = I[f(352)];
-      if (w == f(385) || w == f(339) || w == "fontSize") {
-        let X0 = x.getCtrollerValue("文本", f(339)) + " " + x[f(345)]("文本", f(392)) + f(403) + x[f(345)]("文本", f(385));
-        w = f(346), m = X0;
-      } else
-        w == f(350) ? m == null || m == "" ? m = null : typeof m == f(315) && (m = m[f(326)](",")) : w == f(328) && x.object[f(349)] && (m = null);
-      I instanceof H && w[f(412)]("font") != -1 && I[f(377)] != null && (I[f(377)][f(352)][w] = m), k[w] = m, I.imageSrc != null && (I[f(352)][f(328)] = null), e[f(314)]();
-    }
-    const O = this[t(378)](t(406));
-    O.add(i, "id").onFinishChange(b)[t(286)]("ID"), O[t(416)](i, t(286)).onFinishChange(b)[t(286)](t(286)), O[t(416)](i, t(336))[t(388)](b)[t(286)]("文字"), O.add(i, t(400), 0, 1e3, 1)[t(372)](b)[t(286)]("层级"), O[t(416)](i, t(310), ![]).onChange(b)[t(286)]("锁定子元素"), O[t(416)](i, t(288), !![])[t(372)](b)[t(286)](t(318)), O[t(416)](i, "editable", !![])[t(372)](b)[t(286)](t(291)), O[t(416)](i, t(389), !![])[t(372)](b)[t(286)](t(428)), O[t(416)](r, t(300), 0, 100).onChange(A)[t(286)](t(396)), O[t(416)](r, t(350), R)[t(372)](A)[t(286)]("虚实"), O[t(416)](r, t(331), 0, 1, 0.1)[t(372)](A)[t(286)]("整体透明度"), O[t(301)]();
-    const M = this[t(378)](t(409));
-    M[t(416)](i, "imageSrc").onFinishChange(b)[t(286)](t(368)), M[t(416)](i, "x")[t(388)](b), M[t(416)](i, "y")[t(388)](b), M[t(416)](i, t(417), 1)[t(388)](b)[t(286)]("宽度"), M[t(416)](i, t(390), 1)[t(388)](b)[t(286)]("高度"), M[t(416)](i, t(283), -360, 360, 1)[t(372)](b)[t(286)](t(391)), M.add(r, t(293))[t(372)](A)[t(286)](t(399)), M[t(416)](i, t(363), 3, 24)[t(372)](b)[t(286)](t(415)), M[t(301)]();
-    const W = this[t(378)](t(397));
-    W[t(416)](i, t(354), g)[t(372)](b)[t(286)]("线型"), W.add(i, t(408), D)[t(372)](b)[t(286)](t(393)), W[t(416)](i, t(321), 0, 50)[t(372)](b).name("开始箭头大小"), W[t(416)](i, t(376), 0, 50)[t(372)](b).name(t(421)), W[t(416)](i, t(311), -30, 30).onChange(b)[t(286)](t(418)), W[t(416)](i, t(386), -30, 30)[t(372)](b)[t(286)](t(358)), W.add(r, "lineCap", Ix)[t(372)](A).name(t(364)), W.open();
-    const F = this[t(378)]("文本");
-    F[t(416)](r, t(385), P)[t(372)](A)[t(286)]("字体名称"), F[t(416)](r, t(392), 1, 1e3)[t(372)](A)[t(286)]("大小"), F[t(416)](r, "fontWeight", p)[t(372)](A)[t(286)](t(361)), F[t(422)](r, t(420)).onChange(A)[t(286)]("颜色"), F.add(r, t(374), c)[t(372)](A)[t(286)](t(405)), F.add(r, t(355), l)[t(372)](A)[t(286)](t(384)), F[t(416)](r, t(411), _).onChange(A)[t(286)](t(305)), F[t(416)](r, t(308))[t(372)](b)[t(286)](t(410)), F[t(416)](r, "textOffsetY").onChange(b)[t(286)](t(323));
-    let Z = this[t(401)].domElement;
-    Z[t(341)](), s.layersContainer[t(307)](Z), Z[t(352)][t(424)] = t(316), Z.style[t(427)] = "-15px", Z[t(352)][t(394)] = t(324), Z[t(352)][t(400)] = 1e3;
-  }
-  open() {
-    const t = y;
-    this[t(401)][t(301)]();
-  }
-  [y(347)]() {
-    const t = y;
-    this[t(401)][t(347)]();
-  }
-  [y(344)]() {
-    const t = y;
-    this[t(401)][t(320)][t(352)][t(335)] = "none";
-  }
-  [y(369)]() {
-    const t = y;
-    this.gui.domElement.style[t(335)] = t(356);
-  }
-}
-function a0(n, t) {
-  const x = g0();
-  return a0 = function(e, s) {
-    return e = e - 182, x[e];
-  }, a0(n, t);
-}
-const B = a0;
-(function(n, t) {
-  const x = a0, e = n();
-  for (; []; )
-    try {
-      if (-parseInt(x(197)) / 1 + parseInt(x(190)) / 2 + -parseInt(x(198)) / 3 + parseInt(x(200)) / 4 + parseInt(x(185)) / 5 * (parseInt(x(211)) / 6) + -parseInt(x(204)) / 7 * (parseInt(x(216)) / 8) + parseInt(x(209)) / 9 === t)
-        break;
-      e.push(e.shift());
-    } catch {
-      e.push(e.shift());
-    }
-})(g0, 570872);
-class Ox extends q {
-  constructor(t, x) {
-    const e = a0;
-    super(), this[e(203)] = !![], this.dragBegin = ![], this.nodeCtrlBox = t, this[e(188)] = t.editor, this[e(220)] = this.editor[e(220)], this[e(193)] = this[e(220)][e(193)], this.resizeTo(12, 12), this[e(201)]({ border: "1px solid black", backgroundColor: e(205) }), this[e(213)] = x;
-  }
-  [B(189)]() {
-  }
-  [B(196)]() {
-    const t = B;
-    let x, e = this[t(213)];
-    e == u.lt ? x = t(212) : e == u.ct ? x = t(208) : e == u.rt ? x = t(219) : e == u.lm ? x = t(206) : e == u.rm ? x = t(186) : e == u.lb ? x = "sw-resize" : e == u.cb ? x = t(183) : e == u.rb && (x = t(192)), this[t(188)][t(220)][t(182)](x);
-  }
-  [B(221)](t) {
-  }
-  [B(187)](t) {
-    t[B(199)]();
-  }
-  [B(191)](t) {
-    t[B(199)]();
-  }
-  [B(210)](t) {
-    const x = B;
-    t[x(199)]();
-    let e = this[x(218)], s = e.editor, a = s[x(220)], i = this[x(213)];
-    if (this[x(193)][x(184)]().length == 0)
-      throw new Error(x(215));
-    let d = a.inputSystem.pickedObject, c = d[x(217)](t.x, t.y), l = d.positionToLocalPoint(i), _ = c.x - l.x, p = c.y - l.y;
-    i == u.lt ? (_ = -_, p = -p) : i == u.ct ? (_ = 0, p = -p) : i == u.rt ? p = -p : i == u.lm ? (_ = -_, p = 0) : i == u.rm ? p = 0 : i == u.lb ? _ = -_ : i == u.cb ? _ = 0 : i == u.rb, this[x(195)](d, { dx: _, dy: p }, i);
-  }
-  [B(195)](t, x, e) {
-    const s = B;
-    let a = yx[e], i = t.positionToLocalPoint(a);
-    i = t[s(194)](i), t[s(202)](x.dx, x.dy);
-    let r = t.positionToLocalPoint(a);
-    r = t[s(194)](r);
-    let o = i.x - r.x, d = i.y - r.y;
-    t[s(214)](o, d), this[s(218)][s(207)]();
-  }
-}
 function g0() {
-  const n = ["nw-resize", "name", "translateWith", "selectedGroup.length is 0!", "82768xlNeXm", "stageToLocalXY", "nodeCtrlBox", "ne-resize", "stage", "mouseoutHandler", "setCursor", "s-resize", "getNoChildrensObjects", "25GbGMBH", "e-resize", "mousedownHandler", "editor", "mouseenterHandler", "1673520oEhHdj", "mouseupHandler", "se-resize", "selectedGroup", "transformPoint", "adjustFixedDirection", "mousemoveHandler", "67076HvzPLP", "3073404jmIyrh", "preventDefault", "934116xhVVSw", "css", "resizeWith", "isNodeResizePoint", "385mcRMkb", "orange", "w-resize", "updateSize", "n-resize", "6571368LbTrXt", "mousedragHandler", "517206MLJDGY"];
+  const n = ["setBegin", "setEnd", "1270882TFUpch", "textOffsetX", "updateChildrenDeep", "63uGkauL", "updatezIndex", "3OJUWgn", "81378SDEutr", "begin", "endArrow", "495400YMZvVg", "frozen", "draggable", "updatePoints", "children", "_#beginArrow", "userData", "textOffsetY", "label", "inLinks", "1574107eWUbGJ", "parent", "name", "style", "end", "3894327YziUXg", "24666940qIxOdF", "className", "getSegmentPoints", "_#label", "8TEvczp", "addChilds", "editable", "forEach", "_#endArrow", "origin", "target", "4020325SsotAi"];
   return g0 = function() {
     return n;
   }, g0();
 }
-function Q(n, t) {
-  const x = y0();
-  return Q = function(e, s) {
-    return e = e - 170, x[e];
-  }, Q(n, t);
+function I0() {
+  const n = ["string", "connectable", "forEach", "endArrow", "linkCtrlBox", "nodeCtrlBox", "frozen", "140073dTDUSI", "left", "圆角大小", "文本对齐", "setFolderValues", "bottom", "height", "末端样式", "__folders", "object", "Link", "draggable", "property", "zIndex", "textOffsetX", "replace", "editor", "lineDash", "左上角", "fontSize", "top", "className", "endOffset", "setCurrentObject", "dat", "selectedGroup", "borderRadius", "10,1", "resizeTo", "可拖拽", "gui", "textPosition", "basic", "8gLhemn", "textBaseline", "editable", "开始箭头大小", "bold", "结束箭头大小", "右下角", "addColor", "px ", "beginArrowSize", "style", "AutoFoldLink", "position", "getCtroller", "text", "none", "getFolder", "addFolder", "middle", "center", "186126dUavsn", "#000000", "圆弧方向", "setBeginArrow", "setValue", "边的条数", "normal", "visible", "italic", "color", "1036581TYoOqW", "字体名称", "lineCap", "imageSrc", "toLowerCase", "连线属性", "parentId", "newFolder", "Color", "__controllers", "可被编辑", "inputSystem", "arial", "图片路径", "整体透明度", "domElement", "基础属性", "1156800bzXBzW", "butt", "removeAll", "width", "592880jiLRwK", "borderWidth", "setEndArrow", "textAlign", "backgroundColor", "direction", "close", "节点属性", "CurveLink", "keys", "stage", "font", "update", "textOffsetY", "onChange", "endArrowSize", "可连线", "576738wSRLoU", "fontFamily", "左下角", "name", "beginArrow", "absolute", "右上角", "GUI", "createArrow", "showProperty", "label", "display", "rotation", "Arial", "open", "1,1", "init", "296001grJeJN", "square", "onFinishChange", "edges", "1,0", "show", "fontWeight", "绘制重叠部分", "isLink", "ArcLink", "attachTo", "1,10", "block", "folders", "add", "indexOf", "remove", "getValue", "isNode", "find", "hide", "getCtrollerValue", "开始偏移", "-15px", "right", "round"];
+  return I0 = function() {
+    return n;
+  }, I0();
 }
-const U = Q;
-(function(n, t) {
-  const x = Q, e = n();
+function r0(n, e) {
+  const x = I0();
+  return r0 = function(t, s) {
+    return t = t - 377, x[t];
+  }, r0(n, e);
+}
+const y = r0;
+(function(n, e) {
+  const x = r0, t = n();
   for (; []; )
     try {
-      if (-parseInt(x(189)) / 1 * (parseInt(x(187)) / 2) + -parseInt(x(199)) / 3 + parseInt(x(202)) / 4 + parseInt(x(207)) / 5 * (-parseInt(x(179)) / 6) + -parseInt(x(182)) / 7 * (parseInt(x(172)) / 8) + parseInt(x(195)) / 9 * (parseInt(x(176)) / 10) + parseInt(x(186)) / 11 === t)
+      if (-parseInt(x(512)) / 1 + parseInt(x(495)) / 2 + -parseInt(x(394)) / 3 * (-parseInt(x(427)) / 4) + parseInt(x(478)) / 5 + -parseInt(x(447)) / 6 + parseInt(x(457)) / 7 + -parseInt(x(474)) / 8 === e)
         break;
-      e.push(e.shift());
+      t.push(t.shift());
     } catch {
-      e.push(e.shift());
+      t.push(t.shift());
     }
-})(y0, 811571);
+})(I0, 176788);
+class he {
+  constructor(e, x) {
+    const t = r0;
+    this[t(410)] = e, this[t(418)] = x, this.gui = new x[t(502)](), this[t(403)], this[t(525)] = {};
+  }
+  [y(417)](e) {
+    const x = y, t = this.editor, s = this.editor[x(488)];
+    s[x(468)].pickedObject = e, s[x(419)][x(476)]()[x(526)](e), e[x(520)] ? t[x(391)][x(522)](e) : e.isNode && t[x(392)][x(522)](e), t[x(490)](), this[x(504)](e);
+  }
+  [y(504)](e) {
+    const x = y;
+    if (e == null)
+      return;
+    this[x(426)] = { id: e.id, name: "", parentId: e[x(463)], x: 1, y: 1, imageSrc: "", width: 1, height: 1, text: "", zIndex: 1, beginArrowSize: 0, endArrowSize: 0, beginOffset: 0, endOffset: 0, edges: 3, rotation: 0, className: x(438), direction: 1, frozen: ![], draggable: !![], editable: !![], connectable: !![] }, e.isLink && (e.beginArrow && e.beginArrow.visible && (this[x(426)][x(436)] = e.beginArrow[x(477)]), e[x(390)] && e[x(390)][x(454)] && (this.basic[x(493)] = e.endArrow[x(477)])), this[x(437)] = { lineDash: null, backgroundColor: null, textPosition: u.center, textAlign: "", borderRadius: 0, textBaseline: "", borderColor: null, color: x(448), borderWidth: 1, fontWeight: x(431), fontSize: "12", fontFamily: x(469), lineCap: x(475), globalAlpha: 1, textOffsetX: 0, textOffsetY: 0 };
+    const t = this.basic, s = this[x(437)];
+    Object[x(487)](t)[x(389)](function(o) {
+      if (e[o] != null) {
+        let d = e[o];
+        o == "rotation" && (d = d * (180 / Math.PI)), t[o] = d;
+      }
+    }), Object[x(487)](s)[x(389)](function(o) {
+      const d = x;
+      let c = e[d(437)][o];
+      if (e[d(437)][o] != null && (s[o] = c), o[d(527)](d(465)) != -1 && c && c[d(461)]) {
+        let l = Ix[c[d(461)]()];
+        l && (s[o] = l);
+      }
+    }), this[x(403)] == null && (this.object = e, this[x(511)]()), this.object = e;
+    let i = e[x(437)][x(479)];
+    i == null && (i = 1), s[x(479)] = i;
+    let r = e[x(437)].font;
+    r == null && (r = "normal 10px arial");
+    const a = r.split(" ");
+    s[x(518)] = a[0], s[x(413)] = a[1][x(409)]("px", ""), s[x(496)] = a[2], this[x(398)](t, s), e[x(379)] && this.getFolder(x(485)) != null ? (this[x(443)]("节点属性")[x(517)](), this.getFolder(x(462))[x(381)]()) : this[x(443)](x(462)) != null && (this[x(443)](x(462)).show(), this[x(443)](x(485))[x(381)]());
+  }
+  [y(464)](e) {
+    const x = y, t = this[x(424)][x(444)](e);
+    return this.folders[e] = t, t;
+  }
+  getFolder(e) {
+    return this[y(525)][e];
+  }
+  [y(382)](e, x) {
+    const t = y;
+    return this.getCtroller(e, x)[t(378)]();
+  }
+  [y(440)](e, x) {
+    const t = y;
+    return this[t(443)](e)[t(466)][t(380)]((i) => i[t(406)] == x);
+  }
+  [y(398)](e, x) {
+    const t = y;
+    Object.keys(this[t(424)][t(402)]).forEach((i) => {
+      const r = t;
+      this.gui[r(402)][i].__controllers[r(389)](function(d) {
+        const c = r;
+        let l = d.property;
+        e[l] != null ? d[c(451)](e[l]) : x[l] != null && d[c(451)](x[l]);
+      });
+    });
+  }
+  [y(511)]() {
+    const e = y, x = this, t = this.editor, s = t.stage, i = t.currentLayer, r = this[e(426)], a = this[e(437)], o = [e(412), "顶部", e(501), "右边", "中心", "右边", e(497), "底部", e(433)], d = ["lt", "ct", "rt", "lm", e(446), "rm", "lb", "cb", "rb"], c = {};
+    o.forEach(function(h, m) {
+      c[h] = d[m];
+    });
+    let l = { 居中: "center", 左: e(395), 右: e(385) }, p = { 顶部: e(414), 中心: e(445), 底部: e(399) }, _ = { 正常: e(453), 加粗: e(431), 斜体: e(455) }, S = { 直线: e(404), 自动折线: e(438), 圆弧: e(521), 曲线: e(486), 贝塞尔曲线: "BezierLink" }, z = { 顺时针: -1, 逆时针: 1 }, A = { 实线: e(516), "虚线1,1": e(510), "虚线2,2": "2,2", "虚线3,3": "3,3", "虚线7,3": "7,3", "虚线3,7": "3,7", "虚线10,1": e(421), "虚线1,10": e(523) }, U = [e(508), "宋体", "Georgia", "Verdana", "仿宋", "隶书"], E = { 默认: e(475), 圆形: e(386), 矩形: e(513) };
+    e(519);
+    function b() {
+      const h = e;
+      let m = this[h(406)], I = this[h(378)]();
+      m == "zIndex" ? i.updatezIndex() : m == h(507) && (I = I * (Math.PI / 180));
+      let g = x[h(403)];
+      if (g[h(520)]) {
+        if (m == h(436))
+          if (I != 0) {
+            let k = g[h(499)];
+            k == null ? (k = p0[h(503)](), g[h(450)](k)) : k[h(422)](I, I), k[h(517)]();
+          } else
+            g[h(499)] && g.beginArrow.hide();
+        else if (m == h(493))
+          if (I != 0) {
+            let k = g[h(390)];
+            k == null ? (k = p0.createArrow(), g[h(480)](k)) : k[h(422)](I, I), k[h(517)]();
+          } else
+            g[h(390)] && g[h(390)][h(381)]();
+        else if (m == h(415)) {
+          let k = I;
+          if (g[h(415)] !== k) {
+            let Z0 = xx(k), rx = new Z0();
+            Ex(rx, g), g = rx, x[h(417)](g);
+          }
+        }
+      }
+      m != h(415) && (g[m] = I), g[h(460)] != null && (g[h(437)][h(482)] = null), t[h(490)]();
+    }
+    function H() {
+      const h = e;
+      let m = this.property, I = this[h(378)](), g = x[h(403)], k = g[h(437)];
+      if (m == h(496) || m == h(518) || m == h(413)) {
+        let Z0 = x[h(382)]("文本", h(518)) + " " + x.getCtrollerValue("文本", h(413)) + h(435) + x[h(382)]("文本", "fontFamily");
+        m = h(489), I = Z0;
+      } else
+        m == h(411) ? I == null || I == "" ? I = null : typeof I == h(387) && (I = I.split(",")) : m == h(482) && x[h(403)][h(520)] && (I = null);
+      g instanceof P && m[h(527)]("font") != -1 && g[h(505)] != null && (g[h(505)][h(437)][m] = I), k[m] = I, g[h(460)] != null && (g[h(437)][h(482)] = null), t[h(490)]();
+    }
+    const B = this[e(464)](e(473));
+    B[e(526)](r, "id")[e(514)](b).name("ID"), B.add(r, "name")[e(514)](b)[e(498)](e(498)), B[e(526)](r, e(441)).onFinishChange(b)[e(498)]("文字"), B[e(526)](r, e(407), 0, 1e3, 1)[e(492)](b)[e(498)]("层级"), B[e(526)](r, e(393), ![])[e(492)](b)[e(498)]("锁定子元素"), B[e(526)](r, e(405), !![])[e(492)](b).name(e(423)), B.add(r, e(429), !![])[e(492)](b)[e(498)](e(467)), B[e(526)](r, e(388), !![]).onChange(b)[e(498)](e(494)), B.add(a, e(479), 0, 100)[e(492)](H)[e(498)]("边框/线宽度"), B[e(526)](a, e(411), A)[e(492)](H).name("虚实"), B[e(526)](a, "globalAlpha", 0, 1, 0.1)[e(492)](H)[e(498)](e(471)), B.open();
+    const F = this[e(464)](e(485));
+    F[e(526)](r, "imageSrc")[e(514)](b)[e(498)](e(470)), F[e(526)](r, "x")[e(514)](b), F[e(526)](r, "y")[e(514)](b), F[e(526)](r, e(477), 1).onFinishChange(b)[e(498)]("宽度"), F[e(526)](r, e(400), 1).onFinishChange(b)[e(498)]("高度"), F[e(526)](r, e(507), -360, 360, 1)[e(492)](b)[e(498)]("旋转度数"), F[e(526)](a, e(420))[e(492)](H).name(e(396)), F.add(r, e(515), 3, 24)[e(492)](b)[e(498)](e(452)), F.open();
+    const K = this.newFolder(e(462));
+    K[e(526)](r, e(415), S)[e(492)](b).name("线型"), K.add(r, e(483), z)[e(492)](b)[e(498)](e(449)), K[e(526)](r, e(436), 0, 50)[e(492)](b).name(e(430)), K[e(526)](r, e(493), 0, 50).onChange(b)[e(498)](e(432)), K[e(526)](r, "beginOffset", -30, 30)[e(492)](b)[e(498)](e(383)), K.add(r, e(416), -30, 30).onChange(b)[e(498)]("结束偏移"), K[e(526)](a, e(459), E)[e(492)](H).name(e(401)), K[e(509)]();
+    const G = this[e(464)]("文本");
+    G[e(526)](a, e(496), U).onChange(H)[e(498)](e(458)), G[e(526)](a, e(413), 1, 1e3)[e(492)](H)[e(498)]("大小"), G[e(526)](a, e(518), _)[e(492)](H)[e(498)]("字体重量"), G[e(434)](a, e(456)).onChange(H)[e(498)]("颜色"), G.add(a, e(425), c)[e(492)](H)[e(498)]("文本位置"), G.add(a, e(481), l)[e(492)](H)[e(498)](e(397)), G.add(a, e(428), p)[e(492)](H).name("基线对齐"), G.add(a, e(408))[e(492)](b).name("水平偏移量"), G[e(526)](a, e(491)).onChange(b).name("垂直偏移量");
+    let J = this[e(424)][e(472)];
+    J[e(377)](), s.layersContainer.appendChild(J), J.style[e(439)] = e(500), J.style[e(385)] = e(384), J[e(437)][e(414)] = "0px", J.style[e(407)] = 1e3;
+  }
+  open() {
+    this[y(424)].open();
+  }
+  [y(484)]() {
+    const e = y;
+    this[e(424)][e(484)]();
+  }
+  hide() {
+    const e = y;
+    this[e(424)][e(472)].style[e(506)] = e(442);
+  }
+  [y(517)]() {
+    const e = y;
+    this.gui[e(472)][e(437)].display = e(524);
+  }
+}
+function a0(n, e) {
+  const x = y0();
+  return a0 = function(t, s) {
+    return t = t - 147, x[t];
+  }, a0(n, e);
+}
+const W = a0;
+(function(n, e) {
+  const x = a0, t = n();
+  for (; []; )
+    try {
+      if (-parseInt(x(153)) / 1 + -parseInt(x(178)) / 2 * (parseInt(x(154)) / 3) + parseInt(x(182)) / 4 + -parseInt(x(172)) / 5 * (-parseInt(x(177)) / 6) + -parseInt(x(175)) / 7 * (-parseInt(x(181)) / 8) + parseInt(x(159)) / 9 + -parseInt(x(147)) / 10 === e)
+        break;
+      t.push(t.shift());
+    } catch {
+      t.push(t.shift());
+    }
+})(y0, 920402);
 function y0() {
-  const n = ["3850404hnBhYd", "inputSystem", "length", "atan2", "css", "2619025ocfgIF", "orange", "mouseupHandler", "positionToLocalPoint", "stage", "6176YdTzcJ", "black", "updateSize", "getStageTransform", "5764390StaEwp", "center", "parent", "6yBBjQv", "mouseInitAngle", "preventDefault", "8666wqoNnf", "setCursor", "isNodeRotatePoint", "selectedGroup", "27404278dbwpPY", "40lZDqpx", "getNoChildrensObjects", "51583xPOQUj", "resizeTo", "mousemoveHandler", "nodeCtrlBox", "rotation", "selectedGroup.length is 0!", "9pjeuJz", "editor", "rotate", "point", "2122698ghyPpf", "elementInitAngle", "mousedownHandler"];
+  const n = ["transformPoint", "1px solid black", "pickedObject", "preventDefault", "resizeTo", "name", "selectedGroup.length is 0!", "translateWith", "inputSystem", "n-resize", "length", "mouseenterHandler", "10BBUhNb", "dragBegin", "mousedownHandler", "100849LGVOCj", "mouseoutHandler", "1929636sRTapq", "26266nagTSv", "css", "selectedGroup", "312tlbCqZ", "2723032DRDpAs", "resizeWith", "positionToLocalPoint", "sw-resize", "updateSize", "19607540TFlTtK", "editor", "stage", "mousedragHandler", "getNoChildrensObjects", "nodeCtrlBox", "9224pfqlMJ", "15MLvOAb", "w-resize", "ne-resize", "adjustFixedDirection", "nw-resize", "9631818TasJpY"];
   return y0 = function() {
     return n;
   }, y0();
 }
-function rx(n, t) {
-  const x = Q;
-  let e = t[x(203)], s = n[x(170)](x(177));
-  return s = n[x(175)]()[x(198)](s), Math[x(205)](e.y - s.y, e.x - s.x);
-}
-class Tx extends nx {
-  constructor(t, x) {
-    const e = Q;
-    super(), this[e(184)] = !![], this[e(192)] = t, this.editor = t[e(196)], this[e(171)] = this.editor[e(171)], this[e(185)] = this.stage[e(185)], this[e(206)]({ lineWidth: 1, strokeStyle: e(173), fillStyle: e(208) }), this[e(190)](14, 14), this.name = x;
+class Hx extends Q {
+  constructor(e, x) {
+    const t = a0;
+    super(), this.isNodeResizePoint = !![], this[t(173)] = ![], this.nodeCtrlBox = e, this[t(148)] = e.editor, this.stage = this.editor[t(149)], this[t(180)] = this[t(149)][t(180)], this[t(164)](12, 12), this[t(179)]({ border: t(161), backgroundColor: "orange" }), this.name = x;
   }
-  [U(191)]() {
-    const t = U;
-    this[t(171)][t(183)]("move");
+  [W(171)]() {
   }
-  [U(201)](t) {
-    const x = U;
-    t[x(181)]();
-    let e = this.stage;
-    if (this[x(185)][x(188)]()[x(204)] == 0)
-      throw new Error(x(194));
-    let a = e[x(203)].pickedObject;
-    this.elementInitAngle = a[x(193)], this.mouseInitAngle = rx(a, e);
+  mousemoveHandler() {
+    const e = W;
+    let x, t = this.name;
+    t == u.lt ? x = e(158) : t == u.ct ? x = e(169) : t == u.rt ? x = e(156) : t == u.lm ? x = e(155) : t == u.rm ? x = "e-resize" : t == u.lb ? x = e(185) : t == u.cb ? x = "s-resize" : t == u.rb && (x = "se-resize"), this.editor[e(149)].setCursor(x);
   }
-  [U(209)](t) {
-    const x = U;
-    this[x(171)].setCursor("auto"), t[x(181)]();
+  [W(176)](e) {
   }
-  mousedragHandler(t) {
-    const x = U;
-    t.preventDefault();
-    let e = this[x(178)], s = e[x(196)], a = s[x(171)];
-    if (s[x(171)][x(185)].getNoChildrensObjects()[x(204)] == 0)
-      throw new Error(x(194));
-    let o = a[x(203)].pickedObject, d = rx(o, a) - this[x(180)];
-    o[x(197)](this[x(200)] + d), e[x(174)]();
+  [W(174)](e) {
+    e.preventDefault();
   }
-}
-const j = i0;
-(function(n, t) {
-  const x = i0, e = n();
-  for (; []; )
-    try {
-      if (-parseInt(x(510)) / 1 * (-parseInt(x(492)) / 2) + -parseInt(x(504)) / 3 * (-parseInt(x(478)) / 4) + parseInt(x(472)) / 5 + parseInt(x(499)) / 6 + parseInt(x(488)) / 7 * (parseInt(x(493)) / 8) + -parseInt(x(474)) / 9 * (parseInt(x(487)) / 10) + -parseInt(x(481)) / 11 * (parseInt(x(475)) / 12) === t)
-        break;
-      e.push(e.shift());
-    } catch {
-      e.push(e.shift());
-    }
-})(m0, 380838);
-class Bx extends q {
-  constructor(t, x = 0, e = 0, s = 1, a = 1) {
-    const i = i0;
-    super(null, x, e, s, a), this[i(498)] = Z0[i(473)], this[i(497)] = t, this[i(508)] = ![];
+  mouseupHandler(e) {
+    e[W(163)]();
   }
-  [j(482)](t) {
+  [W(150)](e) {
+    const x = W;
+    e[x(163)]();
+    let t = this[x(152)], s = t[x(148)], i = s[x(149)], r = this[x(165)];
+    if (this[x(180)][x(151)]()[x(170)] == 0)
+      throw new Error(x(166));
+    let d = i[x(168)][x(162)], c = d.stageToLocalXY(e.x, e.y), l = d[x(184)](r), p = c.x - l.x, _ = c.y - l.y;
+    r == u.lt ? (p = -p, _ = -_) : r == u.ct ? (p = 0, _ = -_) : r == u.rt ? _ = -_ : r == u.lm ? (p = -p, _ = 0) : r == u.rm ? _ = 0 : r == u.lb ? p = -p : r == u.cb ? p = 0 : r == u.rb, this[x(157)](d, { dx: p, dy: _ }, r);
   }
-  [j(484)](t) {
+  [W(157)](e, x, t) {
+    const s = W;
+    let i = yx[t], r = e[s(184)](i);
+    r = e[s(160)](r), e[s(183)](x.dx, x.dy);
+    let a = e[s(184)](i);
+    a = e[s(160)](a);
+    let o = r.x - a.x, d = r.y - a.y;
+    e[s(167)](o, d), this[s(152)][s(186)]();
   }
-  initCtrlPoint(t) {
-    const x = j;
-    this[x(491)]();
-    let e = t.getCtrlPoints(), s = this;
-    e.forEach((a) => {
-      const i = x;
-      if (s[i(500)](a), a == i(495)) {
-        let r = function() {
-          return s[i(506)](u.ct);
-        }, o = s[i(500)]("rotate"), d = new H(null, o, r);
-        d[i(480)]({ strokeStyle: "gray" }), d.mouseEnabled = ![], s.addChild(d);
-      }
-    });
-  }
-  [j(500)](t) {
-    const x = j;
-    let e;
-    return t == x(495) ? e = new Tx(this, t) : e = new Ox(this, t), this.addChild(e), e;
-  }
-  [j(489)](t) {
-    const x = j;
-    if (t[x(496)] != !![])
-      throw new Error(x(476));
-    this[x(477)] !== null && this[x(501)](t), this[x(477)] = t, this.updateSize(), this[x(483)]();
-  }
-  [j(502)]() {
-    const t = j;
-    let x = this[t(477)];
-    if (x == null || x[t(494)] == ![] || x.parent == null) {
-      this[t(477)] = null, this[t(505)]();
-      return;
-    }
-    this[t(479)](x), this[t(507)]();
-  }
-  [j(507)]() {
-    const t = j;
-    let x = this[t(509)]();
-    for (var e = 0; e < x.length; e++) {
-      let s = x[e];
-      if (s instanceof H)
-        continue;
-      let a;
-      s.name == t(495) ? (a = this[t(506)](u.ct), a.y -= 30) : a = this[t(506)](s[t(485)]), s instanceof q && s.translateTo(a.x, a.y);
-    }
-  }
-  viewClone(t) {
-    const x = j;
-    let e = t.getStageTransform(), s = e[x(471)](t.positionToLocalPoint(u[x(490)])), a = e[x(471)](t[x(506)](u.rm)), i = Math[x(503)](a.y - s.y, a.x - s.x);
-    e[x(495)](-i);
-    let r = e.point(t[x(506)](u[x(490)])), o = e[x(471)](t[x(506)](u.rb)), d = (o.x - r.x) * 2, c = (o.y - r.y) * 2;
-    this.resizeTo(d, c), this.rotate(i), this[x(486)](s.x, s.y);
-  }
-}
-function i0(n, t) {
-  const x = m0();
-  return i0 = function(e, s) {
-    return e = e - 471, x[e];
-  }, i0(n, t);
 }
 function m0() {
-  const n = ["162510zjrJvd", "NodeCtrlBox", "144CJvOwj", "8584656hSMoic", "attach not Node or not editable", "currNode", "443692AUIotx", "viewClone", "css", "11lrRNqq", "mouseoutStageHandler", "show", "mouseenterStageHandler", "name", "translateTo", "420340sOIllj", "14JfZVZm", "attachTo", "center", "removeAllChild", "69778XGLMhy", "682744YgQkRp", "isSelected", "rotate", "editable", "editor", "zIndex", "1841586Fyhwla", "createCtrlPoint", "initCtrlPoint", "updateSize", "atan2", "18ZptXKX", "hide", "positionToLocalPoint", "initPoints", "mouseEnabled", "getChildren", "17cHUSZa", "point"];
+  const n = ["5700520HPvvUl", "mousemoveHandler", "css", "mousedownHandler", "center", "4478677aLulcf", "name", "rotation", "1223210ciEBlG", "3MYGwCJ", "resizeTo", "mousedragHandler", "preventDefault", "mouseupHandler", "length", "editor", "move", "positionToLocalPoint", "rotate", "inputSystem", "getStageTransform", "selectedGroup.length is 0!", "stage", "1234702kXUuwA", "black", "parent", "50929YjhYyp", "mouseInitAngle", "4QDmKfX", "orange", "255792ftLGJO", "auto", "updateSize", "getNoChildrensObjects", "selectedGroup", "point", "pickedObject", "elementInitAngle", "7373358DwqoyU"];
   return m0 = function() {
     return n;
   }, m0();
 }
-function r0(n, t) {
+const R = Z;
+(function(n, e) {
+  const x = Z, t = n();
+  for (; []; )
+    try {
+      if (parseInt(x(221)) / 1 + -parseInt(x(218)) / 2 * (parseInt(x(204)) / 3) + -parseInt(x(184)) / 4 * (-parseInt(x(203)) / 5) + -parseInt(x(186)) / 6 + parseInt(x(200)) / 7 + -parseInt(x(195)) / 8 + parseInt(x(194)) / 9 === e)
+        break;
+      t.push(t.shift());
+    } catch {
+      t.push(t.shift());
+    }
+})(m0, 382096);
+function ox(n, e) {
+  const x = Z;
+  let t = e[x(214)], s = n[x(212)](x(199));
+  return s = n[x(215)]()[x(191)](s), Math.atan2(t.y - s.y, t.x - s.x);
+}
+class Bx extends sx {
+  constructor(e, x) {
+    const t = Z;
+    super(), this.isNodeRotatePoint = !![], this.nodeCtrlBox = e, this[t(210)] = e[t(210)], this[t(217)] = this[t(210)][t(217)], this[t(190)] = this[t(217)][t(190)], this[t(197)]({ lineWidth: 1, strokeStyle: t(219), fillStyle: t(185) }), this[t(205)](14, 14), this[t(201)] = x;
+  }
+  [R(196)]() {
+    const e = R;
+    this[e(217)].setCursor(e(211));
+  }
+  [R(198)](e) {
+    const x = R;
+    e[x(207)]();
+    let t = this[x(217)];
+    if (this[x(190)][x(189)]()[x(209)] == 0)
+      throw new Error(x(216));
+    let i = t.inputSystem.pickedObject;
+    this[x(193)] = i[x(202)], this[x(183)] = ox(i, t);
+  }
+  [R(208)](e) {
+    const x = R;
+    this[x(217)].setCursor(x(187)), e[x(207)]();
+  }
+  [R(206)](e) {
+    const x = R;
+    e.preventDefault();
+    let t = this[x(220)], s = t.editor, i = s[x(217)];
+    if (s[x(217)][x(190)][x(189)]()[x(209)] == 0)
+      throw new Error(x(216));
+    let o = i[x(214)][x(192)], d = ox(o, i) - this[x(183)];
+    o[x(213)](this[x(193)] + d), t[x(188)]();
+  }
+}
+function Z(n, e) {
+  const x = m0();
+  return Z = function(t, s) {
+    return t = t - 183, x[t];
+  }, Z(n, e);
+}
+const L = o0;
+(function(n, e) {
+  const x = o0, t = n();
+  for (; []; )
+    try {
+      if (-parseInt(x(229)) / 1 + parseInt(x(224)) / 2 + -parseInt(x(230)) / 3 + -parseInt(x(249)) / 4 + parseInt(x(254)) / 5 + -parseInt(x(259)) / 6 * (parseInt(x(252)) / 7) + parseInt(x(256)) / 8 * (parseInt(x(258)) / 9) === e)
+        break;
+      t.push(t.shift());
+    } catch {
+      t.push(t.shift());
+    }
+})(w0, 173183);
+function o0(n, e) {
   const x = w0();
-  return r0 = function(e, s) {
-    return e = e - 319, x[e];
-  }, r0(n, t);
+  return o0 = function(t, s) {
+    return t = t - 224, x[t];
+  }, o0(n, e);
+}
+class Ox extends Q {
+  constructor(e, x = 0, t = 0, s = 1, i = 1) {
+    const r = o0;
+    super(null, x, t, s, i), this[r(237)] = Q0[r(245)], this.editor = e, this[r(234)] = ![];
+  }
+  [L(226)](e) {
+  }
+  [L(235)](e) {
+  }
+  [L(231)](e) {
+    const x = L;
+    this[x(232)]();
+    let t = e[x(242)](), s = this;
+    t.forEach((i) => {
+      const r = x;
+      if (s[r(233)](i), i == "rotate") {
+        let a = function() {
+          return s.positionToLocalPoint(u.ct);
+        }, o = s[r(233)](r(244)), d = new P(null, o, a);
+        d[r(247)]({ strokeStyle: r(236) }), d[r(234)] = ![], s[r(248)](d);
+      }
+    });
+  }
+  [L(233)](e) {
+    const x = L;
+    let t;
+    return e == x(244) ? t = new Bx(this, e) : t = new Hx(this, e), this[x(248)](t), t;
+  }
+  [L(262)](e) {
+    const x = L;
+    if (e[x(246)] != !![])
+      throw new Error(x(261));
+    this[x(260)] !== null && this[x(231)](e), this.currNode = e, this[x(238)](), this.show();
+  }
+  [L(238)]() {
+    const e = L;
+    let x = this[e(260)];
+    if (x == null || x[e(240)] == ![] || x[e(251)] == null) {
+      this[e(260)] = null, this[e(255)]();
+      return;
+    }
+    this[e(227)](x), this[e(243)]();
+  }
+  [L(243)]() {
+    const e = L;
+    let x = this.getChildren();
+    for (var t = 0; t < x.length; t++) {
+      let s = x[t];
+      if (s instanceof P)
+        continue;
+      let i;
+      s.name == e(244) ? (i = this[e(253)](u.ct), i.y -= 30) : i = this.positionToLocalPoint(s[e(225)]), s instanceof Q && s[e(239)](i.x, i.y);
+    }
+  }
+  [L(227)](e) {
+    const x = L;
+    let t = e[x(250)](), s = t[x(257)](e[x(253)](u[x(228)])), i = t[x(257)](e[x(253)](u.rm)), r = Math[x(241)](i.y - s.y, i.x - s.x);
+    t.rotate(-r);
+    let a = t.point(e[x(253)](u.center)), o = t[x(257)](e[x(253)](u.rb)), d = (o.x - a.x) * 2, c = (o.y - a.y) * 2;
+    this.resizeTo(d, c), this[x(244)](r), this[x(239)](s.x, s.y);
+  }
 }
 function w0() {
-  const n = ["setEnd", "rgba(0,0,0,0.9)", "stageToLocalXY", "css", "center", "423710WeTRnh", "isLink", "mousedownHandler", "attachedLink", "setCenterOffset", "s_resize", "1837164KNzOXi", "9edwEYt", "unActive", "221OkyVRQ", "getConnectInfo", "getK", "6164004lNBrFh", "45FrrYuZ", "end", "resetOffset", "points", "mousedragHandler", "mouseupHandler", "w_resize", "n_resize", "setFold1Offset", "setRadius", "name", "88oGbTWq", "anchorBox", "preventDefault", "canConnectEndpoint", "editor", "active", "positionToLocalPoint", "ctrlPoint1", "linkCtrlBox", "ctrlPoint2", "begin", "5Ngumfl", "3262NNLvjb", "setBegin", "target", "setCursor", "11eskezj", "ctrlPoint", "inputSystem", "stage", "fold1", "getBeginPoint", "fillColor", "setFold2Offset", "e_resize", "hide", "isConnectPoint", "upgradeParent", "306980lbJivx", "getEndPoint", "rgba(0,0,0,0.1)", "parent", "334qxmnpo", "fold2", "293671FKlGvI", "7446456UKmkUQ", "mousemoveHandler"];
+  const n = ["attach not Node or not editable", "attachTo", "26896rMTGhi", "name", "mouseoutStageHandler", "viewClone", "center", "164865KvRvlL", "543870WTkXKj", "initCtrlPoint", "removeAllChild", "createCtrlPoint", "mouseEnabled", "mouseenterStageHandler", "gray", "zIndex", "updateSize", "translateTo", "isSelected", "atan2", "getCtrlPoints", "initPoints", "rotate", "NodeCtrlBox", "editable", "css", "addChild", "535260WQYISl", "getStageTransform", "parent", "10843gueEGO", "positionToLocalPoint", "110400oMHsBG", "hide", "32RMYXfM", "point", "1929870gEdwwW", "930rWKNre", "currNode"];
   return w0 = function() {
     return n;
   }, w0();
 }
-const N = r0;
-(function(n, t) {
-  const x = r0, e = n();
+const N = c0;
+(function(n, e) {
+  const x = c0, t = n();
   for (; []; )
     try {
-      if (-parseInt(x(369)) / 1 * (-parseInt(x(323)) / 2) + parseInt(x(340)) / 3 * (-parseInt(x(339)) / 4) + -parseInt(x(368)) / 5 * (-parseInt(x(345)) / 6) + -parseInt(x(325)) / 7 * (parseInt(x(357)) / 8) + -parseInt(x(346)) / 9 * (parseInt(x(319)) / 10) + -parseInt(x(373)) / 11 * (-parseInt(x(326)) / 12) + parseInt(x(342)) / 13 * (parseInt(x(333)) / 14) === t)
+      if (-parseInt(x(174)) / 1 + parseInt(x(141)) / 2 * (-parseInt(x(197)) / 3) + parseInt(x(198)) / 4 * (-parseInt(x(147)) / 5) + parseInt(x(180)) / 6 * (parseInt(x(169)) / 7) + parseInt(x(189)) / 8 + parseInt(x(187)) / 9 * (-parseInt(x(151)) / 10) + parseInt(x(146)) / 11 === e)
         break;
-      e.push(e.shift());
+      t.push(t.shift());
     } catch {
-      e.push(e.shift());
+      t.push(t.shift());
     }
-})(w0, 714285);
-class jx extends nx {
-  constructor(t) {
-    const x = r0;
-    super(), this[x(383)] = !![], this.fillColor = "pink", this[x(355)](7), this[x(365)] = t, this[x(361)] = this[x(365)].editor;
-    let e = this;
-    this.css({ lineWidth: 1, strokeStyle: "gray", fillStyle: e[x(379)] });
+})(C0, 639565);
+class jx extends sx {
+  constructor(e) {
+    const x = c0;
+    super(), this[x(191)] = !![], this.fillColor = x(149), this[x(160)](7), this[x(138)] = e, this[x(157)] = this.linkCtrlBox[x(157)];
+    let t = this;
+    this[x(196)]({ lineWidth: 1, strokeStyle: x(142), fillStyle: t[x(158)] });
   }
-  [N(362)]() {
-    const t = N;
-    this.css({ strokeStyle: "rgba(0,0,0,0.1)", fillStyle: t(321) });
+  [N(186)]() {
+    const e = N;
+    this[e(196)]({ strokeStyle: e(143), fillStyle: e(143) });
   }
-  [N(341)]() {
-    const t = N;
-    let x = this[t(379)];
-    this[t(331)]({ strokeStyle: t(329), fillStyle: x });
+  unActive() {
+    const e = N;
+    let x = this[e(158)];
+    this[e(196)]({ strokeStyle: e(190), fillStyle: x });
   }
-  [N(327)]() {
-    const t = N;
-    this[t(361)][t(358)][t(382)](), this[t(361)][t(376)][t(372)](T.move);
-    let x = this[t(322)], e = x[t(322)], s = e[t(376)], a = x[t(336)];
-    if (a instanceof X) {
-      let i, r = a[t(349)][0], o = a[t(349)][1], d = a[t(349)][4], c = a[t(349)][5];
-      this[t(356)] == u[t(377)] ? q0(a[t(344)](0, 0.5)) ? i = o.x > r.x ? T[t(352)] : T[t(381)] : i = o.y > r.y ? T.s_resize : T[t(353)] : this.name == u.fold2 ? q0(a.getK(4, 0.5)) ? i = d.x > c.x ? T[t(352)] : T[t(381)] : i = d.y > c.y ? T[t(338)] : T.n_resize : this[t(356)] == u[t(332)] && (q0(a.getK(2, 0.5)) ? i = T[t(338)] : i = T[t(381)]), i && s.setCursor(i);
+  [N(161)]() {
+    const e = N;
+    this[e(157)][e(192)][e(163)](), this.editor[e(168)][e(175)](O[e(155)]);
+    let x = this[e(203)], t = x[e(203)], s = t.stage, i = x.attachedLink;
+    if (i instanceof X) {
+      let r, a = i[e(150)][0], o = i[e(150)][1], d = i.points[4], c = i[e(150)][5];
+      this[e(172)] == u[e(185)] ? $0(i[e(179)](0, 0.5)) ? r = o.x > a.x ? O[e(193)] : O.e_resize : r = o.y > a.y ? O[e(199)] : O[e(170)] : this[e(172)] == u.fold2 ? $0(i.getK(4, 0.5)) ? r = d.x > c.x ? O.w_resize : O[e(156)] : r = d.y > c.y ? O.s_resize : O[e(170)] : this[e(172)] == u[e(201)] && ($0(i.getK(2, 0.5)) ? r = O[e(199)] : r = O[e(156)]), r && s[e(175)](r);
     }
   }
-  [N(335)](t) {
+  [N(159)](e) {
     const x = N;
-    this.editor[x(376)].setCursor(T.corosshair), this[x(360)] = null, t[x(359)]();
+    this[x(157)][x(168)][x(175)](O[x(152)]), this[x(164)] = null, e.preventDefault();
   }
-  [N(350)](t) {
+  [N(177)](e) {
     const x = N;
-    t.preventDefault();
-    let e = this[x(322)], s = e.parent, a = s[x(376)];
-    const i = a[x(361)];
-    let r = e.attachedLink;
-    i[x(358)][x(382)]();
-    const o = this[x(356)];
-    let d = r[x(330)](a[x(375)].x, a[x(375)].y);
-    if (t.isDragStart && this[x(362)](), o == u.begin) {
-      let c = r[x(378)]();
-      c.x += d.x - c.x, c.y += d.y - c.y, r instanceof X && r.resetOffset(), r[x(370)](c), this[x(360)] = i[x(358)][x(343)](r, null, null);
-    } else if (o == u.end) {
-      let c = r[x(320)]();
-      c.x += d.x - c.x, c.y += d.y - c.y, r instanceof X && r[x(348)](), r[x(328)](c), this.canConnectEndpoint = i[x(358)][x(343)](r, null, null);
+    e[x(195)]();
+    let t = this[x(203)], s = t[x(203)], i = s[x(168)];
+    const r = i.editor;
+    let a = t.attachedLink;
+    r.anchorBox[x(163)]();
+    const o = this[x(172)];
+    let d = a[x(173)](i[x(178)].x, i[x(178)].y);
+    if (e.isDragStart && this.active(), o == u[x(181)]) {
+      let c = a[x(162)]();
+      c.x += d.x - c.x, c.y += d.y - c.y, a instanceof X && a.resetOffset(), a[x(145)](c), this[x(164)] = r.anchorBox[x(188)](a, null, null);
+    } else if (o == u[x(171)]) {
+      let c = a[x(176)]();
+      c.x += d.x - c.x, c.y += d.y - c.y, a instanceof X && a[x(183)](), a[x(154)](c), this[x(164)] = r[x(192)].getConnectInfo(a, null, null);
     }
-    if (r instanceof mx)
-      this[x(356)] == u.ctrlPoint && (r[x(374)] == null ? r[x(374)] = r[x(363)](o) : (r[x(374)].x += d.x - r[x(374)].x, r.ctrlPoint.y += d.y - r[x(374)].y));
-    else if (r instanceof wx)
-      o == u.ctrlPoint1 ? r[x(364)] == null ? r[x(364)] = r[x(363)](o) : (r[x(364)].x += d.x - r[x(364)].x, r[x(364)].y += d.y - r[x(364)].y) : o == u[x(366)] && (r[x(366)] == null ? r[x(366)] = r.positionToLocalPoint(o) : (r[x(366)].x += d.x - r[x(366)].x, r[x(366)].y += d.y - r.ctrlPoint2.y));
-    else if (r instanceof X) {
-      if (o == u[x(377)]) {
-        let c = r[x(363)](u.fold1);
-        const l = d.x - c.x, _ = d.y - c.y;
-        r[x(354)](l, _);
-      } else if (o == u[x(324)]) {
-        let c = r[x(363)](u[x(324)]);
-        const l = d.x - c.x, _ = d.y - c.y;
-        r[x(380)](l, _);
-      } else if (o == u[x(332)]) {
-        let c = r[x(363)](u[x(332)]);
-        const l = d.x - c.x, _ = d.y - c.y;
-        r[x(337)](l, _);
+    if (a instanceof mx)
+      this.name == u.ctrlPoint && (a.ctrlPoint == null ? a[x(182)] = a[x(165)](o) : (a[x(182)].x += d.x - a[x(182)].x, a[x(182)].y += d.y - a[x(182)].y));
+    else if (a instanceof wx)
+      o == u.ctrlPoint1 ? a[x(202)] == null ? a[x(202)] = a[x(165)](o) : (a[x(202)].x += d.x - a[x(202)].x, a[x(202)].y += d.y - a[x(202)].y) : o == u.ctrlPoint2 && (a[x(184)] == null ? a.ctrlPoint2 = a[x(165)](o) : (a.ctrlPoint2.x += d.x - a[x(184)].x, a[x(184)].y += d.y - a.ctrlPoint2.y));
+    else if (a instanceof X) {
+      if (o == u[x(185)]) {
+        let c = a.positionToLocalPoint(u[x(185)]);
+        const l = d.x - c.x, p = d.y - c.y;
+        a[x(200)](l, p);
+      } else if (o == u[x(153)]) {
+        let c = a[x(165)](u[x(153)]);
+        const l = d.x - c.x, p = d.y - c.y;
+        a[x(167)](l, p);
+      } else if (o == u[x(201)]) {
+        let c = a.positionToLocalPoint(u[x(201)]);
+        const l = d.x - c.x, p = d.y - c.y;
+        a[x(148)](l, p);
       }
     }
   }
-  [N(351)](t) {
+  [N(166)](e) {
     const x = N;
-    t[x(359)](), this.unActive();
-    let e = this[x(322)], s = e[x(336)];
-    if (this[x(360)] != null) {
-      let a = this.canConnectEndpoint, i = a[x(371)];
-      if (i[x(334)]) {
-        let r = i;
-        r[x(347)][x(371)] !== s && r[x(367)][x(371)] !== s && (this[x(356)] == u.begin ? s[x(370)](r, a) : this.name == u[x(347)] && s[x(328)](r, a), s[x(384)]());
+    e[x(195)](), this[x(140)]();
+    let t = this[x(203)], s = t.attachedLink;
+    if (this.canConnectEndpoint != null) {
+      let i = this[x(164)], r = i.target;
+      if (r[x(139)]) {
+        let a = r;
+        a[x(171)][x(194)] !== s && a[x(181)][x(194)] !== s && (this[x(172)] == u.begin ? s[x(145)](a, i) : this.name == u.end && s[x(154)](a, i), s[x(144)]());
       } else
-        this[x(356)] == u[x(367)] ? s[x(370)](i, a) : this[x(356)] == u[x(347)] && s[x(328)](i, a), s.upgradeParent();
+        this[x(172)] == u[x(181)] ? s[x(145)](r, i) : this[x(172)] == u.end && s.setEnd(r, i), s.upgradeParent();
       this.canConnectEndpoint = null;
     }
   }
 }
-const v = o0;
-(function(n, t) {
-  const x = o0, e = n();
-  for (; []; )
-    try {
-      if (-parseInt(x(271)) / 1 + parseInt(x(294)) / 2 * (parseInt(x(314)) / 3) + -parseInt(x(299)) / 4 + parseInt(x(287)) / 5 + parseInt(x(268)) / 6 + -parseInt(x(281)) / 7 + parseInt(x(308)) / 8 === t)
-        break;
-      e.push(e.shift());
-    } catch {
-      e.push(e.shift());
-    }
-})(C0, 732368);
-function o0(n, t) {
-  const x = C0();
-  return o0 = function(e, s) {
-    return e = e - 265, x[e];
-  }, o0(n, t);
-}
 function C0() {
-  const n = ["editor", "1917272bgUdQK", "hide", "ctrlPointInfo", "createNodeResizePoint", "attachTo", "draw", "25701AzmJkt", "center", "setEnd", "point", "visible", "stage", "fillColor", "4430592cKHBnY", "pickedObject", "mouseoutStageHandler", "303676PouciH", "addChild", "hideAllPoint", "Link", "background", "end", "isNode", "anchorNameStr", "join", "show", "423437XnjGJM", "css", "LinkCtrlBox", "getAnchorPoints", "updateSize", "inputSystem", "1364995zJIuOY", "begin", "isPoint", "getStageTransform", "length", "attachedLink", "setBegin", "234PJSkDM", "name", "updateCtrlPoints", "isLink", "ctrlPoint1", "4627576CaeVUR", "parent", "ctrlPointStyle", "zIndex", "translateTo", "init", "gray", "updateFllow"];
+  const n = ["name", "stageToLocalXY", "211016SxjNJN", "setCursor", "getEndPoint", "mousedragHandler", "inputSystem", "getK", "431352dsRjHg", "begin", "ctrlPoint", "resetOffset", "ctrlPoint2", "fold1", "active", "79902JPjKlt", "getConnectInfo", "9304072NaTFEz", "rgba(0,0,0,0.9)", "isConnectPoint", "anchorBox", "w_resize", "target", "preventDefault", "css", "3nBeyPb", "4imwPfU", "s_resize", "setFold1Offset", "center", "ctrlPoint1", "parent", "linkCtrlBox", "isLink", "unActive", "240052sgrIdk", "gray", "rgba(0,0,0,0.1)", "upgradeParent", "setBegin", "4746555mqjevp", "2058515rTSMjQ", "setCenterOffset", "pink", "points", "320VfnBxm", "corosshair", "fold2", "setEnd", "move", "e_resize", "editor", "fillColor", "mousedownHandler", "setRadius", "mousemoveHandler", "getBeginPoint", "hide", "canConnectEndpoint", "positionToLocalPoint", "mouseupHandler", "setFold2Offset", "stage", "7ULFmDe", "n_resize", "end"];
   return C0 = function() {
     return n;
   }, C0();
 }
-class Nx extends q {
-  constructor(t) {
-    const x = o0;
-    super(), this.ctrlPointInfo = {}, this[x(302)] = Z0[x(283)], this[x(307)] = t, this[x(301)] = new Cx({}), this.init();
-  }
-  [v(270)](t) {
-  }
-  mouseenterStageHandler(t) {
-  }
-  [v(311)](t) {
-    const x = v;
-    let e = new jx(this);
-    return e[x(295)] = t, this[x(272)](e), e;
-  }
-  [v(304)]() {
-    const t = v;
-    this[t(310)] = {};
-  }
-  [v(313)](t) {
-    const x = v;
-    this[x(265)] != ![] && this[x(285)]();
-  }
-  [v(285)]() {
-    const t = v, x = this.editor[t(266)][t(286)][t(269)];
-    this[t(292)] ? this[t(292)].parent == null || x == null || this[t(292)] != x ? (this[t(292)] = null, this[t(309)]()) : this[t(312)](this[t(292)]) : this.hide();
-  }
-  [v(296)](t) {
-    const x = v;
-    this[x(292)] = t;
-    let e = t[x(284)]();
-    this[x(278)] = e[x(279)](",");
-    for (let s = 0; s < e[x(291)]; s++) {
-      let a = e[s], i = this[x(310)][a];
-      if (i == null) {
-        if (i = this[x(311)](a), a != u[x(288)] && a != u.end && (i[x(267)] = this[x(301)][x(275)], i[x(282)]({ strokeStyle: x(305), fillStyle: "orange" }), i.isConnectPoint = ![]), a == x(298)) {
-          let r = new H();
-          r.css({ lineDash: [2, 2] }), r[x(293)](i, x(315));
-          let o = this[x(310)][x(288)];
-          r.setEnd(o, x(315)), this[x(272)](r), this.ctrlPointInfo[a + x(274)] = r;
-        } else if (a == "ctrlPoint2") {
-          let r = new H();
-          r[x(282)]({ lineDash: [2, 2] }), r.setBegin(i, x(315));
-          let o = this[x(310)][x(276)];
-          r[x(316)](o, x(315)), this[x(272)](r), this[x(310)][a + x(274)] = r;
-        } else if (a == "ctrlPoint") {
-          let r = new H();
-          r[x(282)]({ lineDash: [2, 2] }), r.setBegin(i, "center");
-          let o = this[x(310)][x(288)];
-          r[x(316)](o, x(315)), this.addChild(r), this.ctrlPointInfo[a + "Link"] = r;
-        }
-        this[x(310)][a] = i;
-      }
-    }
-  }
-  hideAllPoint() {
-    const t = v;
-    let x = this[t(310)];
-    for (var e in x)
-      x[e][t(309)]();
-  }
-  [v(306)]() {
-    const t = v, x = this[t(292)];
-    let e = x[t(290)](), s = x[t(284)]();
-    this[t(273)]();
-    for (let a = 0; a < s[t(291)]; a++) {
-      const i = s[a];
-      let r = this[t(310)][i], o = x.positionToLocalPoint(i);
-      sx(o, x, i);
-      let d = e[t(317)](o);
-      r[t(303)](d.x, d.y), r[t(280)]();
-      let c = this[t(310)][i + t(274)];
-      c && c[t(280)]();
-    }
-  }
-  attachTo(t) {
-    const x = v;
-    if (t[x(300)] != null) {
-      if (this[x(292)] === t) {
-        t instanceof X && t[x(284)]().join(",") != this[x(278)] && this[x(296)](t), this[x(306)](), this[x(280)]();
-        return;
-      }
-      this.ctrlPointInfo = {}, this.removeAllChild(), this[x(296)](t), this.updateFllow(), this[x(280)]();
-    }
-  }
-  [v(289)](t) {
-    const x = v;
-    return t[x(277)] || t[x(297)] ? ![] : typeof t == "object" && t.x != null && t.y != null;
-  }
+function c0(n, e) {
+  const x = C0();
+  return c0 = function(t, s) {
+    return t = t - 138, x[t];
+  }, c0(n, e);
 }
-const L = $;
-(function(n, t) {
-  const x = $, e = n();
+const T = $;
+(function(n, e) {
+  const x = $, t = n();
   for (; []; )
     try {
-      if (-parseInt(x(292)) / 1 * (parseInt(x(251)) / 2) + -parseInt(x(246)) / 3 + parseInt(x(241)) / 4 + -parseInt(x(239)) / 5 * (-parseInt(x(253)) / 6) + parseInt(x(266)) / 7 + -parseInt(x(283)) / 8 * (-parseInt(x(279)) / 9) + parseInt(x(237)) / 10 === t)
+      if (-parseInt(x(514)) / 1 * (-parseInt(x(473)) / 2) + -parseInt(x(506)) / 3 * (parseInt(x(474)) / 4) + parseInt(x(491)) / 5 * (-parseInt(x(500)) / 6) + -parseInt(x(523)) / 7 * (-parseInt(x(497)) / 8) + -parseInt(x(467)) / 9 + parseInt(x(503)) / 10 + parseInt(x(487)) / 11 * (parseInt(x(480)) / 12) === e)
         break;
-      e.push(e.shift());
+      t.push(t.shift());
     } catch {
-      e.push(e.shift());
+      t.push(t.shift());
     }
-})(v0, 570239);
-function $(n, t) {
-  const x = v0();
-  return $ = function(e, s) {
-    return e = e - 235, x[e];
-  }, $(n, t);
-}
+})(v0, 781534);
 function v0() {
-  const n = ["2340681eHleJc", "recordEnd", "setCursor", "red", "height", "mousePickupPath", "endpoint", "active", "arc", "mousedragHandler", "strokeAndFill", "segIndex", "buttons", "2889qmpyoK", "newLink", "isDragStart", "mouseoutHandler", "13904WLFZHH", "stage", "target", "mouseEnabled", "beginAngle", "hide", "anchorBox", "parent", "width", "695vNjURu", "gray", "画线开始", "3677610IXQlbB", "isActive", "5igEEqo", "auto", "254388qAcSmJ", "preventDefault", "intersect", "mouseenterHandler", "showTip", "578400CWzaBN", "unactive", "editor", "mouseupHandler", "update", "2782PmVTKX", "inputSystem", "2436870YVAApV", "link", "setEnd", "radius", "resizeTo", "mousedownHandler", "end", "assert", "rate", "endAngle", "min", "css", "name"];
+  const n = ["translateTo", "45010OufXMA", "Link", "updateCtrlPoints", "pickedObject", "12970809dbAFCR", "setEnd", "begin", "point", "setBegin", "zIndex", "434gWZtYE", "76vVGIdn", "object", "createNodeResizePoint", "length", "hideAllPoint", "isLink", "12fseZHF", "fillColor", "positionToLocalPoint", "addChild", "show", "updateSize", "ctrlPoint2", "29591881pkjJTj", "updateFllow", "name", "stage", "200290yIpIYl", "ctrlPointStyle", "init", "css", "ctrlPoint1", "attachTo", "104Ujedhi", "inputSystem", "background", "222KiBDcT", "gray", "orange", "334300HVTmDg", "join", "draw", "52977DTiYXE", "getAnchorPoints", "hide", "ctrlPoint", "removeAllChild", "center", "visible", "getStageTransform", "5683pQEFda", "isNode", "anchorNameStr", "end", "isPoint", "editor", "ctrlPointInfo", "attachedLink"];
   return v0 = function() {
     return n;
   }, v0();
 }
-class xx extends nx {
-  constructor(t, x = 0, e = 0, s = 1, a = 1) {
-    const i = $;
-    super(null, x, e, s, a), this[i(238)] = ![], this.anchorBox = t, this[i(248)] = t[i(248)], this[i(284)] = this[i(248)][i(284)], this[i(257)](15, 15), this[i(247)](), this[i(264)]({ lineWidth: 1, strokeStyle: i(235) });
-  }
-  setIntersect(t) {
+function $(n, e) {
+  const x = v0();
+  return $ = function(t, s) {
+    return t = t - 467, x[t];
+  }, $(n, e);
+}
+class zx extends Q {
+  constructor(e) {
     const x = $;
-    this[x(243)] = t;
+    super(), this.ctrlPointInfo = {}, this[x(472)] = Q0.LinkCtrlBox, this[x(519)] = e, this[x(492)] = new Cx({}), this.init();
   }
-  [L(244)](t) {
-    this.active();
+  mouseoutStageHandler(e) {
   }
-  [L(282)](t) {
-    this[L(247)]();
+  mouseenterStageHandler(e) {
   }
-  [L(258)](t) {
-    const x = L;
-    t[x(242)](), this[x(248)][x(245)](x(236)), this[x(248)][x(284)][x(268)]("crosshair"), this[x(254)] = null;
+  createNodeResizePoint(e) {
+    const x = $;
+    let t = new jx(this);
+    return t[x(489)] = e, this[x(483)](t), t;
   }
-  [L(275)](t) {
-    const x = L;
-    if (t[x(278)] == 2)
-      return;
-    t[x(242)](), this[x(248)][x(284)][x(268)](x(240));
-    const e = this[x(248)], s = e.stage;
-    this[x(288)]();
-    const a = this.anchorBox[x(285)];
-    if (t[x(281)]) {
-      let i = function() {
-        const d = x;
-        return o[d(290)].stageToLocalXY(s[d(252)].x, s.inputSystem.y);
-      };
-      console[x(260)](this[x(254)] == null, this.link);
-      let r;
-      if (this[x(265)] == "intersectNode") {
-        let d = this[x(289)].intersect;
-        r = new fx(a, d[x(261)], d[x(277)]);
-      } else
-        r = new ux(a, this.name);
-      this[x(248)].record("划线");
-      const o = e[x(280)](null, a, null, r);
-      o[x(286)] = ![], this[x(254)] = o, o[x(255)](i);
-      return;
-    }
-    sx(this[x(254)][x(259)], this[x(254)]), this[x(272)] = this[x(289)].getConnectInfo(this[x(254)], a, this[x(254)][x(259)].target);
+  [T(493)]() {
+    const e = T;
+    this[e(520)] = {};
   }
-  [L(249)](t) {
-    const x = L;
-    if (t.isDragEnd != ![]) {
-      if (this.show(), this[x(248)][x(250)](), this[x(248)][x(284)][x(268)](x(240)), this[x(254)] != null) {
-        let e, s;
-        if (this[x(272)] != null)
-          this[x(254)][x(286)] = !![], e = this[x(272)], s = this[x(272)];
-        else {
-          let a = this[x(254)].end;
-          a instanceof vx && (e = a.fn(), this.link[x(286)] = !![]);
+  [T(505)](e) {
+    const x = T;
+    this[x(512)] != ![] && this[x(485)]();
+  }
+  [T(485)]() {
+    const e = T, x = this.editor[e(490)][e(498)][e(526)];
+    this[e(521)] ? this.attachedLink.parent == null || x == null || this[e(521)] != x ? (this[e(521)] = null, this[e(508)]()) : this.attachTo(this[e(521)]) : this[e(508)]();
+  }
+  [T(525)](e) {
+    const x = T;
+    this[x(521)] = e;
+    let t = e.getAnchorPoints();
+    this[x(516)] = t[x(504)](",");
+    for (let s = 0; s < t[x(477)]; s++) {
+      let i = t[s], r = this.ctrlPointInfo[i];
+      if (r == null) {
+        if (r = this[x(476)](i), i != u.begin && i != u.end && (r[x(481)] = this[x(492)][x(499)], r[x(494)]({ strokeStyle: x(501), fillStyle: x(502) }), r.isConnectPoint = ![]), i == x(495)) {
+          let a = new P();
+          a[x(494)]({ lineDash: [2, 2] }), a[x(471)](r, x(511));
+          let o = this[x(520)][x(469)];
+          a[x(468)](o, x(511)), this[x(483)](a), this[x(520)][i + x(524)] = a;
+        } else if (i == x(486)) {
+          let a = new P();
+          a[x(494)]({ lineDash: [2, 2] }), a.setBegin(r, "center");
+          let o = this[x(520)][x(517)];
+          a[x(468)](o, x(511)), this[x(483)](a), this[x(520)][i + x(524)] = a;
+        } else if (i == x(509)) {
+          let a = new P();
+          a.css({ lineDash: [2, 2] }), a.setBegin(r, x(511));
+          let o = this[x(520)].begin;
+          a[x(468)](o, x(511)), this[x(483)](a), this[x(520)][i + x(524)] = a;
         }
-        e && (this.link[x(255)](e, s), this[x(254)].upgradeParent(), this[x(248)][x(267)]("划线"));
+        this[x(520)][i] = r;
       }
-      this[x(254)] = null;
     }
   }
-  draw(t) {
-    const x = L;
-    this[x(256)] = Math[x(263)](this.width * 0.5, this[x(270)] * 0.5), t.beginPath();
-    let e = this[x(291)] / 2, s = this.height / 2;
-    t[x(274)](e, s, this[x(256)], this[x(287)], this[x(262)]), t.closePath(), this[x(276)](t), this[x(271)](t);
+  [T(478)]() {
+    let e = this.ctrlPointInfo;
+    for (var x in e)
+      e[x].hide();
   }
-  [L(273)]() {
-    const t = L;
-    this.isActive = !![], this[t(264)]({ fillStyle: t(269) });
+  updateFllow() {
+    const e = T, x = this[e(521)];
+    let t = x[e(513)](), s = x[e(507)]();
+    this[e(478)]();
+    for (let i = 0; i < s[e(477)]; i++) {
+      const r = s[i];
+      let a = this[e(520)][r], o = x[e(482)](r);
+      ix(o, x, r);
+      let d = t[e(470)](o);
+      a[e(522)](d.x, d.y), a[e(484)]();
+      let c = this[e(520)][r + e(524)];
+      c && c[e(484)]();
+    }
   }
-  [L(247)]() {
-    const t = L;
-    this[t(238)] = ![], this[t(264)]({ strokeStyle: t(235), fillStyle: "rgba(255,255,255,0.6)" });
+  [T(496)](e) {
+    const x = T;
+    if (e.parent != null) {
+      if (this[x(521)] === e) {
+        e instanceof X && e.getAnchorPoints()[x(504)](",") != this.anchorNameStr && this[x(525)](e), this[x(488)](), this[x(484)]();
+        return;
+      }
+      this[x(520)] = {}, this[x(510)](), this[x(525)](e), this[x(488)](), this[x(484)]();
+    }
+  }
+  [T(518)](e) {
+    const x = T;
+    return e[x(515)] || e[x(479)] ? ![] : typeof e == x(475) && e.x != null && e.y != null;
   }
 }
-const C = c0;
-(function(n, t) {
-  const x = c0, e = n();
+function l0(n, e) {
+  const x = k0();
+  return l0 = function(t, s) {
+    return t = t - 288, x[t];
+  }, l0(n, e);
+}
+const v = l0;
+(function(n, e) {
+  const x = l0, t = n();
   for (; []; )
     try {
-      if (-parseInt(x(410)) / 1 + parseInt(x(392)) / 2 + parseInt(x(402)) / 3 + parseInt(x(387)) / 4 + parseInt(x(396)) / 5 + parseInt(x(371)) / 6 * (-parseInt(x(394)) / 7) + -parseInt(x(405)) / 8 * (parseInt(x(395)) / 9) === t)
+      if (-parseInt(x(323)) / 1 * (parseInt(x(297)) / 2) + parseInt(x(289)) / 3 + -parseInt(x(304)) / 4 * (parseInt(x(300)) / 5) + parseInt(x(309)) / 6 * (-parseInt(x(294)) / 7) + -parseInt(x(332)) / 8 + parseInt(x(311)) / 9 + parseInt(x(327)) / 10 === e)
         break;
-      e.push(e.shift());
+      t.push(t.shift());
     } catch {
-      e.push(e.shift());
+      t.push(t.shift());
     }
-})(k0, 839952);
-function c0(n, t) {
-  const x = k0();
-  return c0 = function(e, s) {
-    return e = e - 367, x[e];
-  }, c0(n, t);
-}
+})(k0, 570167);
 function k0() {
-  const n = ["children", "4584642rUPbBP", "stage", "keyboard", "362744UENALF", "fold1", "setIntersect", "anchorName", "getObjectsIntersect", "543944eWmJew", "inputSystem", "hide", "nodeDist", "removeAllChild", "positionToLocalPoint", "unactive", "getStageTransform", "createAnchorPoint", "mouseenterStageHandler", "currentLayer", "anchorDist", "object", "6FplLza", "intersectNode", "getConnectInfo", "mouseoutStageHandler", "target", "isKeydown", "clearTarget", "getAnchorPointBy", "active", "show", "name", "getLocalPoint", "ctrlIntersectNode", "anchorBox", "setTarget", "filter", "3142196gvumId", "activePoint", "intersect", "editor", "displayList", "2516076HcXKmB", "translateTo", "5058494kvPinZ", "369IeEvHX", "1969000BmVjsg", "rate", "update", "fold2", "point"];
+  const n = ["showTip", "16nQtbcA", "name", "min", "resizeTo", "css", "59310QGRysp", "link", "549216eXRKfM", "strokeAndFill", "setCursor", "setIntersect", "end", "newLink", "width", "buttons", "red", "preventDefault", "parent", "mousedragHandler", "220oDaRzY", "intersect", "editor", "endpoint", "12410570pZFwSn", "stage", "unactive", "intersectNode", "anchorBox", "721512rteAcy", "beginPath", "record", "mouseupHandler", "endAngle", "inputSystem", "gray", "upgradeParent", "mousedownHandler", "auto", "mouseoutHandler", "画线开始", "mouseEnabled", "3001902QLgkIc", "isDragStart", "draw", "crosshair", "active", "721hauovE", "closePath", "getConnectInfo", "3004AkTYjk", "assert", "setEnd", "367205cnSlOW", "isActive", "height"];
   return k0 = function() {
     return n;
   }, k0();
 }
-class zx extends q {
-  constructor(t, x = 0, e = 0, s = 1, a = 1) {
-    const i = c0;
-    super(null, x, e, s, a), this[i(369)] = 10, this[i(413)] = 10, this[i(390)] = t;
+class tx extends sx {
+  constructor(e, x = 0, t = 0, s = 1, i = 1) {
+    const r = l0;
+    super(null, x, t, s, i), this[r(301)] = ![], this.anchorBox = e, this[r(325)] = e[r(325)], this[r(328)] = this[r(325)][r(328)], this[r(307)](15, 15), this[r(329)](), this[r(308)]({ lineWidth: 1, strokeStyle: r(338) });
   }
-  [C(374)](t) {
+  [v(314)](e) {
+    const x = v;
+    this[x(324)] = e;
   }
-  [C(367)](t) {
+  mouseenterHandler(e) {
+    this[v(293)]();
   }
-  [C(377)]() {
-    const t = C;
-    this[t(375)] = null, this.removeAllChild(), this[t(412)]();
+  [v(342)](e) {
+    this[v(329)]();
   }
-  [C(385)](t, x) {
-    const e = C;
-    if (this[e(375)] !== t) {
-      if (this[e(375)] = t, this[e(414)](), t != null) {
-        let a = t.getAnchorPoints();
-        for (var s = 0; s < a.length; s++) {
-          let i = a[s];
-          t instanceof X && (i == e(406) || i == e(399)) || this[e(418)](i);
+  [v(340)](e) {
+    const x = v;
+    e.preventDefault(), this[x(325)][x(303)](x(343)), this[x(325)][x(328)][x(313)](x(292)), this.link = null;
+  }
+  [v(322)](e) {
+    const x = v;
+    if (e[x(318)] == 2)
+      return;
+    e[x(320)](), this.editor[x(328)][x(313)](x(341));
+    const t = this.editor, s = t[x(328)];
+    this.hide();
+    const i = this[x(331)].target;
+    if (e[x(290)]) {
+      let r = function() {
+        const d = x;
+        return o[d(321)].stageToLocalXY(s[d(337)].x, s.inputSystem.y);
+      };
+      console[x(298)](this.link == null, this[x(310)]);
+      let a;
+      if (this[x(305)] == x(330)) {
+        let d = this[x(331)][x(324)];
+        a = new ux(i, d.rate, d.segIndex);
+      } else
+        a = new px(i, this[x(305)]);
+      this[x(325)][x(334)]("划线");
+      const o = t[x(316)](null, i, null, a);
+      o[x(288)] = ![], this[x(310)] = o, o[x(299)](r);
+      return;
+    }
+    ix(this[x(310)][x(315)], this[x(310)]), this.endpoint = this[x(331)][x(296)](this[x(310)], i, this[x(310)].end.target);
+  }
+  [v(335)](e) {
+    const x = v;
+    if (e.isDragEnd != ![]) {
+      if (this.show(), this[x(325)].update(), this.editor.stage[x(313)](x(341)), this[x(310)] != null) {
+        let t, s;
+        if (this[x(326)] != null)
+          this[x(310)].mouseEnabled = !![], t = this[x(326)], s = this.endpoint;
+        else {
+          let i = this[x(310)][x(315)];
+          i instanceof vx && (t = i.fn(), this[x(310)][x(288)] = !![]);
         }
-        this[e(383)] = this[e(418)](e(372)), this[e(383)][e(412)]();
+        t && (this[x(310)][x(299)](t, s), this[x(310)][x(339)](), this[x(325)].recordEnd("划线"));
       }
-      this[e(398)]();
-    }
-    this[e(388)](x);
-  }
-  activePoint(t) {
-    const x = C;
-    this[x(401)].forEach((s) => {
-      const a = x;
-      s[a(381)] == t ? s[a(379)]() : s[a(416)]();
-    }), this[x(383)][x(412)](), this[x(380)]();
-  }
-  [C(407)](t) {
-    const x = C;
-    if (this[x(389)] = t, t == null) {
-      this.ctrlIntersectNode[x(412)]();
-      return;
-    }
-    let e = t[x(397)], s = t.segIndex;
-    const a = this[x(375)];
-    let i = a[x(382)](e, s), o = a.getStageTransform()[x(400)](i);
-    this[x(383)][x(393)](o.x, o.y), this.ctrlIntersectNode[x(380)]();
-  }
-  [C(398)]() {
-    const t = C;
-    if (this[t(375)] == null) {
-      this.hide();
-      return;
-    }
-    const x = this.target, e = x[t(417)](), s = this[t(401)];
-    for (let a = 0; a < s.length; a++) {
-      const i = s[a];
-      if (i.name != t(372)) {
-        let r = x[t(415)](i[t(381)]), o = e[t(400)](r);
-        i[t(393)](o.x, o.y);
-      }
+      this[x(310)] = null;
     }
   }
-  [C(418)](t) {
-    const x = C, e = new xx(this);
-    return e[x(381)] = t, e[x(384)] = this, this.addChild(e), e;
+  [v(291)](e) {
+    const x = v;
+    this.radius = Math[x(306)](this.width * 0.5, this[x(302)] * 0.5), e[x(333)]();
+    let t = this[x(317)] / 2, s = this[x(302)] / 2;
+    e.arc(t, s, this.radius, this.beginAngle, this[x(336)]), e[x(295)](), this[x(312)](e), this.mousePickupPath(e);
   }
-  [C(378)](t, x) {
-    const e = C, s = this[e(401)];
-    for (let a = 0; a < s.length; a++)
-      if (s[a][e(381)] == x)
-        return s[a];
-    return null;
+  [v(293)]() {
+    const e = v;
+    this.isActive = !![], this[e(308)]({ fillStyle: e(319) });
   }
-  [C(409)](t) {
-    const x = C;
-    let e = this[x(390)].stage, s = { x: e[x(411)].x, y: e[x(411)].y };
-    return kx(s, t, this[x(413)]);
-  }
-  [C(373)](t, x, e) {
-    const s = C, a = this.editor, i = this, r = a[s(403)];
-    let o = { x: r[s(411)].x, y: r[s(411)].y };
-    const d = a[s(368)], c = a[s(404)][s(376)]("Control");
-    let l = null, _;
-    const p = d[s(391)][s(386)]((P) => P !== t && P !== e && P.mouseEnabled && P.connectable);
-    let g, D;
-    const R = Sx(o, p, this[s(369)]);
-    if (R != null)
-      g = R.object, D = R[s(408)], _ = new ux(g, D), i[s(385)](g, D);
-    else if (c) {
-      const P = this.getObjectsIntersect(p);
-      P != null && (g = P[s(370)], i[s(385)](g, D), _ = new fx(g, P.rate, P.segIndex), this[s(407)](P));
-    }
-    return g != null && g !== t && g !== e && (l = _), l;
+  [v(329)]() {
+    const e = v;
+    this[e(301)] = ![], this.css({ strokeStyle: e(338), fillStyle: "rgba(255,255,255,0.6)" });
   }
 }
-const S = x0;
-function x0(n, t) {
-  const x = S0();
-  return x0 = function(e, s) {
-    return e = e - 391, x[e];
-  }, x0(n, t);
-}
-(function(n, t) {
-  const x = x0, e = n();
-  for (; []; )
-    try {
-      if (-parseInt(x(399)) / 1 + -parseInt(x(413)) / 2 * (parseInt(x(415)) / 3) + -parseInt(x(410)) / 4 + -parseInt(x(402)) / 5 + -parseInt(x(411)) / 6 + parseInt(x(394)) / 7 + parseInt(x(405)) / 8 === t)
-        break;
-      e.push(e.shift());
-    } catch {
-      e.push(e.shift());
-    }
-})(S0, 908041);
 function S0() {
-  const n = ["length", "2399840WEhQuR", "10499730LckOJC", "剪切粘贴", "22PFmpGt", "redoHistory", "268278SEVVOK", "redo", "update", "位置改变", "连线调整", "type", "3321633kirmTu", "pop", "redoFn", "undoFn", "辅助粘贴", "1337086ZkSJdn", "undoAll", "push", "7827145vDMCDb", "cut", "undoHistory", "53357104sOyIRF", "editor", "undo", "尺寸修改"];
+  const n = ["keyboard", "point", "update", "intersectNode", "anchorName", "nodeDist", "setTarget", "stage", "length", "inputSystem", "editor", "show", "439395NKjaKH", "ctrlIntersectNode", "_findChildren", "rate", "intersect", "translateTo", "setIntersect", "mouseoutStageHandler", "5061763smqtCd", "2332FptgpC", "getAnchorPointBy", "unactive", "874746usvTjp", "231oozrnw", "anchorDist", "getConnectInfo", "isKeydown", "mouseenterStageHandler", "32274400STCRxs", "none", "object", "getObjectsIntersect", "connectable", "fold2", "11198ayZGJy", "11119984LNSVEt", "name", "target", "currentLayer", "114DjjOig", "activePoint", "clearTarget", "anchorBox", "children", "forEach", "Control", "189clNBTy", "createAnchorPoint", "removeAllChild", "active", "hide"];
   return S0 = function() {
     return n;
   }, S0();
 }
-const Dx = { cut: S(403), copy: "copy", delete: "删除", modify: "修改", addChild: "添加图元", pasteCopy: S(398), pasteCut: S(412), resize: S(408), rotate: "旋转", dragNodeOrLink: S(391), modifyLink: S(392) };
-class Gx {
-  constructor(t, x, e) {
-    const s = S;
-    this[s(393)] = t, this[s(397)] = e, this[s(396)] = x;
-  }
-  [S(416)]() {
-    this[S(396)]();
-  }
-  undo() {
-    this[S(397)]();
-  }
-}
-class Mx extends EventTarget {
-  constructor(t) {
-    const x = S;
-    super(), this[x(406)] = t, this[x(404)] = [], this[x(414)] = [];
-  }
-  push(t, x, e) {
-    const s = S;
-    let a = new Gx(t, x, e);
-    return a[s(406)] = this[s(406)], this.redoHistory.length = 0, this.undoHistory.push(a), a;
-  }
-  undo() {
-    const t = S;
-    if (this[t(404)][t(409)] == 0)
-      return null;
-    let x = this[t(404)][t(395)]();
-    return x.undo(), this.redoHistory[t(401)](x), x;
-  }
-  [S(416)]() {
-    const t = S;
-    if (this[t(414)][t(409)] == 0)
-      return null;
-    let x = this[t(414)][t(395)]();
-    return x[t(416)](), this[t(404)][t(401)](x), x;
-  }
-  [S(400)](t = 500) {
-    let x = this;
-    function e() {
-      const s = x0;
-      let a = x[s(407)]();
-      x[s(406)][s(417)](), a != null && setTimeout(e, t);
-    }
-    e();
-  }
-  redoAll(t = 500) {
-    let x = this;
-    function e() {
-      const s = x0;
-      x.editor[s(417)](), x[s(416)]() != null && setTimeout(e, t);
-    }
-    e();
-  }
-}
-var K = l0;
-(function(n, t) {
-  for (var x = l0, e = n(); []; )
+const C = d0;
+(function(n, e) {
+  const x = d0, t = n();
+  for (; []; )
     try {
-      var s = parseInt(x(131)) / 1 * (parseInt(x(137)) / 2) + -parseInt(x(129)) / 3 * (-parseInt(x(138)) / 4) + -parseInt(x(126)) / 5 * (parseInt(x(133)) / 6) + parseInt(x(122)) / 7 + -parseInt(x(121)) / 8 + parseInt(x(125)) / 9 + parseInt(x(135)) / 10 * (-parseInt(x(130)) / 11);
-      if (s === t)
+      if (-parseInt(x(186)) / 1 * (-parseInt(x(197)) / 2) + parseInt(x(209)) / 3 * (parseInt(x(182)) / 4) + parseInt(x(226)) / 5 * (-parseInt(x(202)) / 6) + -parseInt(x(181)) / 7 + -parseInt(x(198)) / 8 + parseInt(x(185)) / 9 + parseInt(x(191)) / 10 === e)
         break;
-      e.push(e.shift());
+      t.push(t.shift());
     } catch {
-      e.push(e.shift());
+      t.push(t.shift());
     }
-})(L0, 317549);
+})(S0, 871924);
+function d0(n, e) {
+  const x = S0();
+  return d0 = function(t, s) {
+    return t = t - 180, x[t];
+  }, d0(n, e);
+}
+class Nx extends Q {
+  constructor(e, x = 0, t = 0, s = 1, i = 1) {
+    const r = d0;
+    super(null, x, t, s, i), this[r(187)] = 10, this[r(219)] = 10, this[r(224)] = e;
+  }
+  [C(180)](e) {
+  }
+  [C(190)](e) {
+  }
+  clearTarget() {
+    const e = C;
+    this.target = null, this.removeAllChild(), this[e(213)]();
+  }
+  [C(220)](e, x) {
+    const t = C;
+    if (this[t(200)] !== e) {
+      if (this[t(200)] = e, this[t(211)](), e != null) {
+        let i = e.getAnchorPoints();
+        for (var s = 0; s < i.length; s++) {
+          let r = i[s];
+          e instanceof X && (r == "fold1" || r == t(196)) || this.createAnchorPoint(r);
+        }
+        this[t(227)] = this[t(210)](t(217)), this[t(227)][t(213)]();
+      }
+      this[t(216)]();
+    }
+    this[t(203)](x);
+  }
+  [C(203)](e) {
+    const x = C;
+    this[x(206)][x(207)]((s) => {
+      const i = x;
+      s[i(199)] == e ? s[i(212)]() : s[i(184)]();
+    }), this[x(227)][x(213)](), this.show();
+  }
+  [C(232)](e) {
+    const x = C;
+    if (this[x(230)] = e, e == null) {
+      this.ctrlIntersectNode.hide();
+      return;
+    }
+    let t = e[x(229)], s = e.segIndex;
+    const i = this[x(200)];
+    let r = i.getLocalPoint(t, s), o = i.getStageTransform()[x(215)](r);
+    this.ctrlIntersectNode.translateTo(o.x, o.y), this[x(227)][x(225)]();
+  }
+  [C(216)]() {
+    const e = C;
+    if (this[e(200)] == null) {
+      this.hide();
+      return;
+    }
+    const x = this[e(200)], t = x.getStageTransform(), s = this.children;
+    for (let i = 0; i < s[e(222)]; i++) {
+      const r = s[i];
+      if (r[e(199)] != e(217)) {
+        let a = x.positionToLocalPoint(r[e(199)]), o = t[e(215)](a);
+        r[e(231)](o.x, o.y);
+      }
+    }
+  }
+  [C(210)](e) {
+    const x = C, t = new tx(this);
+    return t.name = e, t[x(205)] = this, this.addChild(t), t;
+  }
+  [C(183)](e, x) {
+    const t = C, s = this[t(206)];
+    for (let i = 0; i < s[t(222)]; i++)
+      if (s[i][t(199)] == x)
+        return s[i];
+    return null;
+  }
+  getObjectsIntersect(e) {
+    const x = C;
+    let t = this[x(224)][x(221)], s = { x: t[x(223)].x, y: t[x(223)].y };
+    return kx(s, e, this.nodeDist);
+  }
+  [C(188)](e, x, t) {
+    const s = C, i = this[s(224)], r = this, a = i[s(221)], o = { x: a.inputSystem.x, y: a[s(223)].y }, d = i[s(201)], c = i[s(214)][s(189)](s(208)), l = (E) => E !== e && E !== t && E.mouseEnabled && E[s(195)], p = d[s(228)](s(192), l, !![]), _ = Sx(o, p, this[s(187)]);
+    let S = null, z, A, U;
+    if (_ != null)
+      A = _[s(193)], U = _[s(218)], z = new px(A, U), r[s(220)](A, U);
+    else if (c) {
+      const E = this[s(194)](p);
+      E != null ? (A = E[s(193)], r.setTarget(A, U), z = new ux(A, E[s(229)], E.segIndex), this[s(232)](E)) : r[s(204)]();
+    } else
+      r[s(204)]();
+    return A != null && A !== e && A !== t && (S = z), S;
+  }
+}
+const w = x0;
 function L0() {
-  var n = ["1vDavwm", "copyPut", "2360364FOBygZ", "cutPut", "10Cczklc", "isFirstCutPaste", "88906LzQQmJ", "438008slyivS", "copy", "type", "645528ZlovvD", "1190966ESRtcH", "source", "cut", "2997216axUoua", "5NgNcfO", "takeSource", "take", "15COeUrF", "3338401Hmgvrr"];
+  const n = ["redo", "redoHistory", "editor", "type", "3966FlCgTe", "cut", "undo", "10YLgxYd", "1241388eXxOxE", "227576gMsTFQ", "尺寸修改", "连线调整", "位置改变", "undoHistory", "剪切粘贴", "添加图元", "pop", "239223cTHqdZ", "281607QYCXdz", "copy", "undoFn", "push", "length", "458540LvZazv", "redoFn", "13670YwBMAv", "1827xDVfju", "4mXztKl"];
   return L0 = function() {
     return n;
   }, L0();
 }
-function l0(n, t) {
-  var x = L0();
-  return l0 = function(e, s) {
-    e = e - 120;
-    var a = x[e];
-    return a;
-  }, l0(n, t);
-}
-class ox {
-  constructor() {
-    var t = l0;
-    this[t(128)] = 0;
-  }
-  [K(132)](t) {
-    var x = K;
-    this.take = 0, this[x(120)] = x(139), this[x(123)] = t;
-  }
-  [K(134)](t) {
-    var x = K;
-    this[x(128)] = -1, this[x(120)] = x(124), this[x(123)] = t;
-  }
-  [K(127)]() {
-    var t = K;
-    return this[t(128)]++, this[t(123)];
-  }
-  [K(136)]() {
-    var t = K;
-    return this[t(120)] == Dx[t(124)] && this.take == 0;
-  }
-}
-function V(n, t) {
-  const x = E0();
-  return V = function(e, s) {
-    return e = e - 276, x[e];
-  }, V(n, t);
-}
-(function(n, t) {
-  const x = V, e = n();
+(function(n, e) {
+  const x = x0, t = n();
   for (; []; )
     try {
-      if (-parseInt(x(294)) / 1 * (parseInt(x(278)) / 2) + -parseInt(x(276)) / 3 * (-parseInt(x(293)) / 4) + parseInt(x(290)) / 5 * (-parseInt(x(284)) / 6) + parseInt(x(283)) / 7 + -parseInt(x(289)) / 8 * (-parseInt(x(281)) / 9) + -parseInt(x(291)) / 10 * (-parseInt(x(286)) / 11) + -parseInt(x(280)) / 12 === t)
+      if (parseInt(x(235)) / 1 + parseInt(x(212)) / 2 + parseInt(x(234)) / 3 * (-parseInt(x(216)) / 4) + parseInt(x(214)) / 5 + parseInt(x(221)) / 6 * (-parseInt(x(215)) / 7) + parseInt(x(226)) / 8 + -parseInt(x(225)) / 9 * (parseInt(x(224)) / 10) === e)
         break;
-      e.push(e.shift());
+      t.push(t.shift());
     } catch {
-      e.push(e.shift());
+      t.push(t.shift());
     }
-})(E0, 762194);
-function E0() {
-  const n = ["14830XwsqZs", "1929690IZJWja", "startsWith", "4792972fOhoIe", "12192KizoVD", "3bMroGt", "reverse", "16uddXbU", "setItem", "9490044FXdKqN", "279IEQEEj", "getItem", "5270846AdWqDv", "2118UVZHhU", "length", "22EseReJ", "keys", "now", "93008GielKa"];
-  return E0 = function() {
-    return n;
-  }, E0();
+})(L0, 151864);
+const Dx = { cut: w(222), copy: w(236), delete: "删除", modify: "修改", addChild: w(232), pasteCopy: "辅助粘贴", pasteCut: w(231), resize: w(227), rotate: "旋转", dragNodeOrLink: w(229), modifyLink: w(228) };
+function x0(n, e) {
+  const x = L0();
+  return x0 = function(t, s) {
+    return t = t - 210, x[t];
+  }, x0(n, e);
 }
-const cx = { getItem: function(n) {
-  const t = V;
-  return localStorage[t(282)](n);
-}, setItem: function(n, t) {
-  localStorage.setItem(n, t);
-}, saveWithVersion(n, t) {
-  const x = V;
-  n += Date[x(288)](), this[x(279)](n, t);
-}, getAllVersions(n) {
-  const t = V;
-  return Object[t(287)](localStorage).filter((e) => e[t(292)](n)).sort();
-}, getLastVersion(n, t) {
-  const x = V;
-  let e = this.getAllVersions(n)[x(277)]();
-  if (e.length == 0)
-    return;
-  t == null && (t = 0), t + 1 >= e[x(285)] && (t = e[x(285)] - 1);
-  let s = e[t];
-  return this[x(282)](s);
-} };
-function P0(n, t) {
-  const x = H0();
-  return P0 = function(e, s) {
-    return e = e - 188, x[e];
-  }, P0(n, t);
+class Mx {
+  constructor(e, x, t) {
+    const s = w;
+    this[s(220)] = e, this.undoFn = t, this[s(213)] = x;
+  }
+  [w(217)]() {
+    this[w(213)]();
+  }
+  [w(223)]() {
+    this[w(237)]();
+  }
 }
-(function(n, t) {
-  const x = P0, e = n();
-  for (; []; )
-    try {
-      if (-parseInt(x(209)) / 1 + parseInt(x(192)) / 2 + -parseInt(x(198)) / 3 + -parseInt(x(194)) / 4 * (-parseInt(x(211)) / 5) + parseInt(x(191)) / 6 + -parseInt(x(189)) / 7 * (parseInt(x(200)) / 8) + parseInt(x(201)) / 9 * (-parseInt(x(188)) / 10) === t)
-        break;
-      e.push(e.shift());
-    } catch {
-      e.push(e.shift());
+class Fx extends EventTarget {
+  constructor(e) {
+    const x = w;
+    super(), this[x(219)] = e, this[x(230)] = [], this.redoHistory = [];
+  }
+  [w(210)](e, x, t) {
+    const s = w;
+    let i = new Mx(e, x, t);
+    return i.editor = this.editor, this[s(218)][s(211)] = 0, this.undoHistory.push(i), i;
+  }
+  [w(223)]() {
+    const e = w;
+    if (this[e(230)][e(211)] == 0)
+      return null;
+    let x = this.undoHistory[e(233)]();
+    return x.undo(), this[e(218)][e(210)](x), x;
+  }
+  [w(217)]() {
+    const e = w;
+    if (this[e(218)][e(211)] == 0)
+      return null;
+    let x = this[e(218)][e(233)]();
+    return x[e(217)](), this[e(230)].push(x), x;
+  }
+  undoAll(e = 500) {
+    let x = this;
+    function t() {
+      const s = x0;
+      let i = x[s(223)]();
+      x[s(219)].update(), i != null && setTimeout(t, e);
     }
-})(H0, 952212);
-function H0() {
-  const n = ["selectedGroup", "1076022hJmjSG", "showOpTooltip", "7876135yjUEjR", "选编组-", "keyboard", "45940fNcTDV", "1590659WMTmGg", "filter", "6565230KUGvfE", "1493372dkNKyu", "parent", "4MbfANd", "bindKey", "centerBy", "objects", "636456eWRTWW", "slice", "16btJlpN", "1413VYPrAA", "CreateGroup", "removeAll", "preventDefault", "编组-", "stage", "inputSystem"];
-  return H0 = function() {
-    return n;
-  }, H0();
-}
-function Fx(n, t, x) {
-  const e = P0, s = n[e(213)], a = n.KeysConfig[e(202)];
-  let i = {};
-  function r(c) {
-    const l = e;
-    i[c] = n[l(206)].selectedGroup.objects[l(199)](), n[l(210)](l(205) + c);
+    t();
   }
-  function o(c) {
-    const l = e;
-    let _ = i[c];
-    if (_)
-      return _ = _[l(190)]((p) => p[l(193)] !== null), _.length > 0 && (n[l(210)](l(212) + c), n[l(206)][l(208)][l(203)]().addAll(_), n[l(206)][l(207)].pickedObject = _[0]), _;
-  }
-  function d(c) {
-    const l = e;
-    o(c) && x[l(196)](t.selectedGroup[l(197)]);
-  }
-  for (let c = 0; c <= 9; c++)
-    s[e(195)](a + "+" + c, function(l) {
-      l[e(204)](), r(c);
-    }), s.bindKey("" + c, function(l) {
-      l[e(204)](), o(c);
-    }), s[e(195)]("" + c + "+" + c, function(l) {
-      l[e(204)](), d(c);
-    });
-}
-(function(n, t) {
-  const x = O0, e = n();
-  for (; []; )
-    try {
-      if (parseInt(x(423)) / 1 + parseInt(x(415)) / 2 + -parseInt(x(409)) / 3 + -parseInt(x(405)) / 4 + -parseInt(x(397)) / 5 + -parseInt(x(395)) / 6 + parseInt(x(414)) / 7 * (parseInt(x(386)) / 8) === t)
-        break;
-      e.push(e.shift());
-    } catch {
-      e.push(e.shift());
+  redoAll(e = 500) {
+    let x = this;
+    function t() {
+      const s = x0;
+      x[s(219)].update(), x[s(217)]() != null && setTimeout(t, e);
     }
-})(A0, 973557);
-function A0() {
-  const n = ["12711482AfjUnO", "3879620BNAQkA", "cutHandler", "Select_all", "saveHandler", "Layout_tree", "select", "Select_invert", "update", "406324XpPkpR", "selectedGroup", "粘贴样式", "copyHandler", "isNode", "Copy", "redoHandler", "Save", "undoHandler", "doTreeLayout", "8FXBCOn", "Open", "filter", "Delete", "currentLayer", "Move_right", "keyboard", "Redo", "bindKey", "906528yinaeJ", "Cut", "3013845RmJThG", "Paste", "deleteHandler", "paste_Style", "Undo", "forEach", "getNoChildrensObjects", "Move_down", "7707916XZuYhc", "Copy_style", "stylePasteHandler", "showOpTooltip", "1523001UbYItb", "Move_left", "KeysConfig", "openLasted", "keydown"];
-  return A0 = function() {
-    return n;
-  }, A0();
-}
-function O0(n, t) {
-  const x = A0();
-  return O0 = function(e, s) {
-    return e = e - 386, x[e];
-  }, O0(n, t);
-}
-function Rx(n) {
-  const t = O0, x = n.stage, e = n[t(390)];
-  let s = n[t(392)];
-  const a = n[t(411)];
-  function i(r, o, d) {
-    const c = t;
-    r[c(402)]((l) => {
-      s[c(394)](l, function(p) {
-        o(p);
-      }, d);
-    });
+    t();
   }
-  i(a[t(389)], (r) => n[t(399)](r)), i(a[t(396)], (r) => n[t(416)](r)), i(a[t(428)], (r) => {
-    const o = t;
-    n.showOpTooltip("复制"), n[o(426)](r);
-  }), i(a[t(398)], (r) => n.pasteHandler(r)), i(a[t(401)], (r) => {
-    const o = t;
-    n[o(408)]("撤销"), n[o(431)](r);
-  }), i(a[t(393)], (r) => {
-    const o = t;
-    n[o(408)]("重做"), n[o(429)](r);
-  }), i(a[t(417)], (r) => {
-    const o = t;
-    n[o(408)]("全选"), x[o(420)](e.getAllVisiable());
-  }), i(a[t(421)], (r) => {
-    const o = t;
-    n.showOpTooltip("反选");
-    let d = x[o(424)][o(403)]();
-    x[o(420)](e.displayList[o(388)]((c) => d.notContains(c)));
-  }), i(a[t(430)], (r) => {
-    const o = t;
-    n[o(408)]("保存"), n[o(418)](r);
-  }, ![]), i(a[t(387)], (r) => {
-    const o = t;
-    n[o(408)]("打开"), n[o(412)](r);
-  }, ![]), i(a[t(406)], (r) => {
-    n[t(408)]("复制样式"), n.styleCopyHandler(r);
-  }, ![]), i(a[t(400)], (r) => {
-    const o = t;
-    n[o(408)](o(425)), n[o(407)](r);
-  }, ![]), i(a[t(410)], (r) => {
-    const o = t;
-    x.selectedGroup[o(403)]()[o(388)]((c) => c[o(427)]).forEach((c) => {
-      c.x -= 1;
-    });
-  }), i(a[t(391)], (r) => {
-    const o = t;
-    x.selectedGroup[o(403)]().filter((c) => c.isNode)[o(402)]((c) => {
-      c.x += 1;
-    });
-  }), i(a.Move_up, (r) => {
-    const o = t;
-    x.selectedGroup[o(403)]()[o(388)]((c) => c[o(427)])[o(402)]((c) => {
-      c.y -= 1;
-    });
-  }), i(a[t(404)], (r) => {
-    const o = t;
-    x[o(424)][o(403)]().filter((c) => c[o(427)]).forEach((c) => {
-      c.y += 1;
-    });
-  }), i(a[t(419)], (r) => {
-    n[t(432)]();
-  }), i(a.Layout_grid, (r) => {
-    n.doGridLayout();
-  }), Fx(n, x, e), s.on(t(413), function() {
-    n.update();
-  }), s.on("keyup", function() {
-    n[t(422)]();
-  });
 }
-function d0(n, t) {
-  const x = T0();
-  return d0 = function(e, s) {
-    return e = e - 270, x[e];
-  }, d0(n, t);
-}
-(function(n, t) {
-  const x = d0, e = n();
-  for (; []; )
-    try {
-      if (parseInt(x(288)) / 1 + -parseInt(x(285)) / 2 * (parseInt(x(277)) / 3) + parseInt(x(283)) / 4 * (-parseInt(x(286)) / 5) + parseInt(x(271)) / 6 + -parseInt(x(270)) / 7 + parseInt(x(276)) / 8 + -parseInt(x(272)) / 9 * (-parseInt(x(281)) / 10) === t)
-        break;
-      e.push(e.shift());
-    } catch {
-      e.push(e.shift());
-    }
-})(T0, 529729);
 function T0() {
-  const n = ["22MXCQMf", "40cMzvEz", "isLink", "707072eAwvOA", "currentLayer", "length", "mouseEnabled", "getPaintedAABBInLayer", "4579414WTJsIx", "410052bHinpx", "365733QotlZF", "assert", "isNode", "filter", "642096DwOoDL", "61590DuLjtI", "isSelected", "isAncestors", "addChild", "170khSlCX", "parent", "68372tGdsgZ", "isOutOfParent"];
+  var n = ["18GHHbYP", "copy", "1624086TUrhnr", "1523669YGbJJR", "3NclMJu", "5545535WdnxuZ", "cut", "cutPut", "isFirstCutPaste", "take", "7521104diAlrl", "3127724aUfuwl", "103602tkrIJg", "source", "type", "1943494ZFjiqD"];
   return T0 = function() {
     return n;
   }, T0();
 }
-function lx(n, t) {
-  const x = d0;
-  let e = n[x(289)], s = n[x(289)].getAllVisiable()[x(275)]((r) => {
+var n0 = e0;
+function e0(n, e) {
+  var x = T0();
+  return e0 = function(t, s) {
+    t = t - 113;
+    var i = x[t];
+    return i;
+  }, e0(n, e);
+}
+(function(n, e) {
+  for (var x = e0, t = n(); []; )
+    try {
+      var s = -parseInt(x(120)) / 1 + parseInt(x(113)) / 2 + parseInt(x(121)) / 3 * (-parseInt(x(128)) / 4) + parseInt(x(122)) / 5 + parseInt(x(117)) / 6 * (parseInt(x(116)) / 7) + parseInt(x(127)) / 8 + parseInt(x(119)) / 9;
+      if (s === e)
+        break;
+      t.push(t.shift());
+    } catch {
+      t.push(t.shift());
+    }
+})(T0, 808826);
+class cx {
+  constructor() {
+    var e = e0;
+    this[e(126)] = 0;
+  }
+  copyPut(e) {
+    var x = e0;
+    this[x(126)] = 0, this[x(115)] = x(118), this[x(114)] = e;
+  }
+  [n0(124)](e) {
+    var x = n0;
+    this[x(126)] = -1, this.type = "cut", this[x(114)] = e;
+  }
+  takeSource() {
+    var e = n0;
+    return this[e(126)]++, this[e(114)];
+  }
+  [n0(125)]() {
+    var e = n0;
+    return this[e(115)] == Dx[e(123)] && this[e(126)] == 0;
+  }
+}
+function q(n, e) {
+  const x = A0();
+  return q = function(t, s) {
+    return t = t - 374, x[t];
+  }, q(n, e);
+}
+(function(n, e) {
+  const x = q, t = n();
+  for (; []; )
+    try {
+      if (-parseInt(x(387)) / 1 * (-parseInt(x(388)) / 2) + parseInt(x(381)) / 3 * (-parseInt(x(386)) / 4) + -parseInt(x(389)) / 5 * (-parseInt(x(374)) / 6) + -parseInt(x(377)) / 7 + parseInt(x(376)) / 8 + parseInt(x(380)) / 9 * (parseInt(x(385)) / 10) + -parseInt(x(375)) / 11 * (parseInt(x(379)) / 12) === e)
+        break;
+      t.push(t.shift());
+    } catch {
+      t.push(t.shift());
+    }
+})(A0, 190928);
+const lx = { getItem: function(n) {
+  return localStorage.getItem(n);
+}, setItem: function(n, e) {
+  localStorage.setItem(n, e);
+}, saveWithVersion(n, e) {
+  const x = q;
+  n += Date[x(378)](), this[x(382)](n, e);
+}, getAllVersions(n) {
+  const e = q;
+  return Object[e(390)](localStorage).filter((t) => t[e(383)](n))[e(391)]();
+}, getLastVersion(n, e) {
+  const x = q;
+  let t = this.getAllVersions(n)[x(384)]();
+  if (t[x(392)] == 0)
+    return;
+  e == null && (e = 0), e + 1 >= t[x(392)] && (e = t[x(392)] - 1);
+  let s = t[e];
+  return this.getItem(s);
+} };
+function A0() {
+  const n = ["241702dbVfrd", "703445Lqtbkb", "keys", "sort", "length", "12kyAHds", "4774gqqfBH", "1013704uepVdo", "750638EWVDzV", "now", "16860rdtBhN", "81dKZPQl", "3oKeaCf", "setItem", "startsWith", "reverse", "386230uoxaWW", "357872wqMcep", "2kEbrmy"];
+  return A0 = function() {
+    return n;
+  }, A0();
+}
+function P0(n, e) {
+  const x = E0();
+  return P0 = function(t, s) {
+    return t = t - 383, x[t];
+  }, P0(n, e);
+}
+(function(n, e) {
+  const x = P0, t = n();
+  for (; []; )
+    try {
+      if (parseInt(x(390)) / 1 * (-parseInt(x(395)) / 2) + -parseInt(x(393)) / 3 * (-parseInt(x(398)) / 4) + -parseInt(x(392)) / 5 * (parseInt(x(389)) / 6) + parseInt(x(400)) / 7 * (-parseInt(x(387)) / 8) + -parseInt(x(403)) / 9 * (-parseInt(x(407)) / 10) + -parseInt(x(386)) / 11 + parseInt(x(397)) / 12 === e)
+        break;
+      t.push(t.shift());
+    } catch {
+      t.push(t.shift());
+    }
+})(E0, 628481);
+function E0() {
+  const n = ["objects", "filter", "slice", "10TxElEU", "preventDefault", "选编组-", "showOpTooltip", "centerBy", "pickedObject", "8629533itvaoT", "6939472lbxyIW", "inputSystem", "1898838MslpeU", "195wjTLtj", "KeysConfig", "10UATuZD", "15gvmsdU", "selectedGroup", "9168HpHiqH", "parent", "35284332lxoQQz", "346568MDMDHc", "stage", "7VRunyK", "keyboard", "bindKey", "3903057awVxLp"];
+  return E0 = function() {
+    return n;
+  }, E0();
+}
+function Gx(n, e, x) {
+  const t = P0, s = n[t(401)], i = n[t(391)].CreateGroup;
+  let r = {};
+  function a(c) {
+    const l = t;
+    r[c] = n[l(399)][l(394)][l(404)][l(406)](), n[l(383)]("编组-" + c);
+  }
+  function o(c) {
+    const l = t;
+    let p = r[c];
+    if (p)
+      return p = p[l(405)]((_) => _[l(396)] !== null), p.length > 0 && (n[l(383)](l(409) + c), n[l(399)][l(394)].removeAll().addAll(p), n.stage[l(388)][l(385)] = p[0]), p;
+  }
+  function d(c) {
+    const l = t;
+    o(c) && x[l(384)](e.selectedGroup[l(404)]);
+  }
+  for (let c = 0; c <= 9; c++)
+    s[t(402)](i + "+" + c, function(l) {
+      l[t(408)](), a(c);
+    }), s.bindKey("" + c, function(l) {
+      l[t(408)](), o(c);
+    }), s.bindKey("" + c + "+" + c, function(l) {
+      l[t(408)](), d(c);
+    });
+}
+(function(n, e) {
+  const x = H0, t = n();
+  for (; []; )
+    try {
+      if (parseInt(x(311)) / 1 + -parseInt(x(269)) / 2 * (-parseInt(x(304)) / 3) + parseInt(x(303)) / 4 + -parseInt(x(276)) / 5 * (parseInt(x(281)) / 6) + -parseInt(x(308)) / 7 + parseInt(x(297)) / 8 * (parseInt(x(268)) / 9) + parseInt(x(271)) / 10 === e)
+        break;
+      t.push(t.shift());
+    } catch {
+      t.push(t.shift());
+    }
+})(B0, 937657);
+function H0(n, e) {
+  const x = B0();
+  return H0 = function(t, s) {
+    return t = t - 264, x[t];
+  }, H0(n, e);
+}
+function B0() {
+  const n = ["Move_down", "isNode", "KeysConfig", "Save", "undoHandler", "pasteHandler", "filter", "16LDVTGa", "doGridLayout", "粘贴样式", "Layout_grid", "Move_left", "openLasted", "5145912LmXidN", "21Jfsunf", "Layout_tree", "getNoChildrensObjects", "Paste", "9567222GHKCPl", "Select_invert", "update", "1616076hhCFPG", "bindKey", "Copy_style", "copyHandler", "redoHandler", "selectedGroup", "forEach", "showOpTooltip", "2160450DxxmGP", "40762UJIFww", "keyboard", "929150xyWyRQ", "notContains", "stylePasteHandler", "Undo", "deleteHandler", "177545sltHAF", "复制样式", "Move_up", "Select_all", "styleCopyHandler", "222WfjuaB", "stage", "doTreeLayout", "select", "displayList", "Open", "Move_right", "currentLayer", "Copy"];
+  return B0 = function() {
+    return n;
+  }, B0();
+}
+function Wx(n) {
+  const e = H0, x = n[e(282)], t = n[e(288)];
+  let s = n[e(270)];
+  const i = n[e(292)];
+  function r(a, o, d) {
+    const c = e;
+    a[c(266)]((l) => {
+      s[c(312)](l, function(_) {
+        o(_);
+      }, d);
+    });
+  }
+  r(i.Delete, (a) => n[e(275)](a)), r(i.Cut, (a) => n.cutHandler(a)), r(i[e(289)], (a) => {
+    const o = e;
+    n[o(267)]("复制"), n[o(314)](a);
+  }), r(i[e(307)], (a) => n[e(295)](a)), r(i[e(274)], (a) => {
+    const o = e;
+    n[o(267)]("撤销"), n[o(294)](a);
+  }), r(i.Redo, (a) => {
+    const o = e;
+    n.showOpTooltip("重做"), n[o(264)](a);
+  }), r(i[e(279)], (a) => {
+    const o = e;
+    n.showOpTooltip("全选"), x[o(284)](t.getAllVisiable());
+  }), r(i[e(309)], (a) => {
+    const o = e;
+    n.showOpTooltip("反选");
+    let d = x[o(265)][o(306)]();
+    x[o(284)](t[o(285)].filter((c) => d[o(272)](c)));
+  }), r(i[e(293)], (a) => {
+    n[e(267)]("保存"), n.saveHandler(a);
+  }, ![]), r(i[e(286)], (a) => {
+    const o = e;
+    n[o(267)]("打开"), n[o(302)](a);
+  }, ![]), r(i[e(313)], (a) => {
+    const o = e;
+    n[o(267)](o(277)), n[o(280)](a);
+  }, ![]), r(i.paste_Style, (a) => {
+    const o = e;
+    n.showOpTooltip(o(299)), n[o(273)](a);
+  }, ![]), r(i[e(301)], (a) => {
+    const o = e;
+    x[o(265)][o(306)]()[o(296)]((c) => c.isNode)[o(266)]((c) => {
+      c.x -= 1;
+    });
+  }), r(i[e(287)], (a) => {
+    const o = e;
+    x[o(265)][o(306)]().filter((c) => c.isNode).forEach((c) => {
+      c.x += 1;
+    });
+  }), r(i[e(278)], (a) => {
+    const o = e;
+    x[o(265)][o(306)]()[o(296)]((c) => c[o(291)])[o(266)]((c) => {
+      c.y -= 1;
+    });
+  }), r(i[e(290)], (a) => {
+    const o = e;
+    x[o(265)][o(306)]()[o(296)]((c) => c[o(291)]).forEach((c) => {
+      c.y += 1;
+    });
+  }), r(i[e(305)], (a) => {
+    n[e(283)]();
+  }), r(i[e(300)], (a) => {
+    n[e(298)]();
+  }), Gx(n, x, t), s.on("keydown", function() {
+    n[e(310)]();
+  }), s.on("keyup", function() {
+    n[e(310)]();
+  });
+}
+(function(n, e) {
+  const x = f0, t = n();
+  for (; []; )
+    try {
+      if (-parseInt(x(430)) / 1 * (-parseInt(x(418)) / 2) + -parseInt(x(420)) / 3 * (-parseInt(x(414)) / 4) + -parseInt(x(422)) / 5 + -parseInt(x(424)) / 6 * (-parseInt(x(413)) / 7) + parseInt(x(432)) / 8 + parseInt(x(409)) / 9 + -parseInt(x(428)) / 10 * (parseInt(x(410)) / 11) === e)
+        break;
+      t.push(t.shift());
+    } catch {
+      t.push(t.shift());
+    }
+})(O0, 245227);
+function f0(n, e) {
+  const x = O0();
+  return f0 = function(t, s) {
+    return t = t - 407, x[t];
+  }, f0(n, e);
+}
+function O0() {
+  const n = ["currentLayer", "52033QaMxpJ", "length", "2782640RNXzAN", "getPaintedAABBInLayer", "parent", "3223683QvBUVF", "3487IxfJpo", "visible", "isSelected", "491302chdlNK", "52KcLxSw", "addChild", "isLink", "filter", "18QqlQKG", "isIntersectRect", "69345QnNWYe", "getAllVisiable", "930145HEyfBv", "isAncestors", "30ToflWE", "mouseEnabled", "isNode", "isOutOfParent", "43990pEsSog"];
+  return O0 = function() {
+    return n;
+  }, O0();
+}
+function dx(n, e) {
+  const x = f0;
+  let t = n[x(429)], s = n[x(429)][x(421)]()[x(417)]((a) => {
     const o = x;
-    return r.visible && r[o(274)] && r[o(278)] != !![] && r[o(291)];
-  }), a = t[x(275)]((r) => r[x(284)]() || r.parent === e), i;
-  for (let r = 0; r < a[x(290)]; r++) {
-    let o = a[r];
-    if (i = Wx(o, s), i != null)
+    return a[o(411)] && a[o(426)] && a[o(412)] != !![] && a[o(425)];
+  }), i = e.filter((a) => {
+    const o = x;
+    return a[o(427)]() || a[o(408)] === t;
+  }), r;
+  for (let a = 0; a < i[x(431)]; a++) {
+    let o = i[a];
+    if (r = Kx(o, s), r != null)
       break;
   }
-  return i == null && (i = e, a = a[x(275)]((r) => r[x(282)] !== e)), console[x(273)](i[x(287)] != !![], !![], i), { parent: i, objects: a };
+  return r == null && (r = t, i = i[x(417)]((a) => a.parent !== t)), console.assert(r[x(416)] != !![], !![], r), { parent: r, objects: i };
 }
-function Wx(n, t) {
-  const x = d0, e = n[x(292)](), s = t[x(275)]((a) => {
-    const i = x;
-    return a === n[i(282)] || a === n ? ![] : n[i(279)](a) ? ![] : !![];
+function Kx(n, e) {
+  const x = f0, t = n[x(407)](), s = e.filter((i) => {
+    const r = x;
+    return i === n.parent || i === n ? ![] : n[r(423)](i) ? ![] : !![];
   });
-  for (let a = s[x(290)] - 1; a >= 0; a--) {
-    const i = s[a];
-    if (i[x(292)]().isIntersectRect(e))
-      return i;
+  for (let i = s.length - 1; i >= 0; i--) {
+    const r = s[i];
+    if (r[x(407)]()[x(419)](t))
+      return r;
   }
   return null;
 }
-function B0(n, t) {
-  const x = j0();
-  return B0 = function(e, s) {
-    return e = e - 305, x[e];
-  }, B0(n, t);
-}
-(function(n, t) {
-  const x = B0, e = n();
-  for (; []; )
-    try {
-      if (parseInt(x(326)) / 1 + parseInt(x(322)) / 2 * (-parseInt(x(320)) / 3) + parseInt(x(318)) / 4 * (parseInt(x(310)) / 5) + parseInt(x(323)) / 6 + parseInt(x(305)) / 7 + parseInt(x(308)) / 8 + -parseInt(x(317)) / 9 === t)
-        break;
-      e.push(e.shift());
-    } catch {
-      e.push(e.shift());
-    }
-})(j0, 720131);
 function j0() {
-  const n = ["isNode", "stage", "4921792EYpdHX", "getBottom", "10rGYbiT", "getNoChildrensObjects", "getRight", "translateWith", "length", "isAlone", "getAABB", "11072673LvNNWf", "2332544LrVoou", "filter", "6MWqyfb", "底部对齐", "1065566nLGPgL", "1321074FOTjZr", "顶部对齐", "左对齐", "422549KVdCeD", "4142390nkgigc"];
+  const n = ["184160MVLAMQ", "2222952hCitEk", "isAlone", "stage", "12939165QAfFoU", "11124ORRuXM", "isNode", "getBottom", "右对齐", "getRight", "translateWith", "2865kiUyRW", "selectedGroup", "getAABB", "getNoChildrensObjects", "length", "3xtRnwS", "110KNEPIq", "2353180kJABow", "filter", "71848LUpBVS", "612310aYEDjW", "21bdkBsb"];
   return j0 = function() {
     return n;
   }, j0();
 }
-function Kx(n, t) {
-  const x = B0;
-  let e = t[x(307)].selectedGroup[x(311)]();
-  if (e = e[x(319)]((a) => a[x(306)] || a[x(315)]()), e[x(314)] == 0)
-    return;
-  let s = _x[x(316)](e, ![], $0);
-  for (let a = 0; a < e.length; a++) {
-    let i = e[a], r = i[x(316)](![], $0);
-    n == x(325) ? i[x(313)](s.x - r.x, 0) : n == "右对齐" ? i[x(313)](s[x(312)]() - r[x(312)](), 0) : n == x(324) ? i[x(313)](0, s.y - r.y) : n == x(321) && i[x(313)](0, s.getBottom() - r[x(309)]());
-  }
-}
-const px = z0;
-(function(n, t) {
-  const x = z0, e = n();
+(function(n, e) {
+  const x = z0, t = n();
   for (; []; )
     try {
-      if (parseInt(x(262)) / 1 + parseInt(x(263)) / 2 + parseInt(x(260)) / 3 * (-parseInt(x(289)) / 4) + parseInt(x(261)) / 5 + parseInt(x(259)) / 6 * (parseInt(x(287)) / 7) + parseInt(x(283)) / 8 + -parseInt(x(274)) / 9 === t)
+      if (-parseInt(x(401)) / 1 + parseInt(x(404)) / 2 * (parseInt(x(396)) / 3) + parseInt(x(403)) / 4 + -parseInt(x(391)) / 5 * (-parseInt(x(385)) / 6) + -parseInt(x(402)) / 7 * (-parseInt(x(400)) / 8) + parseInt(x(384)) / 9 + parseInt(x(398)) / 10 * (-parseInt(x(397)) / 11) === e)
         break;
-      e.push(e.shift());
+      t.push(t.shift());
     } catch {
-      e.push(e.shift());
+      t.push(t.shift());
     }
-})(N0, 898218);
-function N0() {
-  const n = ["addEventListener", "上下等距", "pickedObject", "22844403bGaBKR", `
+})(j0, 718996);
+function z0(n, e) {
+  const x = j0();
+  return z0 = function(t, s) {
+    return t = t - 383, x[t];
+  }, z0(n, e);
+}
+function Rx(n, e) {
+  const x = z0;
+  let t = e[x(383)][x(392)][x(394)]();
+  if (t = t[x(399)]((i) => i[x(386)] || i[x(405)]()), t[x(395)] == 0)
+    return;
+  let s = _x.getAABB(t, ![], ex);
+  for (let i = 0; i < t.length; i++) {
+    let r = t[i], a = r[x(393)](![], ex);
+    n == "左对齐" ? r[x(390)](s.x - a.x, 0) : n == x(388) ? r[x(390)](s[x(389)]() - a[x(389)](), 0) : n == "顶部对齐" ? r.translateWith(0, s.y - a.y) : n == "底部对齐" && r[x(390)](0, s.getBottom() - a[x(387)]());
+  }
+}
+function N0(n, e) {
+  const x = D0();
+  return N0 = function(t, s) {
+    return t = t - 218, x[t];
+  }, N0(n, e);
+}
+const bx = N0;
+function D0() {
+  const n = ["5632272tWQyAz", "3794CpOnIT", "1239684sCeNIb", "zIndex", "右对齐", "458640TbJoCS", "移至顶部", "updatezIndex", "14813150sBtSjg", "233YazpqF", "addEventListener", "cutHandler", "stage", "上移一层", `
 <div class="header">编辑</div>
 <a>剪切</a>
 <a>复制</a>
@@ -1326,625 +1319,635 @@ function N0() {
 <a>右对齐</a>
 <a>顶部对齐</a>
 <a>底部对齐</a>
-`, "stage", "上移一层", "底部对齐", "update", "updatezIndex", "下移一层", "item", "2438392ErjfGZ", "移至底部", "右对齐", "select", "7QdxZKs", "顶部对齐", "184zcpdku", "zIndex", "5135166VYyuBS", "20472mMrWSt", "2722575aNntoX", "1763018HwIrBs", "564392RbfGeY", "alignHandler", "parent", "移至顶部", "copyHandler", "左对齐", "inputSystem", "左右等距"];
-  return N0 = function() {
-    return n;
-  }, N0();
-}
-function z0(n, t) {
-  const x = N0();
-  return z0 = function(e, s) {
-    return e = e - 258, x[e];
-  }, z0(n, t);
-}
-let Jx = px(275);
-function Ux(n) {
-  const t = px, x = n[t(276)];
-  let e = new Lx(x, Jx);
-  return e[t(271)](t(286), function(s) {
-    const a = t, i = s[a(282)];
-    let r = x[a(269)][a(273)];
-    i == "剪切" ? n.cutHandler() : i == "复制" ? n[a(267)]() : i == "粘贴" ? n.pasteHandler() : i == "删除" && n.deleteHandler(), r != null && (i == a(277) ? r.zIndex++ : i == a(281) ? r[a(258)]-- : i == a(266) ? r[a(258)] = 1e3 : i == a(284) ? r[a(258)] = 0 : i == a(268) ? n[a(264)](a(268)) : i == a(285) ? n.alignHandler(a(285)) : i == "顶部对齐" ? n[a(264)](a(288)) : i == a(278) ? n[a(264)]("底部对齐") : i == a(270) ? n.alignHandler(a(270)) : i == a(272) && n[a(264)](a(272)), r.zIndex < 0 ? r[a(258)] = 0 : r[a(258)] > 1e3 && (r[a(258)] = 1e3), r[a(265)] != null && r[a(265)][a(280)](), n[a(279)]());
-  }), e;
-}
-function t0(n, t) {
-  const x = D0();
-  return t0 = function(e, s) {
-    return e = e - 150, x[e];
-  }, t0(n, t);
-}
-(function(n, t) {
-  const x = t0, e = n();
-  for (; []; )
-    try {
-      if (parseInt(x(172)) / 1 + parseInt(x(158)) / 2 + parseInt(x(173)) / 3 * (parseInt(x(157)) / 4) + -parseInt(x(159)) / 5 * (-parseInt(x(165)) / 6) + parseInt(x(156)) / 7 * (-parseInt(x(169)) / 8) + parseInt(x(153)) / 9 + -parseInt(x(168)) / 10 === t)
-        break;
-      e.push(e.shift());
-    } catch {
-      e.push(e.shift());
-    }
-})(D0, 975447);
-function D0() {
-  const n = ["#c8c8c8", "262227qkYbSe", "4jfpweO", "2875176lvqnNZ", "25770RxEqAH", "mouseEnabled", "handlerLayer", "stage", "guildlineS", "height", "834hYWSqF", "setEnd", "setBegin", "48938320vvGDgQ", "40bHwKfC", "addChild", "guildlineW", "1057156tveGTr", "5370828arJvsW", "hide", "css", "show", "9496422GTUoDa", "width"];
+`, "左对齐", "deleteHandler", "上下等距", "下移一层", "update", "52251nXKmAG", "92WrkbEu", "1082260HmWETX", "pasteHandler", "底部对齐", "alignHandler", "item", "21UeEhZO", "parent", "左右等距"];
   return D0 = function() {
     return n;
   }, D0();
 }
-function Vx(n) {
-  const t = t0, x = new H();
-  x[t(160)] = ![], x.css({ strokeStyle: t(155), lineDash: [1, 1] }), x[t(150)](), n[t(171)] = x, n[t(161)][t(170)](n[t(171)]);
-  const e = new H();
-  x[t(160)] = ![], e[t(151)]({ strokeStyle: t(155), lineDash: [1, 1] }), e[t(150)](), n[t(163)] = e, n[t(161)].addChild(n[t(163)]);
-}
-function Yx(n, t) {
-  const x = t0, e = n[x(162)], s = n[x(171)], a = n[x(163)];
-  s[x(167)]({ x: 0, y: t.y }), s[x(166)]({ x: e[x(154)], y: t.y }), s[x(152)](), a[x(167)]({ x: t.x, y: 0 }), a.setEnd({ x: t.x, y: e[x(164)] }), a[x(152)]();
-}
-function Zx(n) {
-  const t = t0;
-  n[t(171)][t(150)](), n[t(163)][t(150)]();
-}
-(function(n, t) {
-  const x = J, e = n();
+(function(n, e) {
+  const x = N0, t = n();
   for (; []; )
     try {
-      if (-parseInt(x(370)) / 1 * (-parseInt(x(367)) / 2) + -parseInt(x(393)) / 3 + parseInt(x(398)) / 4 + parseInt(x(373)) / 5 + -parseInt(x(359)) / 6 + parseInt(x(379)) / 7 * (-parseInt(x(386)) / 8) + parseInt(x(394)) / 9 * (parseInt(x(361)) / 10) === t)
+      if (-parseInt(x(242)) / 1 * (parseInt(x(234)) / 2) + -parseInt(x(223)) / 3 * (-parseInt(x(224)) / 4) + parseInt(x(225)) / 5 + parseInt(x(235)) / 6 * (-parseInt(x(230)) / 7) + parseInt(x(238)) / 8 + -parseInt(x(233)) / 9 + parseInt(x(241)) / 10 === e)
         break;
-      e.push(e.shift());
+      t.push(t.shift());
     } catch {
-      e.push(e.shift());
+      t.push(t.shift());
     }
-})(G0, 400131);
-function G0() {
-  const n = ["endArrow", "2625945ohApgX", "recordEnd", "afterDeleteHandler", "record", "currentLayer", "disconnect", "499359ilZaft", "removeChild", "width", "serializerSystem", "copyPut", "resizeTo", "hideCtrlBox", "56rzNoeK", "getNoChildrensObjects", "removeAll", "length", "beginArrow", "anchorBox", "clipBoard", "1237683bfAsBM", "7587TiabTp", "pickedObject", "selectedGroup", "cutPut", "78264YARtgP", "addChild", "inputSystem", "translateWith", "2177424qAepDX", "concat", "9840KZfISv", "className", "map", "copyToPojo", "pojoToObjects", "visible", "601376VyhpWj", "forEach", "parent", "1MGjQmR", "stage"];
-  return G0 = function() {
-    return n;
-  }, G0();
-}
-function J(n, t) {
-  const x = G0();
-  return J = function(e, s) {
-    return e = e - 358, x[e];
-  }, J(n, t);
-}
-function Xx(n) {
-  const t = J;
-  let x = n[t(371)], e = [][t(360)](x[t(396)][t(387)]());
-  if (e[t(389)] == 0)
-    return;
-  let s = e[t(363)]((a) => a[t(369)]);
-  n[t(392)][t(383)]([e, s]);
-}
-function qx(n) {
-  const t = J;
-  let x = n[t(371)], e = [][t(360)](x[t(396)].getNoChildrensObjects());
-  if (e[t(389)] == 0)
-    return;
-  let s = e[t(363)]((a) => a.parent);
-  n[t(392)][t(397)]([e, s]), n.record("剪切"), e[t(368)]((a, i) => {
-    const r = t;
-    s[i][r(380)](a), u0.disconnect(a, e);
-  }), n[t(374)]("剪切"), x[t(400)][t(395)] = null, n[t(385)](), n[t(391)].clearTarget();
-}
-function Qx(n) {
-  const t = J;
-  let x = n[t(392)].takeSource();
-  if (x == null)
-    return;
-  let e = n[t(377)], s = n.stage, a = x[0], i = x[1], r = _x.getAABB(a, ![], $0), o = r.getCenter(), d = e.stageToLocalXY(s.inputSystem.x, s[t(400)].y), c = d.x - o.x, l = d.y - o.y;
-  n.record("粘贴");
-  let _ = a, p = s[t(382)][t(364)](a);
-  _ = s[t(382)][t(365)](p), _[t(368)]((g, D) => {
-    g[t(358)](c, l);
-  }), _[t(368)]((g, D) => {
-    const R = t;
-    i[D][R(399)](g);
-  }), n[t(374)]("粘贴");
-}
-function $x(n) {
-  const t = J;
-  let x = n.stage, e = x.selectedGroup.getNoChildrensObjects();
-  e && (x[t(396)][t(388)](), n[t(376)]("删除"), e[t(368)](function(s) {
-    const a = t;
-    u0[a(378)](s), s.parent.removeChild(s), n[a(375)](s);
-  }), n[t(374)]("删除"));
-}
-function xt(n, t) {
-  const x = J;
-  n === t || n.className !== t[x(362)] || !(n instanceof Node && t instanceof Node || n instanceof H && t instanceof H) || (n.css(t.style), n instanceof H && t instanceof H && (n.beginArrow[x(366)] = t[x(390)].visible, n.endArrow[x(366)] = t[x(372)].visible, n[x(390)][x(384)](t[x(390)][x(381)], t[x(390)].height), n.endArrow[x(384)](t[x(372)][x(381)], t[x(372)].height)));
+})(D0, 468037);
+let Yx = bx(247);
+function Ux(n) {
+  const e = bx, x = n[e(245)];
+  let t = new Lx(x, Yx);
+  return t[e(243)]("select", function(s) {
+    const i = e, r = s[i(229)];
+    let a = x.inputSystem.pickedObject;
+    r == "剪切" ? n[i(244)]() : r == "复制" ? n.copyHandler() : r == "粘贴" ? n[i(226)]() : r == "删除" && n[i(219)](), a != null && (r == i(246) ? a[i(236)]++ : r == i(221) ? a.zIndex-- : r == i(239) ? a.zIndex = 1e3 : r == "移至底部" ? a[i(236)] = 0 : r == i(218) ? n[i(228)]("左对齐") : r == i(237) ? n[i(228)]("右对齐") : r == "顶部对齐" ? n.alignHandler("顶部对齐") : r == i(227) ? n[i(228)](i(227)) : r == i(232) ? n.alignHandler("左右等距") : r == i(220) && n[i(228)](i(220)), a[i(236)] < 0 ? a[i(236)] = 0 : a[i(236)] > 1e3 && (a[i(236)] = 1e3), a[i(231)] != null && a[i(231)][i(240)](), n[i(222)]());
+  }), t;
 }
 function M0() {
-  const n = ["nodeCtrlBox", "hide", "defaultPrevented", "handlerLayer", "2843428eIZREP", "selectedGroup", "activeBox", "update", "4ueueZN", "90SgYSPT", "isDragEnd", "groupdragend", "348194sObWPu", "dragover", "selectedGroupDragHandler", "event", "showAt", "preventDefault", "drop", "152176McdnnJ", "getNoChildrensObjects", "now", "435222UcfUhH", "modeChange", "newMode", "dispatchEvent", "popupMenu", "388334laBHce", "inputSystem", "addChild", "5rOGJqE", "linkCtrlBox", "2314040WofuLd", "1719720000000", "groupdrag", "373872UVYXnE", "edit", "removeChild"];
+  const n = ["width", "1317618gmViDl", "337063NZxdDI", "mouseEnabled", "165381fFZxvh", "10143FaIKFs", "5pjWimx", "handlerLayer", "#c8c8c8", "height", "setBegin", "guildlineS", "addChild", "setEnd", "72XYJKAF", "show", "1264336GTICfi", "hide", "2270OZyANb", "605350SCapdQ", "guildlineW", "9837obCbPK"];
   return M0 = function() {
     return n;
   }, M0();
 }
-function F0(n, t) {
-  const x = M0();
-  return F0 = function(e, s) {
-    return e = e - 490, x[e];
-  }, F0(n, t);
-}
-(function(n, t) {
-  const x = F0, e = n();
+(function(n, e) {
+  const x = t0, t = n();
   for (; []; )
     try {
-      if (-parseInt(x(517)) / 1 + parseInt(x(494)) / 2 + -parseInt(x(502)) / 3 * (parseInt(x(513)) / 4) + -parseInt(x(497)) / 5 * (-parseInt(x(527)) / 6) + parseInt(x(509)) / 7 + -parseInt(x(524)) / 8 * (parseInt(x(514)) / 9) + parseInt(x(499)) / 10 === t)
+      if (-parseInt(x(352)) / 1 + -parseInt(x(369)) / 2 + parseInt(x(354)) / 3 + parseInt(x(366)) / 4 + parseInt(x(356)) / 5 * (parseInt(x(351)) / 6) + parseInt(x(355)) / 7 * (-parseInt(x(364)) / 8) + -parseInt(x(349)) / 9 * (-parseInt(x(368)) / 10) === e)
         break;
-      e.push(e.shift());
+      t.push(t.shift());
     } catch {
-      e.push(e.shift());
+      t.push(t.shift());
     }
-})(M0, 241274);
-function tt(n) {
-  const t = F0;
-  let x = n.stage, e = x[t(495)], s = n[t(508)], a = n[t(505)], i = n[t(498)], r = n[t(511)], o = n.anchorBox, d = parseInt(t(500));
-  Date[t(526)]() > d || (x.on(f0[t(490)], function(c) {
-    const l = t;
-    c[l(491)] == Ex[l(503)] ? (s[l(496)](a), s[l(496)](i), s.addChild(o), s[l(496)](r)) : (s[l(504)](a), s.removeChild(i), s[l(504)](o), s[l(504)](r)), x[l(512)]();
-  }), e.on(t(518), function(c) {
-    const l = t;
-    c[l(522)](), n[l(492)](e);
-  }), e.on(t(523), function() {
-    const c = t;
-    e[c(520)].defaultPrevented || n[c(492)](e);
-  }), e.on("mousedown", function(c) {
-    const l = t;
-    e[l(520)][l(507)] || n[l(493)][l(506)]();
-  }), e.on("mouseup", function(c) {
-    const l = t;
-    e.button == 2 ? !e[l(515)] && n[l(493)][l(521)](e.x, e.y) : n.popupMenu[l(506)]();
-  }), x[t(510)].on(f0[t(501)], function(c) {
-    const l = t;
-    n[l(519)](c, x[l(510)][l(525)]());
-  }), x[t(510)].on(f0[t(516)], function(c) {
-    const l = t;
-    n.selectedGroupDragEndHandler(c, x[l(510)][l(525)]());
+})(M0, 186146);
+function Vx(n) {
+  const e = t0, x = new P();
+  x.mouseEnabled = ![], x.css({ strokeStyle: e(358), lineDash: [1, 1] }), x[e(367)](), n.guildlineW = x, n[e(357)][e(362)](n[e(348)]);
+  const t = new P();
+  x[e(353)] = ![], t.css({ strokeStyle: e(358), lineDash: [1, 1] }), t[e(367)](), n.guildlineS = t, n[e(357)][e(362)](n[e(361)]);
+}
+function t0(n, e) {
+  const x = M0();
+  return t0 = function(t, s) {
+    return t = t - 348, x[t];
+  }, t0(n, e);
+}
+function Jx(n, e) {
+  const x = t0, t = n.stage, s = n[x(348)], i = n[x(361)];
+  s[x(360)]({ x: 0, y: e.y }), s[x(363)]({ x: t[x(350)], y: e.y }), s[x(365)](), i[x(360)]({ x: e.x, y: 0 }), i[x(363)]({ x: e.x, y: t[x(359)] }), i[x(365)]();
+}
+function Xx(n) {
+  const e = t0;
+  n.guildlineW[e(367)](), n[e(361)][e(367)]();
+}
+(function(n, e) {
+  const x = Y, t = n();
+  for (; []; )
+    try {
+      if (-parseInt(x(313)) / 1 * (-parseInt(x(304)) / 2) + parseInt(x(321)) / 3 + -parseInt(x(328)) / 4 + parseInt(x(333)) / 5 + parseInt(x(338)) / 6 + parseInt(x(330)) / 7 * (-parseInt(x(299)) / 8) + parseInt(x(294)) / 9 * (-parseInt(x(316)) / 10) === e)
+        break;
+      t.push(t.shift());
+    } catch {
+      t.push(t.shift());
+    }
+})(F0, 638769);
+function Y(n, e) {
+  const x = F0();
+  return Y = function(t, s) {
+    return t = t - 292, x[t];
+  }, Y(n, e);
+}
+function F0() {
+  const n = ["className", "8erXZye", "currentLayer", "length", "stageToLocalXY", "css", "4326lsXybX", "clipBoard", "resizeTo", "endArrow", "concat", "copyPut", "afterDeleteHandler", "width", "getAABB", "417Lsetjx", "takeSource", "hideCtrlBox", "70DsvtcE", "height", "removeAll", "pojoToObjects", "forEach", "3652503uSVTUT", "clearTarget", "selectedGroup", "addChild", "recordEnd", "anchorBox", "pickedObject", "3371180jGeWYS", "stage", "2843204jXZqQB", "visible", "style", "2819705DvlwVy", "record", "parent", "beginArrow", "inputSystem", "1996884fKFPkI", "cutPut", "removeChild", "getNoChildrensObjects", "copyToPojo", "1450917bChbTS", "map", "getCenter", "serializerSystem"];
+  return F0 = function() {
+    return n;
+  }, F0();
+}
+function qx(n) {
+  const e = Y;
+  let x = n[e(329)], t = [][e(308)](x[e(323)].getNoChildrensObjects());
+  if (t.length == 0)
+    return;
+  let s = t[e(295)]((i) => i[e(335)]);
+  n[e(305)][e(309)]([t, s]);
+}
+function Qx(n) {
+  const e = Y;
+  let x = n[e(329)], t = [][e(308)](x[e(323)][e(292)]());
+  if (t[e(301)] == 0)
+    return;
+  let s = t[e(295)]((i) => i.parent);
+  n[e(305)][e(339)]([t, s]), n[e(334)]("剪切"), t[e(320)]((i, r) => {
+    s[r].removeChild(i), p0.disconnect(i, t);
+  }), n[e(325)]("剪切"), x.inputSystem[e(327)] = null, n[e(315)](), n[e(326)][e(322)]();
+}
+function Zx(n) {
+  const e = Y;
+  let x = n.clipBoard[e(314)]();
+  if (x == null)
+    return;
+  let t = n[e(300)], s = n[e(329)], i = x[0], r = x[1], a = _x[e(312)](i, ![], ex), o = a[e(296)](), d = t[e(302)](s[e(337)].x, s.inputSystem.y), c = d.x - o.x, l = d.y - o.y;
+  n[e(334)]("粘贴");
+  let p = i, _ = s.serializerSystem[e(293)](i);
+  p = s[e(297)][e(319)](_), p[e(320)]((S, z) => {
+    S.translateWith(c, l);
+  }), p.forEach((S, z) => {
+    const A = e;
+    r[z][A(324)](S);
+  }), n[e(325)]("粘贴");
+}
+function $x(n) {
+  const e = Y;
+  let x = n.stage, t = x[e(323)][e(292)]();
+  t && (x[e(323)][e(318)](), n[e(334)]("删除"), t[e(320)](function(s) {
+    const i = e;
+    p0.disconnect(s), s[i(335)][i(340)](s), n[i(310)](s);
+  }), n[e(325)]("删除"));
+}
+function xe(n, e) {
+  const x = Y;
+  n === e || n.className !== e[x(298)] || !(n instanceof Node && e instanceof Node || n instanceof P && e instanceof P) || (n[x(303)](e[x(332)]), n instanceof P && e instanceof P && (n[x(336)][x(331)] = e[x(336)][x(331)], n[x(307)][x(331)] = e[x(307)].visible, n[x(336)][x(306)](e[x(336)][x(311)], e[x(336)][x(317)]), n.endArrow.resizeTo(e[x(307)][x(311)], e[x(307)][x(317)])));
+}
+(function(n, e) {
+  const x = G0, t = n();
+  for (; []; )
+    try {
+      if (parseInt(x(260)) / 1 + parseInt(x(268)) / 2 * (-parseInt(x(238)) / 3) + -parseInt(x(233)) / 4 + parseInt(x(246)) / 5 + parseInt(x(236)) / 6 * (-parseInt(x(266)) / 7) + -parseInt(x(264)) / 8 * (parseInt(x(241)) / 9) + parseInt(x(255)) / 10 === e)
+        break;
+      t.push(t.shift());
+    } catch {
+      t.push(t.shift());
+    }
+})(W0, 393701);
+function G0(n, e) {
+  const x = W0();
+  return G0 = function(t, s) {
+    return t = t - 233, x[t];
+  }, G0(n, e);
+}
+function W0() {
+  const n = ["preventDefault", "297JPLtPd", "nodeCtrlBox", "hide", "getNoChildrensObjects", "mouseup", "2421095CzRchO", "update", "defaultPrevented", "activeBox", "stage", "selectedGroupDragEndHandler", "selectedGroupDragHandler", "event", "selectedGroup", "3267160YpYnhl", "drop", "isDragEnd", "groupdrag", "groupdragend", "605415JfBcKb", "dispatchEvent", "addChild", "showAt", "22392WSkjod", "inputSystem", "1921759bEnhoD", "popupMenu", "2606PjBGpa", "dragover", "2268564PLnOqI", "button", "anchorBox", "6YLBLUX", "handlerLayer", "204SBHlEI", "removeChild"];
+  return W0 = function() {
+    return n;
+  }, W0();
+}
+function ee(n) {
+  const e = G0;
+  let x = n[e(250)], t = x[e(265)], s = n[e(237)], i = n[e(242)], r = n.linkCtrlBox, a = n[e(249)], o = n[e(235)], d = parseInt("1719720000000");
+  Date.now() > d || (x.on(u0.modeChange, function(c) {
+    const l = e;
+    c.newMode == Tx.edit ? (s[l(262)](i), s[l(262)](r), s[l(262)](o), s[l(262)](a)) : (s[l(239)](i), s.removeChild(r), s.removeChild(o), s[l(239)](a)), x[l(247)]();
+  }), t.on(e(269), function(c) {
+    const l = e;
+    c[l(240)](), n[l(261)](t);
+  }), t.on(e(256), function() {
+    const c = e;
+    t[c(253)][c(248)] || n[c(261)](t);
+  }), t.on("mousedown", function(c) {
+    const l = e;
+    t[l(253)][l(248)] || n[l(267)][l(243)]();
+  }), t.on(e(245), function(c) {
+    const l = e;
+    t[l(234)] == 2 ? !t[l(257)] && n[l(267)][l(263)](t.x, t.y) : n[l(267)][l(243)]();
+  }), x[e(254)].on(u0[e(258)], function(c) {
+    const l = e;
+    n[l(252)](c, x.selectedGroup[l(244)]());
+  }), x[e(254)].on(u0[e(259)], function(c) {
+    const l = e;
+    n[l(251)](c, x[l(254)][l(244)]());
   }));
 }
-function R0() {
-  const n = ["isLink", "viewClone", "NodeCtrlBox", "resizeTo", "atan2", "getStageTransform", "3400713rxEnxt", "updateSize", "744236LgPWnB", "show", "translateTo", "8022rATWsP", "editor", "6akBtLs", "point", "attachTo", "3px solid orange", "rotate", "81745Zfswjj", "1304cQGDjM", "1354716GhOHBT", "attach not Node", "mouseEnabled", "zIndex", "editable", "262532eNOmNi", "center", "507215EJDIHd", "hide", "positionToLocalPoint", "currObject", "css"];
-  return R0 = function() {
-    return n;
-  }, R0();
-}
-const e0 = h0;
-(function(n, t) {
-  const x = h0, e = n();
+const s0 = h0;
+(function(n, e) {
+  const x = h0, t = n();
   for (; []; )
     try {
-      if (parseInt(x(343)) / 1 + parseInt(x(350)) / 2 * (-parseInt(x(338)) / 3) + parseInt(x(333)) / 4 + parseInt(x(320)) / 5 + parseInt(x(345)) / 6 + parseInt(x(336)) / 7 * (parseInt(x(344)) / 8) + -parseInt(x(331)) / 9 === t)
+      if (parseInt(x(521)) / 1 * (parseInt(x(510)) / 2) + parseInt(x(519)) / 3 * (parseInt(x(507)) / 4) + parseInt(x(500)) / 5 * (-parseInt(x(513)) / 6) + -parseInt(x(524)) / 7 + parseInt(x(518)) / 8 + -parseInt(x(516)) / 9 + -parseInt(x(514)) / 10 === e)
         break;
-      e.push(e.shift());
+      t.push(t.shift());
     } catch {
-      e.push(e.shift());
+      t.push(t.shift());
     }
-})(R0, 141442);
-class et extends q {
-  constructor(t, x = 0, e = 0, s = 1, a = 1) {
-    const i = h0;
-    super(null, x, e, s, a), this[i(348)] = Z0[i(327)], this[i(337)] = t, this[i(324)]({ border: i(341), lineDash: [5, 3] }), this[i(347)] = ![], this.currObject;
-  }
-  [e0(340)](t) {
-    const x = e0;
-    if (t == null || t[x(349)] != !![]) {
-      this[x(323)] = null, this[x(321)]();
-      return;
-    }
-    if (t[x(325)])
-      throw new Error(x(346));
-    this[x(323)] = t, this[x(332)](), this[x(334)]();
-  }
-  [e0(332)]() {
-    const t = e0;
-    this.currObject != null && this[t(326)](this[t(323)]);
-  }
-  viewClone(t) {
-    const x = e0;
-    let e = t[x(330)](), s = e.point(t[x(322)](u[x(351)])), a = e[x(339)](t[x(322)](u.rm)), i = Math[x(329)](a.y - s.y, a.x - s.x);
-    e.rotate(-i);
-    let r = e[x(339)](t[x(322)](u.center)), o = e.point(t.positionToLocalPoint(u.rb)), d = (o.x - r.x) * 2, c = (o.y - r.y) * 2, l = 4;
-    this[x(328)](d + l * 2, c + l * 2), this[x(342)](i), this[x(335)](s.x, s.y);
-  }
-}
-function h0(n, t) {
-  const x = R0();
-  return h0 = function(e, s) {
-    return e = e - 320, x[e];
-  }, h0(n, t);
-}
-function W0(n, t) {
-  const x = K0();
-  return W0 = function(e, s) {
-    return e = e - 414, x[e];
-  }, W0(n, t);
-}
-const E = W0;
-(function(n, t) {
-  const x = W0, e = n();
-  for (; []; )
-    try {
-      if (parseInt(x(428)) / 1 * (-parseInt(x(426)) / 2) + parseInt(x(415)) / 3 * (parseInt(x(434)) / 4) + -parseInt(x(416)) / 5 * (parseInt(x(414)) / 6) + -parseInt(x(421)) / 7 + parseInt(x(437)) / 8 + parseInt(x(431)) / 9 * (-parseInt(x(430)) / 10) + -parseInt(x(420)) / 11 * (-parseInt(x(427)) / 12) === t)
-        break;
-      e.push(e.shift());
-    } catch {
-      e.push(e.shift());
-    }
-})(K0, 620125);
-const nt = navigator.userAgent[E(429)]().indexOf(E(422)) != -1, z = E(nt ? 436 : 439);
+})(K0, 179564);
 function K0() {
-  const n = ["ArrowDown", "Meta+Backspace", "19311105jeSutS", "4236463dYEFFN", "MAC OS", "Shift", "Shift+c", "ArrowRight", "148714zxHdKB", "12CTEFbA", "4xymAYq", "toUpperCase", "10310oGfIMw", "9630ebWMsA", "+shift+z", "Shift+v", "20ompVLH", "ArrowUp", "Meta", "1966000OhUSUu", "ArrowLeft", "Control", "496734GIDnYZ", "722490fjMeGw", "35OVzmQU", "Delete"];
+  const n = ["12EMjgBt", "translateTo", "css", "302DrAihr", "show", "atan2", "21054xxcUeF", "1371130vugOOL", "attachTo", "1990026eAYorH", "3px solid orange", "1247512bHMAkH", "302721TotEnu", "zIndex", "2193fqpCFk", "resizeTo", "hide", "757001vOGaBT", "attach not Node", "viewClone", "updateSize", "isLink", "205gmUdro", "mouseEnabled", "NodeCtrlBox", "editor", "currObject", "rotate", "point"];
   return K0 = function() {
     return n;
   }, K0();
 }
-const bx = { CtrlOrCmd: z, CreateGroup: z, DropTo_leader: E(423), Delete: [E(417), E(419)], Select_all: [z + "+a"], Select_invert: [z + "+i"], Cut: [z + "+x"], Copy: [z + "+c"], Paste: [z + "+v"], Save: [z + "+s"], Open: [z + "+o"], Undo: [z + "+z"], Redo: [z + E(432)], Copy_style: [E(424)], paste_Style: [E(433)], Move_up: [E(435)], Move_down: [E(418)], Move_left: [E(438)], Move_right: [E(425)], Layout_tree: ["t"], Layout_grid: ["g"] };
-(function(n, t) {
-  for (var x = tx, e = n(); []; )
-    try {
-      var s = -parseInt(x(263)) / 1 + parseInt(x(259)) / 2 * (parseInt(x(265)) / 3) + parseInt(x(264)) / 4 + -parseInt(x(258)) / 5 + -parseInt(x(266)) / 6 + -parseInt(x(261)) / 7 * (-parseInt(x(262)) / 8) + parseInt(x(260)) / 9;
-      if (s === t)
-        break;
-      e.push(e.shift());
-    } catch {
-      e.push(e.shift());
+function h0(n, e) {
+  const x = K0();
+  return h0 = function(t, s) {
+    return t = t - 498, x[t];
+  }, h0(n, e);
+}
+class te extends Q {
+  constructor(e, x = 0, t = 0, s = 1, i = 1) {
+    const r = h0;
+    super(null, x, t, s, i), this[r(520)] = Q0[r(502)], this[r(503)] = e, this[r(509)]({ border: r(517), lineDash: [5, 3] }), this[r(501)] = ![], this[r(504)];
+  }
+  [s0(515)](e) {
+    const x = s0;
+    if (e == null || e.editable != !![]) {
+      this[x(504)] = null, this[x(523)]();
+      return;
     }
-})(J0, 641924);
-function tx(n, t) {
-  var x = J0();
-  return tx = function(e, s) {
-    e = e - 258;
-    var a = x[e];
-    return a;
-  }, tx(n, t);
-}
-function J0() {
-  var n = ["2695RQZZSH", "10248HAJNTD", "773258MSIyAO", "3255084uLrfSL", "417216RHlaoc", "574362muAVJT", "77620zZxfjI", "2jcNNhK", "723645dddEMH"];
-  return J0 = function() {
-    return n;
-  }, J0();
-}
-class Y {
-  constructor(t) {
-    this.type = t;
+    if (e[x(499)])
+      throw new Error(x(525));
+    this.currObject = e, this[x(498)](), this[x(511)]();
+  }
+  updateSize() {
+    this[s0(504)] != null && this.viewClone(this.currObject);
+  }
+  [s0(526)](e) {
+    const x = s0;
+    let t = e.getStageTransform(), s = t[x(506)](e.positionToLocalPoint(u.center)), i = t[x(506)](e.positionToLocalPoint(u.rm)), r = Math[x(512)](i.y - s.y, i.x - s.x);
+    t[x(505)](-r);
+    let a = t.point(e.positionToLocalPoint(u.center)), o = t[x(506)](e.positionToLocalPoint(u.rb)), d = (o.x - a.x) * 2, c = (o.y - a.y) * 2, l = 4;
+    this[x(522)](d + l * 2, c + l * 2), this[x(505)](r), this[x(508)](s.x, s.y);
   }
 }
-const h = U0;
-function U0(n, t) {
-  const x = V0();
-  return U0 = function(e, s) {
-    return e = e - 263, x[e];
-  }, U0(n, t);
+const j = R0;
+function R0(n, e) {
+  const x = Y0();
+  return R0 = function(t, s) {
+    return t = t - 250, x[t];
+  }, R0(n, e);
 }
-(function(n, t) {
-  const x = U0, e = n();
+(function(n, e) {
+  const x = R0, t = n();
   for (; []; )
     try {
-      if (-parseInt(x(277)) / 1 + -parseInt(x(280)) / 2 * (parseInt(x(397)) / 3) + parseInt(x(288)) / 4 + parseInt(x(411)) / 5 * (-parseInt(x(405)) / 6) + -parseInt(x(333)) / 7 * (-parseInt(x(402)) / 8) + -parseInt(x(315)) / 9 + parseInt(x(363)) / 10 * (parseInt(x(334)) / 11) === t)
+      if (-parseInt(x(270)) / 1 + -parseInt(x(260)) / 2 + parseInt(x(251)) / 3 + parseInt(x(268)) / 4 + -parseInt(x(269)) / 5 + -parseInt(x(255)) / 6 * (parseInt(x(254)) / 7) + parseInt(x(264)) / 8 * (parseInt(x(261)) / 9) === e)
         break;
-      e.push(e.shift());
+      t.push(t.shift());
     } catch {
-      e.push(e.shift());
+      t.push(t.shift());
     }
-})(V0, 614633);
-function V0() {
-  const n = ["buttons", "addChild", "forEach", "1798056yRCAYM", "getState", "Node", "paste", "linkCtrlBox", "paddingRight", "inputSystem", "hideCtrlBox", "recordEnd", "changeParent", "editable", "cssClipBoard", "width", "showAt", "keyboard", "redoUndoSys", "pickUpChild", "visible", "Shift", "dblclickHandler", "showTip", "selectedGroupDragHandler", "objects", "mouseOvertarget's parent is null", "round", "copyPut", "defaultPrevented", "8282862vuHtmZ", "handlerLayer", "Control", "setCursor", "connectable", "控制点", "recordInterrupt", "zIndex", "record和recordEnd没有成对出现", "alignHandler", "isDragStart", "getObjectsIntersect", "function", "opTooltip", "create", "attachTo", "EditorNewLink", "openJson", "1047158oQqlSL", "1122tjthte", "currObject", "AutoFoldLink", "hide", "粘贴样式", "addLink", "anchorBox", "record", "mouseenterHandler", "Link", "mouseoutStageHandler", "button", "toStageAABB", "LinkClassName", "styleCopyHandler", "assign", "lastLayerState", "isDragEnd", "isNode", "KeysConfig", "currentLayer", "getNoChildrensObjects", "leaveTextInputMode", "mouseoutHandler", "nodeCtrlBox", "cut", "mousedownHandler", "length", "css", "212340lcqxKk", "mousemoveHandler", "afterDeleteHandler", "mousewheelHandler", "preventDefault", "setHtml", "topo_last_doc", "domElement", "mouseupHandler", "stage", "recordName", "hideGuidLine", "controlTarget", "setTarget", "textInputMode", "sendKey", "restore", "copy", "showOpTooltip", "fadeOut", "serializerSystem", "enterTextInputMode", "auto", "parent", "push", "getCurrentLayer", "log", "defineKeys", "isLink", "clipBoard", "editor", "takeSource", "pickedObject", "activeBox", "27QVmifR", "newLinkProperties", "warn", "20px", "undo", "56lxcZZW", "update", "selectedGroup", "21876tStvoO", "view", "保存成功", "isMouseOn", "msg", "setIntersect", "1400sHaEst", "对象拖拽", "mouseX", "save", "translateToCenter", "mouseenterStageHandler", "addNewInstance", "undoHandler", "getItem", "event", "indexOf", "_obb", "dispatchEvent", "delete", "setItem", "updateSize", "mousedragHandler", "DropTo_leader", "mouseOverTarget", "redo", "isKeydown", "height", "deleteHandler", "style", "getCenter", "pasteHandler", "aabb", "toJson", "174822oLkjhM", "openLasted", "showGuildLine", "207086YWpmwc", "keys", "updatezIndex", "selectedGroupDragEndHandler", "saveHandler"];
-  return V0 = function() {
-    return n;
-  }, V0();
-}
-const st = ix.w != null ? ix.w.charAt(3) : "1";
-let at = new Y("open"), ut = new Y(h(414)), it = new Y(h(359)), rt = new Y(h(380)), ot = new Y(h(291)), dx = new Y(h(329)), ct = new Y(h(424));
-class lt extends hx {
-  constructor(t) {
-    const x = h;
-    super(), this[x(353)] = bx, this[x(377)] = ![], this[x(347)] = x(336), this.stage = t, t[x(393)] = this, this[x(354)] = this.getCurrentLayer(), this[x(316)] = t.handlerLayer, this[x(404)] = this[x(372)].selectedGroup, this[x(302)] = t.keyboard, this[x(392)] = new ox(), this[x(299)] = new ox(), this.nodeCtrlBox = new Bx(this), this[x(292)] = new Nx(this), this[x(340)] = new zx(this), this[x(396)] = new et(this), this.popupMenu = Ux(this), tt(this), Rx(this), this[x(295)](), this[x(372)][x(294)][x(395)] = null;
-    let e = this;
-    this[x(372)].on(f0.zoomAfter, function() {
-      const s = x;
-      e.update(), e[s(340)][s(403)]();
-    }), this.controlTarget = null, this[x(267)] = null, this.inputTextfield = new Px(this), this[x(303)] = new Mx(this), Vx(this), this[x(328)] = new Hx(t), this[x(328)][x(370)][x(272)].paddingLeft = x(400), this.opTooltip.domElement.style[x(293)] = "20px";
-  }
-  [h(388)]() {
-    return this.stage.getCurrentLayer();
-  }
-  [h(390)](t) {
-    Object.assign(this[h(353)], t);
-  }
-  [h(381)](t) {
-    const x = h;
-    this.opTooltip[x(368)](t), this.opTooltip[x(301)](this[x(372)][x(300)] * 0.5, this[x(372)][x(270)] * 0.5), this.opTooltip[x(382)](80);
-  }
-  [h(279)](t) {
-    Yx(this, t);
-  }
-  hideGuidLine() {
-    Zx(this);
-  }
-  [h(384)]() {
-    const t = h;
-    this[t(377)] = !![];
-  }
-  [h(356)]() {
-    const t = h;
-    this[t(377)] = ![];
-  }
-  [h(284)](t) {
-    const x = h;
-    let e = this.stage[x(383)][x(276)]([this[x(354)]]);
-    cx[x(263)](x(369), e), console[x(389)](x(407), e);
-  }
-  [h(278)]() {
-    const t = h, x = this[t(354)], e = cx[t(419)](t(369));
-    e != null && (console.debug("加载", e), x.removeAllChild(), this[t(372)][t(383)].fillByJson(x, e));
-  }
-  [h(418)]() {
-    const t = h;
-    this.redoUndoSys[t(401)]();
-  }
-  redoHandler() {
-    const t = h;
-    this[t(303)][t(268)]();
-  }
-  copyHandler() {
-    const t = h;
-    Xx(this), this[t(423)](rt);
-  }
-  cutHandler() {
-    const t = h;
-    qx(this), this[t(423)](it);
-  }
-  [h(274)]() {
-    Qx(this), this.dispatchEvent(ot);
-  }
-  [h(271)]() {
-    const t = h;
-    $x(this), this[t(423)](ct);
-  }
-  [h(348)]() {
-    const t = h;
-    let x = this[t(372)][t(294)][t(395)];
-    x == null && (!this[t(372)][t(404)].isEmpty() && (x = this[t(372)][t(404)].objects[0]), x == null) || this[t(299)][t(313)](x);
-  }
-  stylePasteHandler() {
-    const t = h;
-    let x = this.cssClipBoard[t(394)]();
-    if (x == null)
-      return;
-    let e = this[t(372)][t(404)].objects;
-    this[t(341)](t(338)), e.forEach((s) => {
-      xt(s, x);
-    }), this[t(296)]("粘贴样式");
-  }
-  [h(324)](t) {
-    Kx(t, this), this.update();
-  }
-  hideCtrlBox() {
-    const t = h;
-    this[t(292)].hide(), this[t(358)][t(337)]();
-  }
-  [h(307)](t) {
-    const x = h;
-    this[x(372)][x(294)];
-  }
-  [h(366)](t) {
-  }
-  [h(360)](t) {
-    const x = h, e = this[x(372)].inputSystem;
-    let s = this[x(316)], a = this[x(358)], i = this.linkCtrlBox;
-    if (this.controlTarget = s[x(304)](), this[x(340)].hide(), this[x(375)] != null) {
-      this[x(375)][x(360)](e), e[x(367)](), this[x(403)]();
-      return;
-    }
-    i[x(337)](), a[x(337)](), this[x(403)]();
-  }
-  [h(371)](t) {
-    const x = h, e = this.stage[x(294)];
-    this[x(374)]();
-    let s = this.stage, a = this[x(358)], i = this[x(292)], r = this[x(375)];
-    if (r != null) {
-      e[x(351)] && !(r instanceof xx) && this[x(296)](x(320)), r[x(371)](e), e[x(367)](), this.update();
-      return;
-    }
-    if (e[x(345)] == 2)
-      return;
-    let o = s.inputSystem[x(395)];
-    o != null ? o[x(298)] && (o instanceof H ? i[x(330)](o) : (this.anchorBox[x(376)](o), a.attachTo(o))) : (this[x(340)][x(337)](), a.hide(), i[x(337)]());
-    {
-      if (this.activeBox[x(335)] != null) {
-        let c = this[x(404)][x(355)](), l = lx(this, c), _ = l[x(386)];
-        l[x(310)][x(287)]((g) => {
-          g[x(297)](_), g.upgradeLinks();
-        });
-      }
-      this[x(396)][x(330)](null);
-    }
-    this.update();
-  }
-  [h(265)](t) {
-    const x = h, e = this[x(372)][x(294)];
-    if (e[x(285)] == 2)
-      return;
-    this.keyboard[x(269)](x(306)) && this[x(372)].setCursor("crosshair"), this[x(279)](e);
-    let s = this[x(375)];
-    if (s != null) {
-      if (e[x(325)] && !(s instanceof xx) && this[x(341)](x(320)), s[x(265)](e), this[x(403)](), e[x(420)][x(314)] == !![])
-        return;
-      e[x(367)]();
-    }
-    this[x(396)].hide();
-    const a = this[x(353)][x(266)];
-    if (this[x(372)].inputSystem[x(395)] && this[x(302)][x(269)](a)) {
-      let i = this.selectedGroup[x(355)](), r = lx(this, i), o = r[x(386)];
-      o != null && o[x(298)] && this.activeBox[x(330)](o);
-    }
-  }
-  [h(364)](t) {
-    const x = h;
-    let e = this[x(372)];
-    const s = e[x(316)];
-    let a = this[x(354)];
-    e.setCursor(x(385));
-    let i = s[x(304)]();
-    if (i !== this[x(267)] && (this[x(267)] != null && this.mouseOverTarget[x(357)](t), i != null && i.mouseenterHandler(t)), this.mouseOverTarget = i, i != null) {
-      const o = i[x(386)];
-      sx(o, x(311)), i[x(364)](t), t[x(367)]();
-      return;
-    }
-    let r = a[x(304)]();
-    if (r != null && (this[x(372)][x(318)]("move"), r[x(352)] && r[x(319)] && this[x(340)].setTarget(r), this[x(302)][x(269)](x(317)) && r.connectable)) {
-      this[x(340)][x(376)](r);
-      const d = this.anchorBox[x(326)]([r]);
-      d != null && this.anchorBox[x(410)](d);
-    }
-    this[x(403)]();
-  }
-  [h(309)](t, x) {
-    const e = h;
-    if (this[e(372)][e(294)][e(325)] && this[e(341)](e(412)), x[e(361)] == 1) {
-      const s = x[0], a = this[e(354)][e(346)](s[e(422)][e(275)]), i = a[e(273)]();
-      this[e(279)](i);
-    }
-  }
-  [h(283)](t, x) {
-    const e = h;
-    if (!this[e(372)].inputSystem[e(408)]) {
-      this[e(321)]();
-      return;
-    }
-    x.forEach((s) => {
-      const a = e;
-      s[a(352)] && (s.x = Math.round(s.x), s.y = Math[a(312)](s.y));
-    }), this[e(296)]("对象拖拽");
-  }
-  [h(321)]() {
-    const t = h;
-    this[t(373)] = null, this[t(350)] = null;
-  }
-  [h(341)](t) {
-    const x = h;
-    let e = this[x(354)], s = e[x(372)].serializerSystem;
-    this[x(373)] != null && console[x(399)](x(323), this[x(373)] + ":" + t), this[x(373)] = t, this[x(350)] = s[x(289)](this[x(354)]);
-  }
-  recordEnd(t) {
-    const x = h;
-    if (t != this[x(373)])
-      throw console[x(399)](this[x(373)], t), new Error("recordName error");
-    this[x(373)] = null;
-    let e = this.currentLayer, s = e[x(372)].serializerSystem, a = this[x(350)], i = s[x(289)](e);
-    this.redoUndoSys[x(387)](t, function() {
-      s[x(379)](e, i);
-    }, function() {
-      s.restore(e, a);
-    });
-  }
-  [h(342)](t) {
-    const x = h;
-    this.linkCtrlBox.mouseenterStageHandler(t), this.nodeCtrlBox[x(416)](t), this.anchorBox[x(416)](t);
-  }
-  mouseoutHandler(t) {
-    const x = h;
-    this[x(292)][x(344)](t), this[x(358)][x(344)](t), this[x(340)][x(344)](t);
-  }
-  newLink(t, x, e, s) {
-    const a = h;
-    let i = this, r = Q0(this[a(347)]);
-    const o = new r(t, x, e, s), d = Object[a(349)]({}, i[a(398)]);
-    d[a(362)] && (o[a(362)](d.css), delete d[a(362)]), Object[a(281)](d)[a(287)]((_) => {
-      const p = a;
-      let g = d[_];
-      typeof g == p(327) ? o[_] = g() : o[_] = g;
-    });
-    let l = x[a(352)] || x[a(391)] ? x[a(386)] : this[a(354)];
-    return o[a(322)] = Z0[a(331)], l[a(286)](o), o;
-  }
-  [h(365)](t) {
-    const x = h;
-    if (st != "1")
-      return null;
-    this[x(381)]("删除"), t === this[x(340)].target && this[x(340)].hide();
-  }
-  [h(417)](t) {
-    const x = h;
-    this[x(388)]()[x(286)](t);
-  }
-  [h(339)](t) {
-    this[h(354)].addChild(t);
-  }
-  update() {
-    const t = h;
-    this[t(396)][t(305)] && this.activeBox[t(264)](), this[t(358)][t(305)] && this[t(358)][t(264)](), this[t(340)][t(403)](), this[t(372)][t(403)]();
-  }
-  [h(282)]() {
-    this[h(354)].updatezIndex();
-  }
-  toJson() {
-    const t = h;
-    return this[t(372)][t(383)].toJson(this[t(354)]);
-  }
-  [h(332)](t) {
-    const x = h;
-    this[x(354)].openJson(t), this.stage[x(415)](), this.dispatchEvent(at);
-  }
-  [h(308)](t, x = "") {
-    const e = h;
-    let s = new Event(e(389));
-    s[e(409)] = t + x, this[e(423)](s);
-  }
-  [h(329)](t) {
-    const x = h;
-    let e = { x: this.currentLayer[x(413)], y: this[x(354)].mouseY }, s = e.x, a = e.y, i = Q0(t);
-    if (t[x(421)](x(290)) != -1) {
-      let r = new i(null, s, a, 64, 64);
-      return this.addNewInstance(r), this[x(423)](dx), r;
-    }
-    if (t[x(421)](x(343)) != -1) {
-      this[x(372)][x(265)].mode && this[x(372)].setMode(x(406));
-      let r = new i(null, { x: s - 40, y: a }, { x: s + 40, y: a + (t == x(343) ? 0 : 80) });
-      return this.addNewInstance(r), this[x(423)](dx), r;
-    }
-    throw new Error("unknow classname:" + t);
-  }
-  [h(378)](t, x) {
-    const e = h;
-    this[e(302)][e(378)](t, x);
-  }
-}
-lt[h(353)] = bx;
-function ex(n, t) {
-  var x = Y0();
-  return ex = function(e, s) {
-    e = e - 164;
-    var a = x[e];
-    return a;
-  }, ex(n, t);
-}
-(function(n, t) {
-  for (var x = ex, e = n(); []; )
-    try {
-      var s = parseInt(x(167)) / 1 * (-parseInt(x(173)) / 2) + parseInt(x(171)) / 3 + -parseInt(x(165)) / 4 * (-parseInt(x(168)) / 5) + parseInt(x(174)) / 6 * (parseInt(x(164)) / 7) + parseInt(x(166)) / 8 * (parseInt(x(170)) / 9) + -parseInt(x(169)) / 10 + -parseInt(x(172)) / 11;
-      if (s === t)
-        break;
-      e.push(e.shift());
-    } catch {
-      e.push(e.shift());
-    }
-})(Y0, 744240);
+})(Y0, 538068);
 function Y0() {
-  var n = ["2966214lqpElb", "7SkFvWD", "1340268BwNmTP", "8lyzxNH", "2711BdQbCz", "15grDdXo", "9593280HXBWKk", "9781956lGWzHY", "3983424cFGarx", "15937933RFrBzU", "562nOmkJE"];
+  const n = ["Shift+v", "MAC OS", "2165708BndTlt", "4900990Cdtygb", "751651oHAivM", "Shift+c", "1584186LcENbK", "indexOf", "ArrowLeft", "28ShmpIc", "987516Wusrvj", "Shift", "ArrowDown", "Meta", "Delete", "11418JtbaVu", "16780329WttWGt", "userAgent", "toUpperCase", "8AqbgRc", "+shift+z"];
   return Y0 = function() {
     return n;
   }, Y0();
 }
+const ne = navigator[j(262)][j(263)]()[j(252)](j(267)) != -1, D = ne ? j(258) : "Control", gx = { CtrlOrCmd: D, CreateGroup: D, DropTo_leader: j(256), Delete: [j(259), "Meta+Backspace"], Select_all: [D + "+a"], Select_invert: [D + "+i"], Cut: [D + "+x"], Copy: [D + "+c"], Paste: [D + "+v"], Save: [D + "+s"], Open: [D + "+o"], Undo: [D + "+z"], Redo: [D + j(265)], Copy_style: [j(250)], paste_Style: [j(266)], Move_up: ["ArrowUp"], Move_down: [j(257)], Move_left: [j(253)], Move_right: ["ArrowRight"], Layout_tree: ["t"], Layout_grid: ["g"] };
+(function(n, e) {
+  for (var x = U0, t = n(); []; )
+    try {
+      var s = parseInt(x(392)) / 1 * (parseInt(x(391)) / 2) + -parseInt(x(388)) / 3 + -parseInt(x(389)) / 4 * (-parseInt(x(394)) / 5) + parseInt(x(395)) / 6 * (parseInt(x(387)) / 7) + parseInt(x(390)) / 8 * (parseInt(x(396)) / 9) + -parseInt(x(393)) / 10 + -parseInt(x(399)) / 11 * (-parseInt(x(397)) / 12);
+      if (s === e)
+        break;
+      t.push(t.shift());
+    } catch {
+      t.push(t.shift());
+    }
+})(V0, 216003);
+function U0(n, e) {
+  var x = V0();
+  return U0 = function(t, s) {
+    t = t - 387;
+    var i = x[t];
+    return i;
+  }, U0(n, e);
+}
+function V0() {
+  var n = ["1355202pQVrmj", "153423LMRTlm", "1572dSmJVP", "type", "31471JSyuWz", "7LxIAqH", "1108653jkARjm", "2872TyxAWz", "24BxWcjY", "10IRdWVu", "25028hJTANP", "3285230ZiQryS", "955ankFSQ"];
+  return V0 = function() {
+    return n;
+  }, V0();
+}
+class V {
+  constructor(e) {
+    var x = U0;
+    this[x(398)] = e;
+  }
+}
+const f = J0;
+(function(n, e) {
+  const x = J0, t = n();
+  for (; []; )
+    try {
+      if (-parseInt(x(303)) / 1 + -parseInt(x(349)) / 2 + parseInt(x(305)) / 3 + -parseInt(x(382)) / 4 * (-parseInt(x(297)) / 5) + -parseInt(x(333)) / 6 + -parseInt(x(343)) / 7 * (parseInt(x(287)) / 8) + -parseInt(x(293)) / 9 * (-parseInt(x(309)) / 10) === e)
+        break;
+      t.push(t.shift());
+    } catch {
+      t.push(t.shift());
+    }
+})(X0, 224456);
+function J0(n, e) {
+  const x = X0();
+  return J0 = function(t, s) {
+    return t = t - 236, x[t];
+  }, J0(n, e);
+}
+const se = ax.w != null ? ax.w[f(386)](3) : "1";
+let ie = new V(f(308)), ue = new V(f(381)), re = new V("cut"), ae = new V(f(259)), oe = new V(f(325)), fx = new V(f(367)), ce = new V(f(292));
+function X0() {
+  const n = ["editor", "cssClipBoard", "defaultPrevented", "record", "setCursor", "hide", "setTarget", "undo", "save", "19868RIVSRm", "recordEnd", "对象拖拽", "log", "charAt", "保存成功", "mousemoveHandler", "anchorBox", "assign", "debug", "EditorNewLink", "selectedGroup", "mouseenterHandler", "copyPut", "sendKey", "preventDefault", "nodeCtrlBox", "alignHandler", "newLink", "objects", "push", "record和recordEnd没有成对出现", "translateToCenter", "zIndex", "connectable", "isDragStart", "onLinkCreate", "Node", "unknow classname:", "_obb", "isMouseOn", "auto", "isKeydown", "popupMenu", "20px", "removeAllChild", "linkCtrlBox", "indexOf", "Shift", "Control", "setHtml", "zoomAfter", "textInputMode", "copy", "serializerSystem", "fadeOut", "defineKeys", "selectedGroupDragEndHandler", "upgradeLinks", "style", "mouseOverTarget", "undoHandler", "redoHandler", "控制点", "saveHandler", "update", "mousedownHandler", "stage", "addLink", "updateSize", "css", "visible", "restore", "mousedragHandler", "hideCtrlBox", "hideGuidLine", "round", "copyHandler", "getCurrentLayer", "changeParent", "forEach", "583496FiSPtG", "pasteHandler", "DropTo_leader", "recordName", "button", "delete", "666gonyvV", "dispatchEvent", "getState", "buttons", "305FrYqDX", "activeBox", "crosshair", "setItem", "msg", "mouseenterStageHandler", "321944DwkYFs", "lastLayerState", "293187tCPrEK", "inputSystem", "paddingRight", "open", "113590KxrNUz", "inputTextfield", "parent", "pickedObject", "KeysConfig", "move", "view", "mode", "mouseOvertarget's parent is null", "粘贴样式", "LinkClassName", "opTooltip", "updatezIndex", "showGuildLine", "paddingLeft", "getItem", "paste", "mouseoutHandler", "handlerLayer", "currObject", "toStageAABB", "length", "fillByJson", "pickUpChild", "1260252okVaXp", "topo_last_doc", "target", "showOpTooltip", "cutHandler", "toJson", "mouseoutStageHandler", "addNewInstance", "getNoChildrensObjects", "domElement", "28SPIPDJ", "getObjectsIntersect", "currentLayer", "keyboard", "recordInterrupt", "redoUndoSys", "386184gpPkYV", "keys", "height", "clipBoard", "openJson", "mouseX", "setIntersect", "Link", "recordName error", "addChild", "dblclickHandler", "attachTo", "redo", "AutoFoldLink", "warn", "controlTarget", "isNode", "stylePasteHandler", "create", "editable", "event", "setMode", "enterTextInputMode", "function"];
+  return X0 = function() {
+    return n;
+  }, X0();
+}
+class le extends hx {
+  constructor(e) {
+    const x = f;
+    super(), this[x(313)] = gx, this[x(258)] = ![], this[x(319)] = x(362), this[x(273)] = e, e[x(373)] = this, this.currentLayer = this[x(284)](), this[x(327)] = e[x(327)], this.selectedGroup = this[x(273)].selectedGroup, this[x(346)] = e.keyboard, this[x(352)] = new cx(), this[x(374)] = new cx(), this[x(398)] = new Ox(this), this[x(252)] = new zx(this), this[x(389)] = new Nx(this), this[x(298)] = new te(this), this[x(249)] = Ux(this), ee(this), Wx(this), this[x(280)](), this[x(273)].inputSystem[x(312)] = null;
+    let t = this;
+    this[x(273)].on(u0[x(257)], function() {
+      const s = x;
+      t[s(271)](), t[s(389)].update();
+    }), this.controlTarget = null, this[x(266)] = null, this[x(310)] = new Ax(this), this[x(348)] = new Fx(this), Vx(this), this[x(320)] = new Px(e), this.opTooltip[x(342)][x(265)][x(323)] = "20px", this.opTooltip[x(342)][x(265)][x(307)] = x(250);
+  }
+  [f(284)]() {
+    const e = f;
+    return this[e(273)][e(284)]();
+  }
+  [f(262)](e) {
+    const x = f;
+    Object[x(390)](this[x(313)], e);
+  }
+  [f(336)](e) {
+    const x = f;
+    this[x(320)][x(256)](e), this[x(320)].showAt(this[x(273)].width * 0.5, this[x(273)][x(351)] * 0.5), this[x(320)][x(261)](80);
+  }
+  [f(322)](e) {
+    Jx(this, e);
+  }
+  [f(281)]() {
+    Xx(this);
+  }
+  [f(371)]() {
+    const e = f;
+    this[e(258)] = !![];
+  }
+  leaveTextInputMode() {
+    const e = f;
+    this[e(258)] = ![];
+  }
+  [f(270)](e) {
+    const x = f;
+    let t = this[x(273)].serializerSystem[x(338)]([this.currentLayer]);
+    lx[x(300)](x(334), t), console[x(385)](x(387), t);
+  }
+  openLasted() {
+    const e = f, x = this[e(345)], t = lx[e(324)](e(334));
+    t != null && (console[e(391)]("加载", t), x[e(251)](), this.stage[e(260)][e(331)](x, t));
+  }
+  [f(267)]() {
+    const e = f;
+    this[e(348)][e(380)]();
+  }
+  [f(268)]() {
+    const e = f;
+    this[e(348)][e(361)]();
+  }
+  [f(283)]() {
+    qx(this), this.dispatchEvent(ae);
+  }
+  [f(337)]() {
+    const e = f;
+    Qx(this), this[e(294)](re);
+  }
+  [f(288)]() {
+    const e = f;
+    Zx(this), this[e(294)](oe);
+  }
+  deleteHandler() {
+    const e = f;
+    $x(this), this[e(294)](ce);
+  }
+  styleCopyHandler() {
+    const e = f;
+    let x = this[e(273)][e(306)][e(312)];
+    x == null && (!this[e(273)][e(393)].isEmpty() && (x = this[e(273)].selectedGroup[e(401)][0]), x == null) || this[e(374)][e(395)](x);
+  }
+  [f(366)]() {
+    const e = f;
+    let x = this[e(374)].takeSource();
+    if (x == null)
+      return;
+    let t = this.stage[e(393)].objects;
+    this[e(376)]("粘贴样式"), t[e(286)]((s) => {
+      xe(s, x);
+    }), this[e(383)](e(318));
+  }
+  [f(399)](e) {
+    const x = f;
+    Rx(e, this), this[x(271)]();
+  }
+  [f(280)]() {
+    const e = f;
+    this[e(252)][e(378)](), this[e(398)][e(378)]();
+  }
+  [f(359)](e) {
+    const x = f;
+    this.stage[x(306)];
+  }
+  mousewheelHandler(e) {
+  }
+  [f(272)](e) {
+    const x = f, t = this[x(273)][x(306)];
+    let s = this.handlerLayer, i = this.nodeCtrlBox, r = this[x(252)];
+    if (this[x(364)] = s.pickUpChild(), this.anchorBox[x(378)](), this[x(364)] != null) {
+      this[x(364)].mousedownHandler(t), t[x(397)](), this[x(271)]();
+      return;
+    }
+    r[x(378)](), i.hide(), this[x(271)]();
+  }
+  mouseupHandler(e) {
+    const x = f, t = this[x(273)][x(306)];
+    this[x(281)]();
+    let s = this.stage, i = this[x(398)], r = this[x(252)], a = this[x(364)];
+    if (a != null) {
+      t.isDragEnd && !(a instanceof tx) && this.recordEnd(x(269)), a.mouseupHandler(t), t[x(397)](), this[x(271)]();
+      return;
+    }
+    if (t[x(291)] == 2)
+      return;
+    let o = s[x(306)][x(312)];
+    o != null ? o[x(368)] && (o instanceof P ? r[x(360)](o) : (this[x(389)].setTarget(o), i.attachTo(o))) : (this.anchorBox[x(378)](), i[x(378)](), r[x(378)]());
+    {
+      if (this[x(298)][x(328)] != null) {
+        let c = this[x(393)][x(341)](), l = dx(this, c), p = l[x(311)];
+        l.objects[x(286)]((S) => {
+          const z = x;
+          S[z(285)](p), S[z(264)]();
+        });
+      }
+      this[x(298)][x(360)](null);
+    }
+    this[x(271)]();
+  }
+  [f(279)](e) {
+    const x = f, t = this[x(273)][x(306)];
+    if (t[x(296)] == 2)
+      return;
+    this[x(346)].isKeydown(x(254)) && this[x(273)][x(377)](x(299)), this[x(322)](t);
+    let s = this[x(364)];
+    if (s != null) {
+      if (t[x(241)] && !(s instanceof tx) && this[x(376)](x(269)), s.mousedragHandler(t), this[x(271)](), t[x(369)][x(375)] == !![])
+        return;
+      t.preventDefault();
+    }
+    this[x(298)][x(378)]();
+    const i = this[x(313)][x(289)];
+    if (this[x(273)].inputSystem[x(312)] && this.keyboard[x(248)](i)) {
+      let r = this.selectedGroup[x(341)](), a = dx(this, r), o = a[x(311)];
+      o != null && o[x(368)] && this[x(298)][x(360)](o);
+    }
+  }
+  [f(388)](e) {
+    const x = f;
+    let t = this[x(273)];
+    const s = t[x(327)];
+    let i = this[x(345)];
+    t[x(377)](x(247));
+    let r = s[x(332)]();
+    if (r !== this[x(266)] && (this[x(266)] != null && this[x(266)][x(326)](e), r != null && r[x(394)](e)), this[x(266)] = r, r != null) {
+      const o = r.parent;
+      ix(o, x(317)), r[x(388)](e), e.preventDefault();
+      return;
+    }
+    let a = i[x(332)]();
+    if (a != null && (this[x(273)][x(377)](x(314)), a[x(365)] && a[x(240)] && this[x(389)][x(379)](a), this.keyboard[x(248)](x(255)) && a[x(240)])) {
+      this[x(389)][x(379)](a);
+      const d = this.anchorBox[x(344)]([a]);
+      d != null && this[x(389)][x(355)](d);
+    }
+    this[x(271)]();
+  }
+  selectedGroupDragHandler(e, x) {
+    const t = f;
+    if (this[t(273)][t(306)][t(241)] && this[t(376)](t(384)), x[t(330)] == 1) {
+      const s = x[0], i = this[t(345)][t(329)](s[t(245)].aabb), r = i.getCenter();
+      this[t(322)](r);
+    }
+  }
+  [f(263)](e, x) {
+    const t = f;
+    if (!this.stage[t(306)][t(246)]) {
+      this.recordInterrupt();
+      return;
+    }
+    x[t(286)]((s) => {
+      const i = t;
+      s.isNode && (s.x = Math[i(282)](s.x), s.y = Math[i(282)](s.y));
+    }), this[t(383)](t(384));
+  }
+  [f(347)]() {
+    const e = f;
+    this[e(290)] = null, this[e(304)] = null;
+  }
+  [f(376)](e) {
+    const x = f;
+    let t = this[x(345)], s = t[x(273)][x(260)];
+    this[x(290)] != null && console[x(363)](x(237), this[x(290)] + ":" + e), this.recordName = e, this.lastLayerState = s[x(295)](this[x(345)]);
+  }
+  recordEnd(e) {
+    const x = f;
+    if (e != this[x(290)])
+      throw console[x(363)](this[x(290)], e), new Error(x(357));
+    this.recordName = null;
+    let t = this[x(345)], s = t[x(273)].serializerSystem, i = this[x(304)], r = s[x(295)](t);
+    this[x(348)][x(236)](e, function() {
+      s[x(278)](t, r);
+    }, function() {
+      s[x(278)](t, i);
+    });
+  }
+  [f(394)](e) {
+    const x = f;
+    this[x(252)][x(302)](e), this[x(398)].mouseenterStageHandler(e), this[x(389)][x(302)](e);
+  }
+  [f(326)](e) {
+    const x = f;
+    this[x(252)][x(339)](e), this[x(398)][x(339)](e), this[x(389)][x(339)](e);
+  }
+  [f(242)](e) {
+  }
+  [f(400)](e, x, t, s) {
+    const i = f;
+    let r = this, a = xx(this[i(319)]);
+    const o = new a(e, x, t, s), d = Object.assign({}, r.newLinkProperties);
+    d[i(276)] && (o[i(276)](d[i(276)]), delete d[i(276)]), Object[i(350)](d)[i(286)]((p) => {
+      const _ = i;
+      let S = d[p];
+      typeof S == _(372) ? o[p] = S() : o[p] = S;
+    });
+    let l = x[i(365)] || x.isLink ? x[i(311)] : this[i(345)];
+    return o[i(239)] = Q0[i(392)], l.addChild(o), this[i(242)](o), o;
+  }
+  afterDeleteHandler(e) {
+    const x = f;
+    if (se != "1")
+      return null;
+    this[x(336)]("删除"), e === this[x(389)][x(335)] && this[x(389)][x(378)]();
+  }
+  [f(340)](e) {
+    this.getCurrentLayer().addChild(e);
+  }
+  [f(274)](e) {
+    const x = f;
+    this[x(345)][x(358)](e);
+  }
+  update() {
+    const e = f;
+    this[e(298)][e(277)] && this[e(298)].updateSize(), this[e(398)].visible && this.nodeCtrlBox[e(275)](), this.anchorBox[e(271)](), this[e(273)].update();
+  }
+  [f(321)]() {
+    const e = f;
+    this[e(345)][e(321)]();
+  }
+  [f(338)]() {
+    const e = f;
+    return this.stage[e(260)][e(338)](this.currentLayer);
+  }
+  [f(353)](e) {
+    const x = f;
+    this.currentLayer[x(353)](e), this[x(273)][x(238)](), this[x(294)](ie);
+  }
+  showTip(e, x = "") {
+    const t = f;
+    let s = new Event(t(385));
+    s[t(301)] = e + x, this.dispatchEvent(s);
+  }
+  [f(367)](e) {
+    const x = f;
+    let t = { x: this.currentLayer[x(354)], y: this.currentLayer.mouseY }, s = t.x, i = t.y, r = xx(e);
+    if (e[x(253)](x(243)) != -1) {
+      let a = new r(null, s, i, 64, 64);
+      return this[x(340)](a), this[x(294)](fx), a;
+    }
+    if (e[x(253)]("Link") != -1) {
+      this[x(273)][x(279)][x(316)] && this[x(273)][x(370)](x(315));
+      let a = new r(null, { x: s - 40, y: i }, { x: s + 40, y: i + (e == x(356) ? 0 : 80) });
+      return this[x(340)](a), this.dispatchEvent(fx), a;
+    }
+    throw new Error(x(244) + e);
+  }
+  [f(396)](e, x) {
+    const t = f;
+    this[t(346)][t(396)](e, x);
+  }
+}
+le[f(313)] = gx;
+(function(n, e) {
+  for (var x = nx, t = n(); []; )
+    try {
+      var s = -parseInt(x(318)) / 1 + -parseInt(x(320)) / 2 * (parseInt(x(323)) / 3) + parseInt(x(315)) / 4 * (-parseInt(x(313)) / 5) + parseInt(x(314)) / 6 + -parseInt(x(321)) / 7 * (-parseInt(x(322)) / 8) + parseInt(x(324)) / 9 * (parseInt(x(317)) / 10) + -parseInt(x(319)) / 11 * (-parseInt(x(316)) / 12);
+      if (s === e)
+        break;
+      t.push(t.shift());
+    } catch {
+      t.push(t.shift());
+    }
+})(q0, 511604);
+function nx(n, e) {
+  var x = q0();
+  return nx = function(t, s) {
+    t = t - 313;
+    var i = x[t];
+    return i;
+  }, nx(n, e);
+}
+function q0() {
+  var n = ["579MKDKZm", "2628dqiEZi", "10gUvIRE", "4510314mHpilw", "1654060Anepum", "9221568ANLExZ", "24210sCqbqC", "754829jVbOFL", "11aPERIq", "6584kzlmwh", "2023aTeeMQ", "13888NegQdv"];
+  return q0 = function() {
+    return n;
+  }, q0();
+}
 export {
-  lt as Editor,
-  ht as IconsPanel,
-  ft as PropertiesPanel,
-  rt as copyEvent,
-  dx as createEvent,
-  it as cutEvent,
-  ct as deleteEvent,
-  at as openEvent,
-  ot as pasteEvent,
-  ut as saveEvent
+  le as Editor,
+  fe as IconsPanel,
+  he as PropertiesPanel,
+  ae as copyEvent,
+  fx as createEvent,
+  re as cutEvent,
+  ce as deleteEvent,
+  ie as openEvent,
+  oe as pasteEvent,
+  ue as saveEvent
 };

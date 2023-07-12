@@ -175,6 +175,7 @@ export declare class Editor extends EventTarget {
     recordEnd(recordName: string): void;
     mouseenterHandler(inputSystem: InputSystem): void;
     mouseoutHandler(event: any): void;
+    onLinkCreate(link: any): void;
     newLink(text: any, beginObject: any, mousePoint: any, beginEndpoint: any): any;
     afterDeleteHandler(obj: any): any;
     addNewInstance(nodeOrLink: any): void;

@@ -315,7 +315,7 @@ export declare abstract class DisplayObject extends EventTarget implements Conta
      * 获取对象边框或者线上某一点(本地坐标系)
      */
     getLocalPoint(t: number, segIndex?: number, offset?: number): PointLike;
-    _findChildren(propertyName: string, value: any, recursive?: boolean): Array<DisplayObject>;
+    _findChildren(propertyName: string, valueOrFn: any, recursive?: boolean): Array<DisplayObject>;
     /**
      * 对象选择器
      *

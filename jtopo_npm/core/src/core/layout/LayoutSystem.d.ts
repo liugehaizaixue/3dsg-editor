@@ -1,6 +1,7 @@
 import { AnimationSystem } from "../Animation";
 import Graph, { Vertext } from "../geom/Graph";
 import { GraphSystem } from "../geom/GraphSystem";
+import { Shape } from "../geom/Shape";
 import { PointLike } from "../jtopo_type";
 import Node from "../Node";
 import { LayoutBase } from "./Layout";
@@ -28,14 +29,14 @@ export declare class LayoutSystem {
     animationSystem: AnimationSystem;
     constructor(animationSystem: AnimationSystem, graphSystem: GraphSystem);
     /**
-     * 根据指定的对象集合 和 形状（点的集合） 来生成布局
+     * 根据指定的对象集合 和 形状来生成布局
      *
      * 对象的个数 <= 点的个数
      *
      * @param objects
-     * @param shapePoints
+     * @param shapeOrPoints
      */
-    shapeLayout(objects: Array<Node>, shapePoints: Array<PointLike>): LayoutBase;
+    shapeLayout(objects: Array<Node>, shapeOrPoints: Shape | Array<PointLike>): LayoutBase;
     /**
      * 对指定图对象做圆形布局
      *

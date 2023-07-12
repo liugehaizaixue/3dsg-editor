@@ -19,6 +19,6 @@ declare class AnchorBox extends Node {
     createAnchorPoint(name: any): AnchorPoint;
     getAnchorPointBy(obj: any, name: any): DisplayObject;
     getObjectsIntersect(nodeOrLinks: Array<DisplayObject>): any;
-    getConnectInfo(link: Link, begin: any, end: any): Endpoint;
+    getConnectInfo(link: Link, obj: DisplayObject, end: DisplayObject): Endpoint;
 }
 export { AnchorBox as default };

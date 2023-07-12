@@ -189,8 +189,9 @@ export declare class Layer extends Node {
     toStageAABB(aabbInLayer: Rectangle): Rectangle;
     toLayerRect(rect: Rectangle): Rectangle;
     dragHandle(inputSystem: InputSystem): void;
+    updateCanvasOffset(dx: number, dy: number): void;
     setDrawDelay(isDelay: boolean): void;
-    dragEndHandler(event: any): void;
+    dragEndHandler(): void;
     addChild(child: any): this;
     addChilds(childs: any): void;
     /**
