@@ -19,15 +19,46 @@ class TopoManager{
     init(divObj){
         const stage = new Stage(divObj);
         const layer = new Layer('default');
+        layer.showAxis();
         stage.addChild(layer);
         stage.show();
 
         this.stage = stage;
         this.layer = layer;   
+
+        this.initEvent();
         
         // 加载数据并绘制
         let data = dataService.loadData();
         this.render(data);
+    }
+
+    // 事件处理初始化
+    initEvent(){
+        const stage = this.stage;
+        const layer = this.layer;
+
+        const inputSystem = stage.inputSystem;
+
+        inputSystem.on('click', ()=>{
+            let xyInLayer = {
+                x: layer.mouseX,
+                y: layer.mouseY
+            };
+            console.log('鼠标在layer中的坐标', xyInLayer); 
+
+            let xyInCanvas = {
+                x: inputSystem.x,
+                y: inputSystem.y
+            };
+            console.log('鼠标在画布的坐标', xyInCanvas); 
+
+            let target = inputSystem.pickedObject;
+            if(target == null){
+                return;
+            }
+            console.log('点中了一个图元', target.text);
+        });
     }
 
     /**
@@ -35,6 +66,7 @@ class TopoManager{
      * @param {*} data 业务数据
      */
     render(data){
+        const stage = this.stage;
         const layer = this.layer;
         
         //TODO: 根据data 来绘制
@@ -51,15 +83,13 @@ class TopoManager{
             fillStyle: 'blue',
         });
 
-        var link = new Link('Link',fromNode,toNode);
-        layer.addChild(link);
+        const link = new Link('Link',fromNode,toNode);
 
-        fromNode.on('mousedown', (event)=>{
+        layer.addChilds([fromNode, toNode, link]);
+
+        fromNode.on('mousedown', ()=>{
             fromNode.text = 'mousedown';
         });
-
-        layer.addChild(fromNode);
-        layer.addChild(toNode);
     }
 }
 
