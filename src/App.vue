@@ -42,7 +42,8 @@ export default {
                 if (target == null) {
                     e.node_info={
                         userData:{
-                            type:""
+                            type:"",
+                            state:""
                         }
                     }
                     return;
@@ -50,7 +51,8 @@ export default {
                 if(target?._text==""||target.className=="Link"){
                     e.node_info={
                         userData:{
-                            type:""
+                            type:"",
+                            state:""
                         }
                     }
                     return 

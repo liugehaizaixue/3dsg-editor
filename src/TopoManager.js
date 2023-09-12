@@ -311,7 +311,7 @@ class TopoManager {
                 that.addLinkNoArrow(node, new_pose);
             }else if(item == "添加room"){
                 let new_room = that.addroom("pose_test",node)
-                that.addLink(node, new_room );
+                that.addLinkNoArrow(node, new_room );
             }
             else if(item == "删除"){
                 if (node.outLinks.length != 0) {
@@ -385,11 +385,11 @@ class TopoManager {
             var item = event.item;
             if(item == "添加asset"){
                 let new_asset = that.addasset("asset_test",node)
-                that.addLink(node, new_asset );
+                that.addLinkNoArrow(node, new_asset );
             }
             else if(item == "添加object"){
                 let new_object = that.addobject("object_test",node)
-                that.addLink(node, new_object );
+                that.addLinkNoArrow(node, new_object );
             }else if(item == "删除"){
                 if (node.outLinks.length != 0) {
                     console.log("先删除子节点")
@@ -461,7 +461,7 @@ class TopoManager {
             var item = event.item;
             if(item == "添加object"){
                 let new_object = that.addobject("object_test",node)
-                that.addLink(node, new_object );
+                that.addLinkNoArrow(node, new_object );
             }else if(item == "删除"){
                 if (node.outLinks.length != 0) {
                     console.log("先删除子节点")

@@ -1,9 +1,46 @@
 <template>
   <div class="my-panel" ref="panel">
     <el-collapse>
+      node_name
       <el-input v-model="current_node_info.text" placeholder="node_name" />
+      node_id
       <el-input v-model="current_node_info.id" disabled placeholder="node_id" />
+      type
       <el-input v-model="userData.type" disabled placeholder="type" />
+      state
+      <el-select v-show="userData.type=='asset'" v-model="userData.state"  placeholder="state" >
+        <el-option
+          v-for="item in asset_state_options"
+          :key="item.value"
+          :label="item.label"
+          :value="item.value"
+        />
+    </el-select>
+    <el-select v-show="userData.type=='object'" v-model="userData.state"  placeholder="state" >
+        <el-option
+          v-for="item in object_state_options"
+          :key="item.value"
+          :label="item.label"
+          :value="item.value"
+        />
+    </el-select>
+    affordances
+    <el-select v-show="userData.type=='asset'" v-model="userData.affordances"  multiple placeholder="affordances" >
+        <el-option
+          v-for="item in asset_affordances_options"
+          :key="item.value"
+          :label="item.label"
+          :value="item.value"
+        />
+    </el-select>
+    <el-select v-show="userData.type=='object'" v-model="userData.affordances"  multiple placeholder="affordances" >
+        <el-option
+          v-for="item in object_affordances_options"
+          :key="item.value"
+          :label="item.label"
+          :value="item.value"
+        />
+    </el-select>
       <el-button v-show="userData.type=='pose'" type="primary" round @click="addLink">Add Link</el-button>
     </el-collapse>
   </div>
@@ -26,8 +63,69 @@ export default {
       current_node_info:this.nodeInfo,
       editor_context:this.editorContext,
       userData:{
-        type:""
+        type:"",
+        state:""
       },
+      asset_state_options:[
+        {
+          value: 'free',
+          label: 'free',
+        },
+        {
+          value:"closed",
+          lable:"closed"
+        },
+        {
+          value:"open",
+          lable:"open"
+        },
+        {
+          value:"off",
+          lable:"off"
+        },
+        {
+          value:"on",
+          lable:"on"
+        }
+      ],
+      object_state_options:[
+        {
+          value: 'inside_of',
+          label: 'inside_of',
+        },
+        {
+          value: 'ontop_of',
+          label: 'ontop_of',
+        },
+        {
+          value: 'inside_hand',
+          label: 'inside_hand',
+        }
+      ],
+      asset_affordances_options:[
+        {
+          value: 'open/close',
+          label: 'open/close',
+        },
+        {
+          value: 'turn_on/turn_off',
+          label: 'turn_on/turn_off',
+        },
+        {
+          value: 'release',
+          label: 'release',
+        },
+      ],
+      object_affordances_options:[
+        {
+          value: 'turn_on/turn_off',
+          label: 'turn_on/turn_off',
+        },
+        {
+          value: 'pickup',
+          label: 'pickup',
+        },
+      ]
     };
   },
   watch: {
