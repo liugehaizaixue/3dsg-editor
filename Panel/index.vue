@@ -41,9 +41,12 @@
           :value="item.value"
         />
     </el-select>
+    <div v-show="userData.type=='object'">attributes</div>
+      <el-input v-show="userData.type=='object'" v-model="userData.attributes"  placeholder="attributes" />
+
       <el-button v-show="userData.type=='pose'" type="primary" round @click="addLink">Add Link</el-button>
 
-      <el-button  type="primary" round @click="generateJson">Generate Json</el-button>
+      <el-button v-show="userData.type==''"  type="primary" round @click="generateJson">Generate Json</el-button>
     </el-card>
   </div>
 </template>
@@ -67,7 +70,8 @@ export default {
       editor_context:this.editorContext,
       userData:{
         type:"",
-        state:""
+        state:"",
+        attributes:""
       },
       asset_state_options:[
         {

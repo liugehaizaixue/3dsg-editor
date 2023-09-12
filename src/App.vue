@@ -43,7 +43,8 @@ export default {
                     e.node_info={
                         userData:{
                             type:"",
-                            state:""
+                            state:"",
+                            attributes:""
                         }
                     }
                     return;
@@ -52,7 +53,8 @@ export default {
                     e.node_info={
                         userData:{
                             type:"",
-                            state:""
+                            state:"",
+                            attributes:""
                         }
                     }
                     return 
