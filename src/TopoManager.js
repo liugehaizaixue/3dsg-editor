@@ -72,114 +72,6 @@ class TopoManager {
         return this
     }
 
-    // // 事件处理初始化
-    // initEvent() {
-    //     const stage = this.stage;
-    //     const layer = this.layer;
-
-    //     const inputSystem = stage.inputSystem;
-
-    //     inputSystem.on('click', () => {
-    //         let xyInLayer = {
-    //             x: layer.mouseX,
-    //             y: layer.mouseY
-    //         };
-    //         // console.log('鼠标在layer中的坐标', xyInLayer); 
-
-    //         let xyInCanvas = {
-    //             x: inputSystem.x,
-    //             y: inputSystem.y
-    //         };
-    //         // console.log('鼠标在画布的坐标', xyInCanvas); 
-
-    //         let target = inputSystem.pickedObject;
-    //         if (target == null) {
-    //             return;
-    //         }
-    //         console.log('点中了一个图元', target);
-    //     });
-    // }
-    // addNode(text, type = "room", x = Math.random() * 150 - Math.random() * 150, y = Math.random() * 150 - Math.random() * 150) {
-    //     const stage = this.stage;
-    //     const layer = this.layer;
-    //     let nodes = this.nodes;
-
-
-    //     var node = new CircleNode(text, x, y);
-    //     // node.text = node.id;
-    //     node.setRadius(8);
-    //     node.addClass('.ball');
-    //     // node.style.fillStyle = randomColor();
-    //     if (type == "room") {
-    //         node.style.fillStyle = "#80D360"
-    //     } else if (type == "pose") {
-    //         node.style.fillStyle = "#9678DD"
-    //     } else if (type == "asset") {
-    //         node.style.fillStyle = "#468EEA"
-    //     } else if (type == "object") {
-    //         node.style.fillStyle = "#E8C764"
-    //     } else if (type == "agent") {
-    //         node.style.fillStyle = "#E46B4A"
-    //     } else if (type == "root") {
-    //         node.style.fillStyle = "#E46B4A"
-    //     }
-
-    //     node.userData = {
-    //         type: type,
-    //     }
-    //     if (type == "root") {
-    //         node.draggable = false;
-    //     }
-    //     layer.addChild(node);
-    //     nodes.push(node);
-
-    //     // 右键菜单
-    //     var popupMenu = new PopupMenu(this.stage);
-    //     popupMenu.setHtml(`
-    //         <div class="header">编辑</div>
-    //         <a>删除</a> 
-    //         <hr></hr>
-    //     `);
-
-    //     // 菜单选择事件处理
-    //     popupMenu.on('select', function (event) {
-    //         //event.item： 选中的菜单文本
-    //         var item = event.item;
-    //         if (item == "删除") {
-    //             if (node.outLinks.length != 0) {
-    //                 console.log("先删除子节点")
-    //                 return
-    //             }
-    //             for (var key in node.inLinks) {
-    //                 let link = node.inLinks[key]
-    //                 console.log(link.id)
-    //                 for (var outkey in link.begin.target.outLinks) {
-    //                     let outlink = link.begin.target.outLinks[outkey]
-    //                     if (outlink.id == link.id) {
-    //                         link.begin.target.removeOutLink(outlink);
-    //                     }
-    //                 }
-    //                 link.removeFromParent();
-    //             }
-    //             node.removeFromParent();
-    //         }
-    //     });
-
-    //     // 鼠标按下时隐藏
-    //     this.stage.inputSystem.on('mousedown', function () {
-    //         popupMenu.hide();
-    //     });
-    //     this.popupMenu = popupMenu;
-    //     // 右键松开时显示
-    //     node.on('mouseup', function () {
-    //         let is = stage.inputSystem;
-    //         // 取画布上的坐标x,y
-    //         if (is.button == 2) { // right button
-    //             popupMenu.showAt(is.x, is.y);
-    //         }
-    //     });
-    //     return node;
-    // }
     addLink(nodeA, nodeZ) {
         const stage = this.stage;
         const layer = this.layer;
@@ -314,6 +206,12 @@ class TopoManager {
                 that.addLinkNoArrow(node, new_room );
             }
             else if(item == "删除"){
+                // 先从TopoManager中nodes中删除
+                for(let k in that.nodes){
+                    if(that.nodes[k].id==node.id){
+                        that.nodes.splice(k, 1);
+                    }
+                }
                 if (node.outLinks.length != 0) {
                     console.log("先删除子节点")
                     return
@@ -372,7 +270,6 @@ class TopoManager {
         var popupMenu = new PopupMenu(this.stage);
         popupMenu.setHtml(`
             <div class="header">编辑</div>
-            <a>添加object</a> 
             <a>添加asset</a> 
             <a>删除</a> 
             <hr></hr>
@@ -387,17 +284,19 @@ class TopoManager {
                 let new_asset = that.addasset("asset_test",node)
                 that.addLinkNoArrow(node, new_asset );
             }
-            else if(item == "添加object"){
-                let new_object = that.addobject("object_test",node)
-                that.addLinkNoArrow(node, new_object );
-            }else if(item == "删除"){
+            else if(item == "删除"){
+                // 先从TopoManager中nodes中删除
+                for(let k in that.nodes){
+                    if(that.nodes[k].id==node.id){
+                        that.nodes.splice(k, 1);
+                    }
+                }
                 if (node.outLinks.length != 0) {
                     console.log("先删除子节点")
                     return
                 }
                 for (var key in node.inLinks) {
                     let link = node.inLinks[key]
-                    console.log(link.id)
                     for (var outkey in link.begin.target.outLinks) {
                         let outlink = link.begin.target.outLinks[outkey]
                         if (outlink.id == link.id) {
@@ -463,6 +362,12 @@ class TopoManager {
                 let new_object = that.addobject("object_test",node)
                 that.addLinkNoArrow(node, new_object );
             }else if(item == "删除"){
+                // 先从TopoManager中nodes中删除
+                for(let k in that.nodes){
+                    if(that.nodes[k].id==node.id){
+                        that.nodes.splice(k, 1);
+                    }
+                }
                 if (node.outLinks.length != 0) {
                     console.log("先删除子节点")
                     return
@@ -531,6 +436,12 @@ class TopoManager {
             //event.item： 选中的菜单文本
             var item = event.item;
             if(item == "删除"){
+                // 先从TopoManager中nodes中删除
+                for(let k in that.nodes){
+                    if(that.nodes[k].id==node.id){
+                        that.nodes.splice(k, 1);
+                    }
+                }
                 if (node.outLinks.length != 0) {
                     console.log("先删除子节点")
                     return
