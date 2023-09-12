@@ -1,0 +1,32 @@
+body,
+html {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#app {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+}
+#app .main-content {
+  width: 100%;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+}
+
+#app .main-content .designer {
+  flex: 1;
+}
+* {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}

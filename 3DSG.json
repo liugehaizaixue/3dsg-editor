@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "room": [{ "id": "bobs_room" }, { "id": "toms_room" }, {"id":"jacks_room"}, { "id": "kitchen" }, { "id": "livingroom" }], 
+        "pose": [{ "id": "pose1" },
+            { "id": "pose2" }, { "id": "pose3" }, { "id": "pose4" }, { "id": "pose5" }], 
+        "agent": [{
+            "location":
+                "bobs_room", "id": "agent"
+        }], 
+        "asset": [{
+                "room": "toms_room", "state": "free",
+                "affordances": ["release"], "id": "bed2"
+            }, {
+                "room": "toms_room", "state": "closed",
+                "affordances": ["open", "close", "release"], "id": "wardrobe2"
+            }, {
+                "room": "kitchen",
+                "state": "closed", "affordances": ["open", "close", "release"], "id": "fridge"
+            },
+            {
+                "room": "kitchen", "affordances": ["turn_on", "turn_off", "release"], "state": "off", "id":
+                    "coffee_machine"
+            }, {
+                "room": "bobs_room", "state": "free", "affordances": ["release"],
+                "id": "bed1"
+            }, {
+                "room": "bobs_room", "state": "closed", "affordances": ["open", "close",
+                    "release"], "id": "wardrobe1"
+        }], 
+        "object": [{
+            "affordances": ["pickup"], "state":
+                "inside_of(wardrobe1)", "attributes":  "blue" , "id": "coffee_mug"
+        }]
+    }, "links":
+        [ "bobs_room↔pose1" ,  "bobs_room↔agent" ,  "bobs_room↔bed1" ,  "bobs_room↔wardrobe1",
+             "toms_room↔pose1" ,  "toms_room↔pose2" ,  "toms_room↔pose5" ,  "toms_room↔bed2 ",
+             "toms_room↔wardrobe2" ,  "jacks_room↔pose2" ,  "jacks_room↔pose3" ,  "kitchen ↔pose3" ,
+             "kitchen↔pose4" ,  "kitchen↔pose5" ,  "kitchen↔fridge" ,  "kitchen↔coffee_machine" ,
+             "livingroom↔pose4" ,  "wardrobe1↔coffee_mug" ]
+}
