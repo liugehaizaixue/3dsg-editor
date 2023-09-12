@@ -1,13 +1,13 @@
 <template>
   <div class="my-panel" ref="panel">
-    <el-collapse>
+    <el-card>
       node_name
       <el-input v-model="current_node_info.text" placeholder="node_name" />
       node_id
       <el-input v-model="current_node_info.id" disabled placeholder="node_id" />
       type
       <el-input v-model="userData.type" disabled placeholder="type" />
-      state
+      <div v-show="userData.type=='asset'||userData.type=='object'">state</div>
       <el-select v-show="userData.type=='asset'" v-model="userData.state"  placeholder="state" >
         <el-option
           v-for="item in asset_state_options"
@@ -24,7 +24,7 @@
           :value="item.value"
         />
     </el-select>
-    affordances
+    <div v-show="userData.type=='asset'||userData.type=='object'">affordances</div>
     <el-select v-show="userData.type=='asset'" v-model="userData.affordances"  multiple placeholder="affordances" >
         <el-option
           v-for="item in asset_affordances_options"
@@ -42,12 +42,15 @@
         />
     </el-select>
       <el-button v-show="userData.type=='pose'" type="primary" round @click="addLink">Add Link</el-button>
-    </el-collapse>
+
+      <el-button  type="primary" round @click="generateJson">Generate Json</el-button>
+    </el-card>
   </div>
 </template>
 
 <script>
 import { ElMessage, ElMessageBox } from 'element-plus'
+import generate_json from '../GenerateJson/generate_json';
 export default {
   name: "MyPanel",
   components: {
@@ -151,9 +154,6 @@ export default {
   },
   methods: {
     addLink(){
-      // this.editor_context.test()
-      // this.editor_context.test()
-      // console.log("test add Link")
       ElMessageBox.prompt('请选择连接的目标pose id', 'Tip', {
         confirmButtonText: 'OK',
         cancelButtonText: 'Cancel',
@@ -189,6 +189,9 @@ export default {
         }
       })
       .catch(() => {})
+    },
+    generateJson(){
+      generate_json(this.editor_context)
     }
   }
 };
