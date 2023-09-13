@@ -71,7 +71,8 @@ export default {
       userData:{
         type:"",
         state:"",
-        attributes:""
+        attributes:"",
+        affordances:[]
       },
       asset_state_options:[
         {

@@ -44,7 +44,8 @@ export default {
                         userData:{
                             type:"",
                             state:"",
-                            attributes:""
+                            attributes:"",
+                            affordances:[]
                         }
                     }
                     return;
@@ -54,7 +55,8 @@ export default {
                         userData:{
                             type:"",
                             state:"",
-                            attributes:""
+                            attributes:"",
+                            affordances:[]
                         }
                     }
                     return 
