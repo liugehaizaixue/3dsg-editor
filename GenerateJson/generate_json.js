@@ -4,7 +4,7 @@ let original_sg_json={
         "pose":[],
         "agent":[],
         "asset":[],
-        "object":{}
+        "object":[]
     },
     "links":[]
 }
@@ -13,13 +13,62 @@ let sg_json = JSON.parse(JSON.stringify(original_sg_json));
 
 export default function generate_json(editor_context){
     init_generator()
+    /* 整体是由root为根节点的树状结构（除了pose之间相互连接成网），则深度遍历 */
+    //先通过所有节点找到root节点
     let root = find_root(editor_context.nodes)
+    //根据root的所有子节点，即所有pose节点
     let poses = find_poses(root)
-    console.log(poses)
-    create_links("pose1","bobs_room")
+    create_links_for_poses(poses)
+    for(let pose of poses){
+        create_pose(pose)
+        //pose节点的子节点可能分为room与agent节点
+        let pose_children = pose.children
+        for(let pose_child of pose_children){
+            if(pose_child.userData.type=="agent"){
+                let _agent = pose_child
+                create_agent(_agent)
+                create_links(pose,_agent)
+                //agent节点的子节点为object
+                let objects = _agent.children
+                for(let object of objects){
+                    create_object(object)
+                    create_links(_agent,object)
+                }
+            }
+            else if(pose_child.userData.type=="room"){
+                let _room = pose_child
+                create_room(_room)
+                create_links(pose,_room)
+                //room节点的子节点可能分为asset与agent节点
+                let room_children = _room.children
+                for(let room_child of room_children){
+                    if(room_child.userData.type=="agent"){
+                        let _agent = room_child
+                        create_agent(_agent)
+                        create_links(_room,_agent)
+                        //agent节点的子节点为object
+                        let objects = _agent.children
+                        for(let object of objects){
+                            create_object(object)
+                            create_links(_agent,object)
+                        }
+                    }
+                    else if(room_child.userData.type=="asset"){
+                        let _asset = room_child
+                        create_asset(_asset)
+                        create_links(_room,_asset)
+                        //asset节点的子节点为object
+                        let objects = _asset.children
+                        for(let object of objects){
+                            create_object(object)
+                            create_links(_asset,object)
+                        }                    
+                    }
+                }
+            }
+        }
+    }
     console.log(sg_json)
-    console.log(original_sg_json)
-
 }
 
 function init_generator(){
@@ -39,19 +88,46 @@ function find_poses(root){
     return root.children
 }
 
-function find_room(pose){
-    return root.children
+function find_rooms(pose){
+    let pose_children = pose.children
+    for(let k in pose_children){
+        let pose_child = pose_children[k]
+        if(pose_child.userData.type=="agent"){
+            pose_children.splice(k,1)
+        }
+    }
+    return pose_children
 }
 
-function find_asset(room){
-    return root.children
+function find_assets(room){
+    let room_children = room.children
+    for(let k in room_children){
+        let room_child = room_children[k]
+        if(room_child.userData.type=="agent"){
+            room_children.splice(k,1)
+        }
+    }
+    return room_children
 }
 
-function find_object(asset){
-    return root.children
+function find_objects(asset_or_agent){
+    return asset_or_agent.children
 }
 
-function create_links(nodeName_a,nodeName_b){
+function find_agents(pose_or_room){
+    let agents=[]
+    for(let child of pose_or_room.children){
+        if(child.userData.type=="agent"){
+            agents.push(child)
+        }
+    }
+    return agents
+}
+
+function create_links(node_a,node_b){
+    let nodeName_a = node_a.text
+    let nodeName_b = node_b.text 
+    //为某两个节点之间添加links
     for(let relation of sg_json["links"]){
         let items = relation.split("↔")
         if (items.includes(nodeName_a) && items.includes(nodeName_b)) {
@@ -59,4 +135,81 @@ function create_links(nodeName_a,nodeName_b){
         }
     }
     sg_json["links"].push(nodeName_a+"↔"+nodeName_b)
+}
+
+function create_links_for_poses(poses){
+    // pose是网状结构
+    // 寻找poses之间的连接关系，为pose之间添加links
+    for(let pose of poses){
+        let inLinks = pose.inLinks
+        let outLinks = pose.outLinks
+        for(let inlink of inLinks){
+            if(inlink.begin.target.userData.type=="pose"){
+                create_links(inlink.begin.target,pose)
+            }
+        }
+        for(let outlink of outLinks){
+            if(outlink.end.target.userData.type=="pose"){
+                create_links(pose,outlink.end.target)
+            }
+        }
+    }
+}
+
+function create_pose(node_pose){
+    let pose={
+        "id":node_pose.text
+    }
+    // 使用 Array.prototype.some() 来检查是否已存在相同 id 的对象
+    if (!sg_json["nodes"]["pose"].some(item => item.id === pose.id)) {
+        sg_json["nodes"]["pose"].push(pose);
+    }
+}
+
+function create_room(node_room){
+    let room={
+        "id":node_room.text
+    }
+    // 使用 Array.prototype.some() 来检查是否已存在相同 id 的对象
+    if (!sg_json["nodes"]["room"].some(item => item.id === room.id)) {
+        sg_json["nodes"]["room"].push(room);
+    }
+}
+
+function create_asset(node_asset){
+    let asset={
+        "id":node_asset.text,
+        "room":node_asset.parent.text,
+        "state":node_asset.userData.state,
+        "affordances":node_asset.userData.affordances||[]
+    }
+    // 使用 Array.prototype.some() 来检查是否已存在相同 id 的对象
+    if (!sg_json["nodes"]["asset"].some(item => item.id === asset.id)) {
+        sg_json["nodes"]["asset"].push(asset);
+    }
+}
+
+function create_object(node_object){
+
+    let object={
+        "id":node_object.text,
+        "state":`${node_object.userData.state}(${node_object.parent.text})`,
+        "attributes":node_object.userData.attributes||"",
+        "affordances":node_object.userData.affordances||[]
+    }
+    // 使用 Array.prototype.some() 来检查是否已存在相同 id 的对象
+    if (!sg_json["nodes"]["object"].some(item => item.id === object.id)) {
+        sg_json["nodes"]["object"].push(object);
+    }
+}
+
+function create_agent(node_agent){
+    let agent={
+        "id":node_agent.text,
+        "location":node_agent.parent.text
+    }
+    // 使用 Array.prototype.some() 来检查是否已存在相同 id 的对象
+    if (!sg_json["nodes"]["agent"].some(item => item.id === agent.id)) {
+        sg_json["nodes"]["agent"].push(agent);
+    }
 }

@@ -564,7 +564,7 @@ class TopoManager {
         return node;
     }
     gen(parentNode) {
-        let node = this.addpose("pose1", "pose");
+        let node = this.addpose("pose", "pose");
         this.addLinkNoArrow(parentNode, node);
     }
     initbg() {

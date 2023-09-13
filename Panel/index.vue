@@ -16,7 +16,7 @@
           :value="item.value"
         />
     </el-select>
-    <el-select v-show="userData.type=='object'" v-model="userData.state"  placeholder="state" >
+    <el-select v-show="userData.type=='object'" v-model="userData.state" :disabled="obj_state_uneditable" placeholder="state" >
         <el-option
           v-for="item in object_state_options"
           :key="item.value"
@@ -66,6 +66,7 @@ export default {
   },
   data() {
     return {
+      obj_state_uneditable:false,
       current_node_info:this.nodeInfo,
       editor_context:this.editorContext,
       userData:{
@@ -105,10 +106,10 @@ export default {
           value: 'ontop_of',
           label: 'ontop_of',
         },
-        {
-          value: 'inside_hand',
-          label: 'inside_hand',
-        }
+        // {
+        //   value: 'inside_hand',
+        //   label: 'inside_hand(连接agent时自动生成的)',
+        // }
       ],
       asset_affordances_options:[
         {
@@ -141,6 +142,13 @@ export default {
       handler (n, o) {
         this.current_node_info=n
         this.userData = n.userData
+
+        if(this.current_node_info.parent?.userData.type=="agent"){
+          this.userData.state="inside_hand"
+          this.obj_state_uneditable=true
+        }else{
+          this.obj_state_uneditable=false
+        }
       },
       deep: true // 深度监听父组件传过来对象变化
     },
