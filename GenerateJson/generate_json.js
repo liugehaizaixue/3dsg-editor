@@ -13,6 +13,7 @@ let sg_json = JSON.parse(JSON.stringify(original_sg_json));
 
 export default function generate_json(editor_context){
     init_generator()
+    check_for_duplicate_names(editor_context.nodes)
     /* 整体是由root为根节点的树状结构（除了pose之间相互连接成网），则深度遍历 */
     //先通过所有节点找到root节点
     let root = find_root(editor_context.nodes)
@@ -157,6 +158,9 @@ function create_links_for_poses(poses){
 }
 
 function create_pose(node_pose){
+    if(node_pose.text==""){
+        throw new Error(`pose:${node_pose.id}的name为空`);
+    }
     let pose={
         "id":node_pose.text
     }
@@ -167,6 +171,9 @@ function create_pose(node_pose){
 }
 
 function create_room(node_room){
+    if(node_room.text==""){
+        throw new Error(`room:${node_room.id}的name为空`);
+    }    
     let room={
         "id":node_room.text
     }
@@ -177,11 +184,20 @@ function create_room(node_room){
 }
 
 function create_asset(node_asset){
+    if(node_asset.text==""){
+        throw new Error(`asset:${node_asset.id}的name为空`);
+    }
+    if(!(node_asset.userData.state&&node_asset.userData.state!="")){
+        throw new Error(`asset:${node_asset.id}的state为空`);
+    }
+    if(!(node_asset.userData.affordances&&node_asset.userData.affordances.length!=0)){
+        throw new Error(`asset:${node_asset.id}的affordances为空`);
+    }
     let asset={
         "id":node_asset.text,
         "room":node_asset.parent.text,
         "state":node_asset.userData.state,
-        "affordances":node_asset.userData.affordances||[]
+        "affordances":node_asset.userData.affordances
     }
     // 使用 Array.prototype.some() 来检查是否已存在相同 id 的对象
     if (!sg_json["nodes"]["asset"].some(item => item.id === asset.id)) {
@@ -190,12 +206,21 @@ function create_asset(node_asset){
 }
 
 function create_object(node_object){
+    if(node_object.text==""){
+        throw new Error(`object:${node_object.id}的name为空`);
+    }
+    if(!(node_object.userData.state&&node_object.userData.state!="")){
+        throw new Error(`object:${node_object.id}的state为空`);
+    }
+    if(!(node_object.userData.affordances&&node_object.userData.affordances.length!=0)){
+        throw new Error(`object:${node_object.id}的affordances为空`);
+    }
 
     let object={
         "id":node_object.text,
         "state":`${node_object.userData.state}(${node_object.parent.text})`,
         "attributes":node_object.userData.attributes||"",
-        "affordances":node_object.userData.affordances||[]
+        "affordances":node_object.userData.affordances
     }
     // 使用 Array.prototype.some() 来检查是否已存在相同 id 的对象
     if (!sg_json["nodes"]["object"].some(item => item.id === object.id)) {
@@ -204,6 +229,9 @@ function create_object(node_object){
 }
 
 function create_agent(node_agent){
+    if(node_agent.text==""){
+        throw new Error(`agent:${node_agent.id}的name为空`);
+    }  
     let agent={
         "id":node_agent.text,
         "location":node_agent.parent.text
@@ -211,5 +239,20 @@ function create_agent(node_agent){
     // 使用 Array.prototype.some() 来检查是否已存在相同 id 的对象
     if (!sg_json["nodes"]["agent"].some(item => item.id === agent.id)) {
         sg_json["nodes"]["agent"].push(agent);
+    }
+}
+
+function check_for_duplicate_names(nodes){
+    const nameSet = new Set();
+    for (const node of nodes) {
+        if (node && node.text =="" ) {
+            throw new Error(`节点${node.id}的name为空`);
+        }
+        if (node && node.text !="" ) {
+            if (nameSet.has(node.text)) {
+                throw new Error(`重复的节点name:${node.text}`);
+            }
+            nameSet.add(node.text);
+        }
     }
 }

@@ -50,7 +50,8 @@ export default {
                     }
                     return;
                 }
-                if(target?._text==""||target.className=="Link"){
+                if(target.className=="Link"){
+                    console.log('点中了一个Link', target);
                     e.node_info={
                         userData:{
                             type:"",
@@ -61,9 +62,8 @@ export default {
                     }
                     return 
                 }
-                e.node_info=target
-
                 console.log('点中了一个图元', target);
+                e.node_info=target
                 console.log(editor)
             });
         }

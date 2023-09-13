@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import { ElMessage, ElMessageBox } from 'element-plus'
+import { ElMessage, ElMessageBox, ElNotification} from 'element-plus'
 import generate_json from '../GenerateJson/generate_json';
 export default {
   name: "MyPanel",
@@ -143,7 +143,7 @@ export default {
         this.current_node_info=n
         this.userData = n.userData
 
-        if(this.current_node_info.parent?.userData.type=="agent"){
+        if(this.current_node_info.parent?.userData?.type=="agent"){
           this.userData.state="inside_hand"
           this.obj_state_uneditable=true
         }else{
@@ -204,7 +204,17 @@ export default {
       .catch(() => {})
     },
     generateJson(){
-      generate_json(this.editor_context)
+      try {
+        generate_json(this.editor_context)
+      } catch (error) {
+        console.error(error);
+        ElNotification({
+          title: 'Error',
+          message: error,
+          type: 'error',
+          position: 'bottom-right',
+        })
+      }
     }
   }
 };
