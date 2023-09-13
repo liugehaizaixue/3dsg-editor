@@ -1,7 +1,11 @@
 <template>
     <div class="my-viewer" ref="viewer">
         <el-card class="box-card" style="height: 100%;">
-            <el-button type="primary" round @click="generateJson">Generate Json</el-button>
+            <span>
+                <el-button type="primary" round @click="downloadJson">Download Json</el-button>
+                <el-input v-model="map_name" placeholder="Please input map_name" style="width: 200px;"/>
+                <el-button type="primary" round @click="generateJson">Generate Json</el-button>
+            </span>
             <div class="preview-model" >
                 <highlightjs :code="codeString" :language="codeLanguage" style="height: 100%; overflow-y: none;" />
             </div>
@@ -30,6 +34,7 @@ export default {
     mounted() {},
     data () {
       return {
+        map_name:"",
         codeLanguage: "json",
         codeString: "",
         editor_context:this.editorContext,
@@ -40,7 +45,7 @@ export default {
             try {
                 let sg_json = generate_json(this.editor_context)
                 this.codeString = JSON.stringify(sg_json,null,2)
-                console.log(this.codeString)
+                return true
             } catch (error) {
                 this.codeString = ""
                 console.error(error);
@@ -50,6 +55,20 @@ export default {
                     type: 'error',
                     position: 'bottom-right',
                 })
+                return false
+            }
+        },
+        downloadJson() {
+            if(this.generateJson()){
+                let fileName = this.map_name==""? "default.json" : this.map_name+".json"
+                console.log(fileName)
+                let content = this.codeString
+                let a = document.createElement('a');
+                a.href = 'data:text/plain;charset=utf-8,' + content
+                a.download = fileName
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
             }
         }
     }
