@@ -2,9 +2,9 @@
     <div class="my-viewer" ref="viewer">
         <el-card class="box-card" style="height: 100%;">
             <span>
-                <el-button type="primary" round @click="downloadJson">Download Json</el-button>
+                <el-button type="primary" round @click="downloadJson">Download sg-Json</el-button>
                 <el-input v-model="map_name" placeholder="Please input map_name" style="width: 200px;"/>
-                <el-button type="primary" round @click="generateJson">Generate Json</el-button>
+                <el-button type="primary" round @click="generateJson">Generate sg-Json</el-button>
             </span>
             <div class="preview-model" >
                 <highlightjs :code="codeString" :language="codeLanguage" style="height: 100%; overflow-y: none;" />

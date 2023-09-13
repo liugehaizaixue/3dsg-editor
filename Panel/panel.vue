@@ -1,8 +1,17 @@
 <template>
   <div class="my-panel" ref="panel">
     <el-card style="height: 100%;">
+      <el-upload
+        action=""
+          class="upload-demo"
+          ref="upload"
+          :on-change="handleUpLoad"
+          :auto-upload="false"
+          :limit="1"> <el-button type="primary" round >upload map</el-button>
+      </el-upload>
+      <el-divider />
       node_name
-      <el-input v-model="current_node_info.text" placeholder="node_name" />
+      <el-input v-model="current_node_info.text" :disabled="root_name_uneditable" placeholder="node_name" />
       node_id
       <el-input v-model="current_node_info.id" disabled placeholder="node_id" />
       type
@@ -65,6 +74,7 @@ export default {
   data() {
     return {
       obj_state_uneditable:false,
+      root_name_uneditable:true,
       current_node_info:this.nodeInfo,
       editor_context:this.editorContext,
       userData:{
@@ -147,6 +157,11 @@ export default {
         }else{
           this.obj_state_uneditable=false
         }
+        if(this.current_node_info.parent?.userData?.type=="root"){
+          this.root_name_uneditable=false
+        }else{
+          this.root_name_uneditable=true
+        }
       },
       deep: true // 深度监听父组件传过来对象变化
     },
@@ -200,6 +215,34 @@ export default {
         }
       })
       .catch(() => {})
+    },
+    handleUpLoad(file){
+      const that = this
+      let reader = new FileReader();   //先new 一个读文件的对象 FileReader
+      if (typeof FileReader === "undefined") {  //用来判断你的浏览器是否支持 FileReader
+          this.$message({
+              type: "info",
+              message: "您的浏览器不支持文件读取。"
+          });
+          return;
+      }
+      //  reader.readAsText(file.raw, "gb2312");  //读.txt文件
+      reader.readAsArrayBuffer(file.raw); //读任意文件
+      reader.onload = function (e) {
+          var ints = new Uint8Array(e.target.result); //要使用读取的内容，所以将读取内容转化成Uint8Array
+          let snippets = new TextDecoder('gb2312').decode(ints); //二进制缓存区内容转化成中文（即也就是读取到的内容）
+          console.log("读取的内容如下：");
+          console.log(snippets);
+          that.loadMap(snippets)
+          reader=null
+          snippets=null
+      };
+    },
+    loadMap(json){
+      this.editor_context.layer.openJson(json);
+      this.editor_context.resetNodes()
+      this.editor_context.addPopupMenu()
+      json=null
     }
   }
 };
