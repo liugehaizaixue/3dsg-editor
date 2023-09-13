@@ -1,18 +1,20 @@
 <template>
     <!-- jtopo用于渲染的div -->
     <div class="main-content">
-    <div class="designer" id="divId" style="height:calc(100vh - 50px); width: 100%px; border: 1px solid gray"></div>
-      <my-panel :nodeInfo="node_info" :editorContext="editor_context" style="width: 300px;"/>
+        <my-viewer :editorContext="editor_context" style="width: 700px;" />
+        <div class="designer" id="divId" style=" width: 100%px; border: 1px solid gray"></div>
+        <my-panel :nodeInfo="node_info" :editorContext="editor_context" style="width: 300px;"/>
     </div>
 </template>
 
 <script>
 import { topoManager } from "./TopoManager";
-import MyPanel from "../Panel/index.vue";
+import MyPanel from "../Panel/panel.vue";
+import MyViewer from "../Panel/jsonviewer.vue"
 // 可以绑定要绘制的数据，但别绑定jtopo对象
 export default {
     name: "App",
-    components: { MyPanel},
+    components: { MyPanel, MyViewer},
     mounted() {
         // 初始化
         this.editor = topoManager.init(document.getElementById("divId"));

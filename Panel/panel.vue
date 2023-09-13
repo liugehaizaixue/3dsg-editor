@@ -1,6 +1,6 @@
 <template>
   <div class="my-panel" ref="panel">
-    <el-card>
+    <el-card style="height: 100%;">
       node_name
       <el-input v-model="current_node_info.text" placeholder="node_name" />
       node_id
@@ -46,14 +46,12 @@
 
       <el-button v-show="userData.type=='pose'" type="primary" round @click="addLink">Add Link</el-button>
 
-      <el-button v-show="userData.type==''"  type="primary" round @click="generateJson">Generate Json</el-button>
     </el-card>
   </div>
 </template>
 
 <script>
 import { ElMessage, ElMessageBox, ElNotification} from 'element-plus'
-import generate_json from '../GenerateJson/generate_json';
 export default {
   name: "MyPanel",
   components: {
@@ -202,19 +200,6 @@ export default {
         }
       })
       .catch(() => {})
-    },
-    generateJson(){
-      try {
-        generate_json(this.editor_context)
-      } catch (error) {
-        console.error(error);
-        ElNotification({
-          title: 'Error',
-          message: error,
-          type: 'error',
-          position: 'bottom-right',
-        })
-      }
     }
   }
 };

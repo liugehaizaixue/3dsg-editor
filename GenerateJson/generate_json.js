@@ -70,6 +70,7 @@ export default function generate_json(editor_context){
         }
     }
     console.log(sg_json)
+    return sg_json
 }
 
 function init_generator(){
