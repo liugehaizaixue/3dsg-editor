@@ -63,12 +63,25 @@ export default {
                 let fileName = this.map_name==""? "default.json" : this.map_name+".json"
                 console.log(fileName)
                 let content = this.codeString
+                // let a = document.createElement('a');
+                // a.href = 'data:text/plain;charset=utf-8,' + content
+                // a.download = fileName
+                // document.body.appendChild(a);
+                // a.click();
+                // document.body.removeChild(a);
+                
+                // 创建一个Blob对象
+                let blob = new Blob([content], { type: "application/json" });
+                // 创建一个URL，该URL指向Blob对象
+                let blobURL = window.URL.createObjectURL(blob);
+                // 创建一个<a>元素用于下载
                 let a = document.createElement('a');
-                a.href = 'data:text/plain;charset=utf-8,' + content
-                a.download = fileName
-                document.body.appendChild(a);
+                a.href = blobURL;
+                a.download = fileName;
+                // 模拟点击下载链接
                 a.click();
-                document.body.removeChild(a);
+                // 释放Blob URL
+                window.URL.revokeObjectURL(blobURL);
             }
         }
     }

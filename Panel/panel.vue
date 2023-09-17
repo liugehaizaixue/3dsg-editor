@@ -9,6 +9,7 @@
           :auto-upload="false"
           :limit="1"> <el-button type="primary" round >upload map</el-button>
       </el-upload>
+      <el-button type="primary" round @click="saveMap" >Save Map</el-button>
       <el-divider />
       node_name
       <el-input v-model="current_node_info.text" :disabled="root_name_uneditable" placeholder="node_name" />
@@ -34,7 +35,7 @@
         />
     </el-select>
     <div v-show="userData.type=='asset'||userData.type=='object'">affordances</div>
-    <el-select v-show="userData.type=='asset'" v-model="userData.affordances"  multiple placeholder="affordances" >
+    <el-select v-show="userData.type=='asset'" v-model="affordances"  multiple placeholder="affordances" >
         <el-option
           v-for="item in asset_affordances_options"
           :key="item.value"
@@ -42,7 +43,7 @@
           :value="item.value"
         />
     </el-select>
-    <el-select v-show="userData.type=='object'" v-model="userData.affordances"  multiple placeholder="affordances" >
+    <el-select v-show="userData.type=='object'" v-model="affordances"  multiple placeholder="affordances" >
         <el-option
           v-for="item in object_affordances_options"
           :key="item.value"
@@ -71,6 +72,20 @@ export default {
     editorContext:Object,
     required: true
   },
+  computed:{
+    affordances: {
+          get() {
+            if(this.userData.affordances){
+              return this.userData.affordances.split(',') 
+            }else{
+              return ""
+            }
+          },
+          set(val) {
+              this.userData.affordances = val.join(',')
+          }
+    }
+  },
   data() {
     return {
       obj_state_uneditable:false,
@@ -81,7 +96,7 @@ export default {
         type:"",
         state:"",
         attributes:"",
-        affordances:[]
+        affordances:""
       },
       asset_state_options:[
         {
@@ -243,6 +258,26 @@ export default {
       this.editor_context.resetNodes()
       this.editor_context.addPopupMenu()
       json=null
+    },
+    saveMap(){
+      const fileName = window.prompt("input mapname", "");
+      if (fileName == null ||fileName == "") {
+        return
+      }
+      let json_string = this.editor_context.layer.toFileJson();
+      let content = JSON.stringify(JSON.parse(json_string),null,2)
+      // 创建一个Blob对象
+      let blob = new Blob([content], { type: "application/json" });
+      // 创建一个URL，该URL指向Blob对象
+      let blobURL = window.URL.createObjectURL(blob);
+      // 创建一个<a>元素用于下载
+      let a = document.createElement('a');
+      a.href = blobURL;
+      a.download = fileName;
+      // 模拟点击下载链接
+      a.click();
+      // 释放Blob URL
+      window.URL.revokeObjectURL(blobURL);
     }
   }
 };

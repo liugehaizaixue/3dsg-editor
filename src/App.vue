@@ -39,33 +39,29 @@ export default {
                     y: inputSystem.y
                 };
                 // console.log('鼠标在画布的坐标', xyInCanvas); 
-
-                let target = inputSystem.pickedObject;
-                if (target == null) {
-                    e.node_info={
-                        userData:{
+                let _userData = {
                             type:"",
                             state:"",
                             attributes:"",
-                            affordances:[]
+                            affordances:""
                         }
+                let target = inputSystem.pickedObject;
+                if (target == null) {
+                    e.node_info={
+                        userData:{..._userData}
                     }
                     return;
                 }
                 if(target.className=="Link"){
                     console.log('点中了一个Link', target);
                     e.node_info={
-                        userData:{
-                            type:"",
-                            state:"",
-                            attributes:"",
-                            affordances:[]
-                        }
+                        userData:{..._userData}
                     }
                     return 
                 }
-                console.log('点中了一个图元', target);
+
                 e.node_info=target
+                console.log('点中了一个图元', target);
                 console.log(editor)
             });
         }

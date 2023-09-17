@@ -294,6 +294,7 @@ class TopoManager {
     }
     resetNodes(){
         let nodes = []
+        console.log(this.layer)
         for(let node of this.layer.children){
             if(node.userData&&node.userData.type=="root"){
                 this.rootNode=node

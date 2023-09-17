@@ -195,7 +195,7 @@ function create_asset(node_asset){
         throw new Error(`asset:${node_asset.id}的affordances为空`);
     }
 
-    let _affordances = node_asset.userData.affordances.flatMap(item => item.split('/')); //解析"turn_on/turn_off"为turn_on与turn_off
+    let _affordances = node_asset.userData.affordances.split(',').flatMap(item => item.split('/')); //解析"turn_on/turn_off"为turn_on与turn_off
 
     let asset={
         "id":node_asset.text,
@@ -220,7 +220,7 @@ function create_object(node_object){
         throw new Error(`object:${node_object.id}的affordances为空`);
     }
 
-    let _affordances = node_asset.userData.affordances.flatMap(item => item.split('/')); //解析"turn_on/turn_off"为turn_on与turn_off
+    let _affordances = node_object.userData.affordances.split(',').flatMap(item => item.split('/')); //解析"turn_on/turn_off"为turn_on与turn_off
 
     let object={
         "id":node_object.text,
