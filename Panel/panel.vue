@@ -74,7 +74,7 @@ export default {
   data() {
     return {
       obj_state_uneditable:false,
-      root_name_uneditable:true,
+      root_name_uneditable:false,
       current_node_info:this.nodeInfo,
       editor_context:this.editorContext,
       userData:{
@@ -157,10 +157,10 @@ export default {
         }else{
           this.obj_state_uneditable=false
         }
-        if(this.current_node_info.parent?.userData?.type=="root"){
-          this.root_name_uneditable=false
-        }else{
+        if(this.current_node_info.userData?.type=="root"){
           this.root_name_uneditable=true
+        }else{
+          this.root_name_uneditable=false
         }
       },
       deep: true // 深度监听父组件传过来对象变化
