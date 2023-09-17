@@ -194,11 +194,14 @@ function create_asset(node_asset){
     if(!(node_asset.userData.affordances&&node_asset.userData.affordances.length!=0)){
         throw new Error(`asset:${node_asset.id}的affordances为空`);
     }
+
+    let _affordances = node_asset.userData.affordances.flatMap(item => item.split('/')); //解析"turn_on/turn_off"为turn_on与turn_off
+
     let asset={
         "id":node_asset.text,
         "room":node_asset.parent.text,
         "state":node_asset.userData.state,
-        "affordances":node_asset.userData.affordances
+        "affordances":_affordances
     }
     // 使用 Array.prototype.some() 来检查是否已存在相同 id 的对象
     if (!sg_json["nodes"]["asset"].some(item => item.id === asset.id)) {
@@ -217,11 +220,13 @@ function create_object(node_object){
         throw new Error(`object:${node_object.id}的affordances为空`);
     }
 
+    let _affordances = node_asset.userData.affordances.flatMap(item => item.split('/')); //解析"turn_on/turn_off"为turn_on与turn_off
+
     let object={
         "id":node_object.text,
         "state":`${node_object.userData.state}(${node_object.parent.text})`,
         "attributes":node_object.userData.attributes||"",
-        "affordances":node_object.userData.affordances
+        "affordances":_affordances
     }
     // 使用 Array.prototype.some() 来检查是否已存在相同 id 的对象
     if (!sg_json["nodes"]["object"].some(item => item.id === object.id)) {
