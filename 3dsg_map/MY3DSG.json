@@ -1,0 +1,284 @@
+{
+  "nodes": {
+    "room": [
+      {
+        "id": "studio"
+      },
+      {
+        "id": "washroom"
+      },
+      {
+        "id": "kitchen"
+      },
+      {
+        "id": "bobs_room"
+      },
+      {
+        "id": "living_room"
+      },
+      {
+        "id": "toms_room"
+      }
+    ],
+    "pose": [
+      {
+        "id": "pose2"
+      },
+      {
+        "id": "pose3"
+      },
+      {
+        "id": "pose4"
+      },
+      {
+        "id": "pose5"
+      },
+      {
+        "id": "pose1"
+      }
+    ],
+    "agent": [
+      {
+        "id": "agent",
+        "location": "living_room"
+      }
+    ],
+    "asset": [
+      {
+        "id": "desk",
+        "room": "studio",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "chair",
+        "room": "studio",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "washing_machine",
+        "room": "washroom",
+        "state": "off",
+        "affordances": [
+          "turn_on",
+          "turn_off",
+          "release"
+        ]
+      },
+      {
+        "id": "fridge",
+        "room": "kitchen",
+        "state": "closed",
+        "affordances": [
+          "release",
+          "open",
+          "close"
+        ]
+      },
+      {
+        "id": "coffee_machine",
+        "room": "kitchen",
+        "state": "off",
+        "affordances": [
+          "turn_on",
+          "turn_off",
+          "release"
+        ]
+      },
+      {
+        "id": "cupboard",
+        "room": "kitchen",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "bed2",
+        "room": "bobs_room",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "wardrobe2",
+        "room": "bobs_room",
+        "state": "closed",
+        "affordances": [
+          "open",
+          "close",
+          "release"
+        ]
+      },
+      {
+        "id": "television",
+        "room": "living_room",
+        "state": "off",
+        "affordances": [
+          "turn_on",
+          "turn_off"
+        ]
+      },
+      {
+        "id": "table",
+        "room": "living_room",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "sofa",
+        "room": "living_room",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "dining_table",
+        "room": "living_room",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "bed1",
+        "room": "toms_room",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "wardrobe1",
+        "room": "toms_room",
+        "state": "closed",
+        "affordances": [
+          "release",
+          "open",
+          "close"
+        ]
+      }
+    ],
+    "object": [
+      {
+        "id": "coffee_mug",
+        "state": "ontop_of(desk)",
+        "attributes": "red",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "cola",
+        "state": "inside_of(fridge)",
+        "attributes": "black",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "cup",
+        "state": "inside_of(fridge)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "plate",
+        "state": "ontop_of(cupboard)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "pillow",
+        "state": "ontop_of(bed2)",
+        "attributes": "white",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "peaked_cap",
+        "state": "inside_of(wardrobe2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "TV_remote_control",
+        "state": "ontop_of(table)",
+        "attributes": "",
+        "affordances": [
+          "turn_on",
+          "turn_off",
+          "pickup"
+        ]
+      },
+      {
+        "id": "overcoat1",
+        "state": "inside_of(wardrobe1)",
+        "attributes": "black",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "jeans",
+        "state": "inside_of(wardrobe1)",
+        "attributes": "blue",
+        "affordances": [
+          "pickup"
+        ]
+      }
+    ]
+  },
+  "links": [
+    "pose2↔pose3",
+    "pose2↔pose1",
+    "pose3↔pose4",
+    "pose4↔pose5",
+    "pose2↔studio",
+    "studio↔desk",
+    "desk↔coffee_mug",
+    "studio↔chair",
+    "pose3↔washroom",
+    "washroom↔washing_machine",
+    "pose4↔kitchen",
+    "kitchen↔fridge",
+    "fridge↔cola",
+    "fridge↔cup",
+    "kitchen↔coffee_machine",
+    "kitchen↔cupboard",
+    "cupboard↔plate",
+    "pose5↔bobs_room",
+    "bobs_room↔bed2",
+    "bed2↔pillow",
+    "bobs_room↔wardrobe2",
+    "wardrobe2↔peaked_cap",
+    "pose1↔living_room",
+    "living_room↔agent",
+    "living_room↔television",
+    "living_room↔table",
+    "table↔TV_remote_control",
+    "living_room↔sofa",
+    "living_room↔dining_table",
+    "pose1↔toms_room",
+    "toms_room↔bed1",
+    "toms_room↔wardrobe1",
+    "wardrobe1↔overcoat1",
+    "wardrobe1↔jeans"
+  ]
+}
