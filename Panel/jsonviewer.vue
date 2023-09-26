@@ -3,7 +3,7 @@
         <el-card class="box-card" style="height: 100%;">
             <span>
                 <el-button type="primary" round @click="downloadJson">Download sg-Json</el-button>
-                <el-input v-model="map_name" placeholder="Please input map_name" style="width: 200px;"/>
+                <el-button type="primary" round @click="cleanJson">Clean</el-button>
                 <el-button type="primary" round @click="generateJson">Generate sg-Json</el-button>
             </span>
             <div class="preview-model" >
@@ -60,16 +60,12 @@ export default {
         },
         downloadJson() {
             if(this.generateJson()){
-                let fileName = this.map_name==""? "default.json" : this.map_name+".json"
+                const fileName = window.prompt("input mapname", "");
+                if (fileName == null ||fileName == "") {
+                    return
+                }
                 console.log(fileName)
-                let content = this.codeString
-                // let a = document.createElement('a');
-                // a.href = 'data:text/plain;charset=utf-8,' + content
-                // a.download = fileName
-                // document.body.appendChild(a);
-                // a.click();
-                // document.body.removeChild(a);
-                
+                let content = this.codeString          
                 // 创建一个Blob对象
                 let blob = new Blob([content], { type: "application/json" });
                 // 创建一个URL，该URL指向Blob对象
@@ -83,6 +79,9 @@ export default {
                 // 释放Blob URL
                 window.URL.revokeObjectURL(blobURL);
             }
+        },
+        cleanJson(){
+            this.codeString = ""
         }
     }
 };
