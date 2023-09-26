@@ -1,0 +1,1673 @@
+{
+  "nodes": {
+    "room": [
+      {
+        "id": "tobis_office"
+      },
+      {
+        "id": "peters_office"
+      },
+      {
+        "id": "meeting_room1"
+      },
+      {
+        "id": "robot_lounge1"
+      },
+      {
+        "id": "printing_zone2"
+      },
+      {
+        "id": "aarons_office"
+      },
+      {
+        "id": "robot_lounge2"
+      },
+      {
+        "id": "wills_office"
+      },
+      {
+        "id": "luis_office"
+      },
+      {
+        "id": "filipes_office"
+      },
+      {
+        "id": "phd_bay3"
+      },
+      {
+        "id": "jasons_office"
+      },
+      {
+        "id": "postdoc_bay2"
+      },
+      {
+        "id": "lobby"
+      },
+      {
+        "id": "ajays_office"
+      },
+      {
+        "id": "printing_zone1"
+      },
+      {
+        "id": "supplies_station"
+      },
+      {
+        "id": "agriculture_lab"
+      },
+      {
+        "id": "cafeteria"
+      },
+      {
+        "id": "kitchen"
+      },
+      {
+        "id": "meeting_room3"
+      },
+      {
+        "id": "presentation_lounge"
+      },
+      {
+        "id": "lauriannes_office"
+      },
+      {
+        "id": "dimitys_office"
+      },
+      {
+        "id": "chris_office"
+      },
+      {
+        "id": "postdoc_bay3"
+      },
+      {
+        "id": "meeting_room4"
+      },
+      {
+        "id": "phd_bay4"
+      },
+      {
+        "id": "admin"
+      },
+      {
+        "id": "phd_bay2"
+      },
+      {
+        "id": "michaels_office"
+      },
+      {
+        "id": "mobile_robotics_lab"
+      },
+      {
+        "id": "meeting_room2"
+      },
+      {
+        "id": "nikos_office"
+      },
+      {
+        "id": "phd_bay1"
+      },
+      {
+        "id": "postdoc_bay1"
+      },
+      {
+        "id": "manipulation _lab"
+      }
+    ],
+    "pose": [
+      {
+        "id": "pose1"
+      },
+      {
+        "id": "pose2"
+      },
+      {
+        "id": "pose3"
+      },
+      {
+        "id": "pose9"
+      },
+      {
+        "id": "pose10"
+      },
+      {
+        "id": "pose11"
+      },
+      {
+        "id": "pose13"
+      },
+      {
+        "id": "pose12"
+      },
+      {
+        "id": "pose14"
+      },
+      {
+        "id": "pose23"
+      },
+      {
+        "id": "pose24"
+      },
+      {
+        "id": "pose25"
+      },
+      {
+        "id": "pose26"
+      },
+      {
+        "id": "pose22"
+      },
+      {
+        "id": "pose21"
+      },
+      {
+        "id": "pose20"
+      },
+      {
+        "id": "pose19"
+      },
+      {
+        "id": "pose18"
+      },
+      {
+        "id": "pose16"
+      },
+      {
+        "id": "pose17"
+      },
+      {
+        "id": "pose7"
+      },
+      {
+        "id": "pose8"
+      },
+      {
+        "id": "pose5"
+      },
+      {
+        "id": "pose6"
+      },
+      {
+        "id": "pose4"
+      },
+      {
+        "id": "pose15"
+      }
+    ],
+    "agent": [
+      {
+        "id": "agent",
+        "location": "mobile_robotics_lab"
+      }
+    ],
+    "asset": [
+      {
+        "id": "desk38",
+        "room": "tobis_office",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "cabinet2",
+        "room": "peters_office",
+        "state": "closed",
+        "affordances": [
+          "open",
+          "close",
+          "release"
+        ]
+      },
+      {
+        "id": "desk2",
+        "room": "peters_office",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "chair5",
+        "room": "meeting_room1",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "chair4",
+        "room": "meeting_room1",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "chair3",
+        "room": "meeting_room1",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "table5",
+        "room": "meeting_room1",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "toolbox",
+        "room": "robot_lounge1",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "printer2",
+        "room": "printing_zone2",
+        "state": "off",
+        "affordances": [
+          "turn_on",
+          "turn_off",
+          "release"
+        ]
+      },
+      {
+        "id": "desk4",
+        "room": "wills_office",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "cabinet4",
+        "room": "wills_office",
+        "state": "closed",
+        "affordances": [
+          "open",
+          "close",
+          "release"
+        ]
+      },
+      {
+        "id": "desk37",
+        "room": "filipes_office",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk19",
+        "room": "phd_bay3",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk20",
+        "room": "phd_bay3",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk21",
+        "room": "phd_bay3",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk22",
+        "room": "phd_bay3",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk23",
+        "room": "phd_bay3",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk24",
+        "room": "phd_bay3",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "cabine5",
+        "room": "jasons_office",
+        "state": "closed",
+        "affordances": [
+          "open",
+          "close",
+          "release"
+        ]
+      },
+      {
+        "id": "desk5",
+        "room": "jasons_office",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk33",
+        "room": "postdoc_bay2",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk34",
+        "room": "postdoc_bay2",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "shelf2",
+        "room": "lobby",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "cupboard1",
+        "room": "supplies_station",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "cupboard2",
+        "room": "supplies_station",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "produce_container",
+        "room": "agriculture_lab",
+        "state": "closed",
+        "affordances": [
+          "open",
+          "close",
+          "release"
+        ]
+      },
+      {
+        "id": "lunch_table",
+        "room": "cafeteria",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "coffee_machine",
+        "room": "kitchen",
+        "state": "off",
+        "affordances": [
+          "turn_on",
+          "turn_off",
+          "release"
+        ]
+      },
+      {
+        "id": "fridge",
+        "room": "kitchen",
+        "state": "closed",
+        "affordances": [
+          "open",
+          "close",
+          "release"
+        ]
+      },
+      {
+        "id": "cabinet",
+        "room": "kitchen",
+        "state": "closed",
+        "affordances": [
+          "open",
+          "close",
+          "release"
+        ]
+      },
+      {
+        "id": "kitchen_bench",
+        "room": "kitchen",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "dishwasher",
+        "room": "kitchen",
+        "state": "off",
+        "affordances": [
+          "turn_on",
+          "turn_off",
+          "release"
+        ]
+      },
+      {
+        "id": "drawer",
+        "room": "kitchen",
+        "state": "closed",
+        "affordances": [
+          "open",
+          "close",
+          "release"
+        ]
+      },
+      {
+        "id": "microwave",
+        "room": "kitchen",
+        "state": "off",
+        "affordances": [
+          "turn_on",
+          "turn_off",
+          "release"
+        ]
+      },
+      {
+        "id": "recycling_bin",
+        "room": "kitchen",
+        "state": "closed",
+        "affordances": [
+          "open",
+          "close",
+          "release"
+        ]
+      },
+      {
+        "id": "rubbish_bin",
+        "room": "kitchen",
+        "state": "closed",
+        "affordances": [
+          "open",
+          "close",
+          "release"
+        ]
+      },
+      {
+        "id": "table1",
+        "room": "meeting_room3",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "table6",
+        "room": "meeting_room3",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk3",
+        "room": "dimitys_office",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "cabinet3",
+        "room": "dimitys_office",
+        "state": "closed",
+        "affordances": [
+          "open",
+          "close",
+          "release"
+        ]
+      },
+      {
+        "id": "desk35",
+        "room": "postdoc_bay3",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk36",
+        "room": "postdoc_bay3",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "table2",
+        "room": "meeting_room4",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk25",
+        "room": "phd_bay4",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk26",
+        "room": "phd_bay4",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk27",
+        "room": "phd_bay4",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk28",
+        "room": "phd_bay4",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk29",
+        "room": "phd_bay4",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk30",
+        "room": "phd_bay4",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "shelf",
+        "room": "admin",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk13",
+        "room": "phd_bay2",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk14",
+        "room": "phd_bay2",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk15",
+        "room": "phd_bay2",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk16",
+        "room": "phd_bay2",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk17",
+        "room": "phd_bay2",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk18",
+        "room": "phd_bay2",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "cabinet6",
+        "room": "michaels_office",
+        "state": "closed",
+        "affordances": [
+          "open",
+          "close",
+          "release"
+        ]
+      },
+      {
+        "id": "desk6",
+        "room": "michaels_office",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "table4",
+        "room": "mobile_robotics_lab",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "chair2",
+        "room": "meeting_room2",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "chair1",
+        "room": "nikos_office",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk1",
+        "room": "nikos_office",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "cabinet1",
+        "room": "nikos_office",
+        "state": "closed",
+        "affordances": [
+          "open",
+          "close",
+          "release"
+        ]
+      },
+      {
+        "id": "desk7",
+        "room": "phd_bay1",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk8",
+        "room": "phd_bay1",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk9",
+        "room": "phd_bay1",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk10",
+        "room": "phd_bay1",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk11",
+        "room": "phd_bay1",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk12",
+        "room": "phd_bay1",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk31",
+        "room": "postdoc_bay1",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "desk32",
+        "room": "postdoc_bay1",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      },
+      {
+        "id": "table3",
+        "room": "manipulation _lab",
+        "state": "free",
+        "affordances": [
+          "release"
+        ]
+      }
+    ],
+    "object": [
+      {
+        "id": "pepsi",
+        "state": "ontop_of(desk38)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "apple3",
+        "state": "inside_of(cabinet2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "stapler",
+        "state": "inside_of(cabinet2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "phone",
+        "state": "ontop_of(desk2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "screwdiver1",
+        "state": "ontop_of(toolbox)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "document",
+        "state": "ontop_of(printer2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "drone2",
+        "state": "inside_of(cabinet4)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "apple1",
+        "state": "ontop_of(cabinet4)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "undergrad_thesis1",
+        "state": "inside_of(cabinet4)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "stapler2",
+        "state": "ontop_of(desk37)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "drone1",
+        "state": "ontop_of(desk21)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "monitor",
+        "state": "ontop_of(desk5)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "frame3",
+        "state": "ontop_of(desk33)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "parcel",
+        "state": "ontop_of(shelf2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "paper_towel",
+        "state": "ontop_of(cupboard1)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "printer_paper",
+        "state": "ontop_of(cupboard1)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "vodka",
+        "state": "ontop_of(cupboard2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "orange_juice",
+        "state": "ontop_of(cupboard2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "biscuits",
+        "state": "ontop_of(cupboard2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "bottle_water3",
+        "state": "ontop_of(cupboard2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "bottle_water1",
+        "state": "ontop_of(cupboard2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "bottle_water4",
+        "state": "ontop_of(cupboard2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "bottle_water2",
+        "state": "ontop_of(cupboard2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "bottle_water5",
+        "state": "ontop_of(cupboard2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "kale_leaves1",
+        "state": "inside_of(produce_container)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "banana1",
+        "state": "ontop_of(lunch_table)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "plate",
+        "state": "ontop_of(lunch_table)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "fork",
+        "state": "ontop_of(lunch_table)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "knife",
+        "state": "ontop_of(lunch_table)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "J64M",
+        "state": "inside_of(fridge)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "banana2",
+        "state": "inside_of(fridge)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "cheese",
+        "state": "inside_of(fridge)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "tomatoe",
+        "state": "inside_of(fridge)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "chicken_kebab",
+        "state": "inside_of(fridge)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "noodles",
+        "state": "inside_of(fridge)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "salmon_bagel",
+        "state": "inside_of(fridge)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "greek_salad",
+        "state": "inside_of(fridge)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "carrot",
+        "state": "inside_of(fridge)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "kale_leaves2",
+        "state": "ontop_of(kitchen_bench)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "orange1",
+        "state": "ontop_of(kitchen_bench)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "bread",
+        "state": "ontop_of(kitchen_bench)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "butter",
+        "state": "ontop_of(kitchen_bench)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "chips",
+        "state": "ontop_of(kitchen_bench)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "bowl",
+        "state": "ontop_of(dishwasher)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "plate2",
+        "state": "ontop_of(dishwasher)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "spoon",
+        "state": "ontop_of(dishwasher)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "milk_carton",
+        "state": "inside_of(recycling_bin)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "orange_peel",
+        "state": "inside_of(recycling_bin)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "apple_core",
+        "state": "inside_of(recycling_bin)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "banana_peel",
+        "state": "inside_of(rubbish_bin)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "plastic_bottle",
+        "state": "inside_of(rubbish_bin)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "headphones",
+        "state": "ontop_of(table1)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "K31X",
+        "state": "ontop_of(desk3)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "buzzer",
+        "state": "ontop_of(desk3)",
+        "attributes": "",
+        "affordances": [
+          "pickup",
+          "turn_on",
+          "turn_off"
+        ]
+      },
+      {
+        "id": "apple2",
+        "state": "inside_of(cabinet3)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "dorittos1",
+        "state": "ontop_of(desk35)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "marker",
+        "state": "ontop_of(desk36)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "janga",
+        "state": "ontop_of(table2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "risk",
+        "state": "ontop_of(table2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "monopoly",
+        "state": "ontop_of(table2)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "complimentary_tshtirt5",
+        "state": "ontop_of(desk25)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "fire_extinguisher2",
+        "state": "ontop_of(shelf)",
+        "attributes": "",
+        "affordances": [
+          "pickup",
+          "turn_on",
+          "turn_off"
+        ]
+      },
+      {
+        "id": "complimentary_tshirt3",
+        "state": "ontop_of(desk15)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "complimentary_tshirt4",
+        "state": "ontop_of(desk18)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "complimentary_tshirt6",
+        "state": "ontop_of(desk18)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "terminator_poster",
+        "state": "inside_of(cabinet6)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "stapler3",
+        "state": "inside_of(cabinet6)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "scissors",
+        "state": "ontop_of(desk6)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "book2",
+        "state": "ontop_of(table4)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "coffee_mug",
+        "state": "ontop_of(desk1)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "complimentary_tshirt1",
+        "state": "ontop_of(desk9)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "complimentary_tshirt2",
+        "state": "ontop_of(desk10)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "fire_extinguisher1",
+        "state": "ontop_of(desk31)",
+        "attributes": "",
+        "affordances": [
+          "turn_on",
+          "turn_off",
+          "pickup"
+        ]
+      },
+      {
+        "id": "frame1",
+        "state": "ontop_of(desk32)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "frame2",
+        "state": "ontop_of(desk32)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "complimentary_tshirt7",
+        "state": "ontop_of(desk32)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "complimentary_tshirt8",
+        "state": "ontop_of(desk32)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "book1",
+        "state": "ontop_of(table3)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      },
+      {
+        "id": "gripper",
+        "state": "ontop_of(table3)",
+        "attributes": "",
+        "affordances": [
+          "pickup"
+        ]
+      }
+    ]
+  },
+  "links": [
+    "pose1↔pose2",
+    "pose2↔pose3",
+    "pose2↔pose5",
+    "pose3↔pose9",
+    "pose9↔pose10",
+    "pose9↔pose11",
+    "pose9↔pose13",
+    "pose8↔pose13",
+    "pose13↔pose12",
+    "pose13↔pose14",
+    "pose14↔pose23",
+    "pose15↔pose23",
+    "pose23↔pose24",
+    "pose23↔pose22",
+    "pose24↔pose25",
+    "pose25↔pose26",
+    "pose22↔pose21",
+    "pose21↔pose20",
+    "pose20↔pose19",
+    "pose19↔pose18",
+    "pose18↔pose16",
+    "pose18↔pose15",
+    "pose16↔pose17",
+    "pose16↔pose7",
+    "pose17↔pose7",
+    "pose7↔pose8",
+    "pose7↔pose5",
+    "pose5↔pose6",
+    "pose5↔pose4",
+    "pose1↔tobis_office",
+    "tobis_office↔desk38",
+    "desk38↔pepsi",
+    "pose1↔peters_office",
+    "peters_office↔cabinet2",
+    "cabinet2↔apple3",
+    "cabinet2↔stapler",
+    "peters_office↔desk2",
+    "desk2↔phone",
+    "pose2↔meeting_room1",
+    "meeting_room1↔chair5",
+    "meeting_room1↔chair4",
+    "meeting_room1↔chair3",
+    "meeting_room1↔table5",
+    "pose3↔robot_lounge1",
+    "robot_lounge1↔toolbox",
+    "toolbox↔screwdiver1",
+    "pose3↔printing_zone2",
+    "printing_zone2↔printer2",
+    "printer2↔document",
+    "pose9↔aarons_office",
+    "pose9↔robot_lounge2",
+    "pose10↔wills_office",
+    "wills_office↔desk4",
+    "wills_office↔cabinet4",
+    "cabinet4↔drone2",
+    "cabinet4↔apple1",
+    "cabinet4↔undergrad_thesis1",
+    "pose10↔luis_office",
+    "pose10↔filipes_office",
+    "filipes_office↔desk37",
+    "desk37↔stapler2",
+    "pose11↔phd_bay3",
+    "phd_bay3↔desk19",
+    "phd_bay3↔desk20",
+    "phd_bay3↔desk21",
+    "desk21↔drone1",
+    "phd_bay3↔desk22",
+    "phd_bay3↔desk23",
+    "phd_bay3↔desk24",
+    "pose13↔jasons_office",
+    "jasons_office↔cabine5",
+    "jasons_office↔desk5",
+    "desk5↔monitor",
+    "pose12↔postdoc_bay2",
+    "postdoc_bay2↔desk33",
+    "desk33↔frame3",
+    "postdoc_bay2↔desk34",
+    "pose14↔lobby",
+    "lobby↔shelf2",
+    "shelf2↔parcel",
+    "pose23↔ajays_office",
+    "pose24↔printing_zone1",
+    "pose24↔supplies_station",
+    "supplies_station↔cupboard1",
+    "cupboard1↔paper_towel",
+    "cupboard1↔printer_paper",
+    "supplies_station↔cupboard2",
+    "cupboard2↔vodka",
+    "cupboard2↔orange_juice",
+    "cupboard2↔biscuits",
+    "cupboard2↔bottle_water3",
+    "cupboard2↔bottle_water1",
+    "cupboard2↔bottle_water4",
+    "cupboard2↔bottle_water2",
+    "cupboard2↔bottle_water5",
+    "pose24↔agriculture_lab",
+    "agriculture_lab↔produce_container",
+    "produce_container↔kale_leaves1",
+    "pose25↔cafeteria",
+    "cafeteria↔lunch_table",
+    "lunch_table↔banana1",
+    "lunch_table↔plate",
+    "lunch_table↔fork",
+    "lunch_table↔knife",
+    "pose25↔kitchen",
+    "kitchen↔coffee_machine",
+    "kitchen↔fridge",
+    "fridge↔J64M",
+    "fridge↔banana2",
+    "fridge↔cheese",
+    "fridge↔tomatoe",
+    "fridge↔chicken_kebab",
+    "fridge↔noodles",
+    "fridge↔salmon_bagel",
+    "fridge↔greek_salad",
+    "fridge↔carrot",
+    "kitchen↔cabinet",
+    "kitchen↔kitchen_bench",
+    "kitchen_bench↔kale_leaves2",
+    "kitchen_bench↔orange1",
+    "kitchen_bench↔bread",
+    "kitchen_bench↔butter",
+    "kitchen_bench↔chips",
+    "kitchen↔dishwasher",
+    "dishwasher↔bowl",
+    "dishwasher↔plate2",
+    "dishwasher↔spoon",
+    "kitchen↔drawer",
+    "kitchen↔microwave",
+    "kitchen↔recycling_bin",
+    "recycling_bin↔milk_carton",
+    "recycling_bin↔orange_peel",
+    "recycling_bin↔apple_core",
+    "kitchen↔rubbish_bin",
+    "rubbish_bin↔banana_peel",
+    "rubbish_bin↔plastic_bottle",
+    "pose26↔meeting_room3",
+    "meeting_room3↔table1",
+    "table1↔headphones",
+    "meeting_room3↔table6",
+    "pose26↔presentation_lounge",
+    "pose22↔lauriannes_office",
+    "pose22↔dimitys_office",
+    "dimitys_office↔desk3",
+    "desk3↔K31X",
+    "desk3↔buzzer",
+    "dimitys_office↔cabinet3",
+    "cabinet3↔apple2",
+    "pose22↔chris_office",
+    "pose21↔postdoc_bay3",
+    "postdoc_bay3↔desk35",
+    "desk35↔dorittos1",
+    "postdoc_bay3↔desk36",
+    "desk36↔marker",
+    "pose20↔meeting_room4",
+    "meeting_room4↔table2",
+    "table2↔janga",
+    "table2↔risk",
+    "table2↔monopoly",
+    "pose19↔phd_bay4",
+    "phd_bay4↔desk25",
+    "desk25↔complimentary_tshtirt5",
+    "phd_bay4↔desk26",
+    "phd_bay4↔desk27",
+    "phd_bay4↔desk28",
+    "phd_bay4↔desk29",
+    "phd_bay4↔desk30",
+    "pose18↔admin",
+    "admin↔shelf",
+    "shelf↔fire_extinguisher2",
+    "pose17↔phd_bay2",
+    "phd_bay2↔desk13",
+    "phd_bay2↔desk14",
+    "phd_bay2↔desk15",
+    "desk15↔complimentary_tshirt3",
+    "phd_bay2↔desk16",
+    "phd_bay2↔desk17",
+    "phd_bay2↔desk18",
+    "desk18↔complimentary_tshirt4",
+    "desk18↔complimentary_tshirt6",
+    "pose7↔michaels_office",
+    "michaels_office↔cabinet6",
+    "cabinet6↔terminator_poster",
+    "cabinet6↔stapler3",
+    "michaels_office↔desk6",
+    "desk6↔scissors",
+    "pose8↔mobile_robotics_lab",
+    "mobile_robotics_lab↔agent",
+    "mobile_robotics_lab↔table4",
+    "table4↔book2",
+    "pose5↔meeting_room2",
+    "meeting_room2↔chair2",
+    "pose5↔nikos_office",
+    "nikos_office↔chair1",
+    "nikos_office↔desk1",
+    "desk1↔coffee_mug",
+    "nikos_office↔cabinet1",
+    "pose6↔phd_bay1",
+    "phd_bay1↔desk7",
+    "phd_bay1↔desk8",
+    "phd_bay1↔desk9",
+    "desk9↔complimentary_tshirt1",
+    "phd_bay1↔desk10",
+    "desk10↔complimentary_tshirt2",
+    "phd_bay1↔desk11",
+    "phd_bay1↔desk12",
+    "pose4↔postdoc_bay1",
+    "postdoc_bay1↔desk31",
+    "desk31↔fire_extinguisher1",
+    "postdoc_bay1↔desk32",
+    "desk32↔frame1",
+    "desk32↔frame2",
+    "desk32↔complimentary_tshirt7",
+    "desk32↔complimentary_tshirt8",
+    "pose15↔manipulation _lab",
+    "manipulation _lab↔table3",
+    "table3↔book1",
+    "table3↔gripper"
+  ]
+}

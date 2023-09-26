@@ -250,7 +250,8 @@ class TopoManager {
     }
     initbg() {
         let url =
-            './src/assets/bg.jpg';
+            './src/assets/background.png';
+            // './src/assets/bg.jpg';
         this.getbg(url).then(size => {
             console.log(`Width: ${size.width}, Height: ${size.height}`);
             var imgNode = new Node('background', 0, 0, size.width, size.height);
