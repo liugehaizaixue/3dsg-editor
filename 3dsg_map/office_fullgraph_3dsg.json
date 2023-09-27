@@ -351,7 +351,7 @@
         ]
       },
       {
-        "id": "cabine5",
+        "id": "cabinet5",
         "room": "jasons_office",
         "state": "closed",
         "affordances": [
@@ -1521,7 +1521,7 @@
     "phd_bay3↔desk23",
     "phd_bay3↔desk24",
     "pose13↔jasons_office",
-    "jasons_office↔cabine5",
+    "jasons_office↔cabinet5",
     "jasons_office↔desk5",
     "desk5↔monitor",
     "pose12↔postdoc_bay2",
