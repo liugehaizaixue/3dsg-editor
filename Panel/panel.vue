@@ -18,7 +18,7 @@
       type
       <el-input v-model="userData.type" disabled placeholder="type" />
       <div v-show="userData.type=='asset'||userData.type=='object'">state</div>
-      <el-select v-show="userData.type=='asset'" v-model="userData.state"  placeholder="state" >
+      <el-select v-show="userData.type=='asset'" v-model="state" multiple placeholder="state" >
         <el-option
           v-for="item in asset_state_options"
           :key="item.value"
@@ -26,7 +26,7 @@
           :value="item.value"
         />
     </el-select>
-    <el-select v-show="userData.type=='object'" v-model="userData.state" :disabled="obj_state_uneditable" placeholder="state" >
+    <el-select v-show="userData.type=='object'" v-model="state" :disabled="obj_state_uneditable" multiple placeholder="state" >
         <el-option
           v-for="item in object_state_options"
           :key="item.value"
@@ -83,6 +83,18 @@ export default {
           },
           set(val) {
               this.userData.affordances = val.join(',')
+          }
+    },
+    state:{
+      get() {
+            if(this.userData.state){
+              return this.userData.state.split(',') 
+            }else{
+              return ""
+            }
+          },
+          set(val) {
+              this.userData.state = val.join(',')
           }
     }
   },

@@ -195,12 +195,14 @@ function create_asset(node_asset){
         throw new Error(`asset:${node_asset.id}的affordances为空`);
     }
 
+    let _state = node_asset.userData.state.split(',')
+
     let _affordances = node_asset.userData.affordances.split(',').flatMap(item => item.split('/')); //解析"turn_on/turn_off"为turn_on与turn_off
 
     let asset={
         "id":node_asset.text,
         "room":node_asset.parent.text,
-        "state":node_asset.userData.state,
+        "state":_state,
         "affordances":_affordances
     }
     // 使用 Array.prototype.some() 来检查是否已存在相同 id 的对象
