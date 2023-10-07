@@ -1,0 +1,6767 @@
+{
+  "version": "2.0.1",
+  "Roots": [
+    0
+  ],
+  "Styles": [
+    {
+      "backgroundWidth": null,
+      "backgroundHeight": null,
+      "backgroundWidthRate": null,
+      "backgroundHeightRate": null,
+      "_backgroundImage": "data:image/svg+xml;charset=UTF-8,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 100 100\\\"> <rect x=\\\"0\\\" y=\\\"0\\\" width=\\\"100\\\" height=\\\"100\\\" style=\\\"fill:rgb(36,36,36);stroke:rgb(21,21,21);stroke-width:1;\\\"/><line x1=\\\"0\\\" y1=\\\"20\\\" x2=\\\"100\\\" y2=\\\"20\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"0\\\" y1=\\\"40\\\" x2=\\\"100\\\" y2=\\\"40\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"0\\\" y1=\\\"60\\\" x2=\\\"100\\\" y2=\\\"60\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"0\\\" y1=\\\"80\\\" x2=\\\"100\\\" y2=\\\"80\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"0\\\" y1=\\\"100\\\" x2=\\\"100\\\" y2=\\\"100\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"20\\\" y1=\\\"0\\\" x2=\\\"20\\\" y2=\\\"100\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"40\\\" y1=\\\"0\\\" x2=\\\"40\\\" y2=\\\"100\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"60\\\" y1=\\\"0\\\" x2=\\\"60\\\" y2=\\\"100\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"80\\\" y1=\\\"0\\\" x2=\\\"80\\\" y2=\\\"100\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"100\\\" y1=\\\"0\\\" x2=\\\"100\\\" y2=\\\"100\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/></svg>",
+      "backgroundColor": "initial",
+      "backgroundRepeat": "repeat",
+      "_backgroundPosition": "initial",
+      "_backgroundSize": "initial",
+      "_background": "url('data:image/svg+xml;charset=UTF-8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">            <rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" style=\"fill:rgb(36,36,36);stroke:rgb(21,21,21);stroke-width:1;\"/><line x1=\"0\" y1=\"20\" x2=\"100\" y2=\"20\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"0\" y1=\"40\" x2=\"100\" y2=\"40\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"0\" y1=\"60\" x2=\"100\" y2=\"60\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"0\" y1=\"80\" x2=\"100\" y2=\"80\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"0\" y1=\"100\" x2=\"100\" y2=\"100\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"100\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"40\" y1=\"0\" x2=\"40\" y2=\"100\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"60\" y1=\"0\" x2=\"60\" y2=\"100\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"80\" y1=\"0\" x2=\"80\" y2=\"100\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"100\" y1=\"0\" x2=\"100\" y2=\"100\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/></svg>') repeat"
+    },
+    {
+      "_backgroundSize": "100% 100%",
+      "backgroundWidthRate": 1,
+      "backgroundHeightRate": 1
+    },
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "lineWidth": 1,
+      "strokeStyle": "black"
+    },
+    {},
+    {
+      "fillStyle": "#B9B4AF"
+    },
+    {
+      "fillStyle": "#9678DD"
+    },
+    {
+      "fillStyle": "#80D360"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#80D360"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#9678DD"
+    },
+    {
+      "fillStyle": "#80D360"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E46B4A"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#9678DD"
+    },
+    {
+      "fillStyle": "#80D360"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#9678DD"
+    },
+    {
+      "fillStyle": "#80D360"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#E8C764"
+    },
+    {
+      "fillStyle": "#9678DD"
+    },
+    {
+      "fillStyle": "#80D360"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#468EEA"
+    },
+    {
+      "fillStyle": "#468EEA"
+    }
+  ],
+  "Shapes": [
+    {
+      "className": "RectShape",
+      "points": [
+        {
+          "x": -0.5,
+          "y": -0.5
+        },
+        {
+          "x": 0.5,
+          "y": -0.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.5
+        }
+      ],
+      "isClosed": true
+    },
+    {
+      "className": "RectShape",
+      "points": [
+        {
+          "x": -0.5,
+          "y": -0.5
+        },
+        {
+          "x": 0.5,
+          "y": -0.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.5
+        }
+      ],
+      "isClosed": true
+    },
+    {
+      "className": "RectShape",
+      "points": [
+        {
+          "x": -0.5,
+          "y": -0.5
+        },
+        {
+          "x": 0.5,
+          "y": -0.5
+        },
+        {
+          "x": 0.5,
+          "y": 0.5
+        },
+        {
+          "x": -0.5,
+          "y": 0.5
+        }
+      ],
+      "isClosed": true
+    }
+  ],
+  "Resources": [
+    {
+      "type": "img",
+      "src": "./src/assets/virtualhome.png"
+    }
+  ],
+  "DisplayObjects": [
+    {
+      "isLayer": true,
+      "id": 1,
+      "name": "default",
+      "className": "Layer",
+      "style": 0,
+      "shape": 0
+    },
+    {
+      "isNode": true,
+      "className": "Node",
+      "id": 6,
+      "zIndex": -1,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "text": "background",
+      "width": 1613,
+      "height": 838,
+      "shape": 0,
+      "parent": 0,
+      "style": 1,
+      "image": 0
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 4,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 196
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 197
+      },
+      "label": 3,
+      "style": 2
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 5,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 0,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 2,
+      "style": 3
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 8,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 197
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 198
+      },
+      "label": 5,
+      "style": 4
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 9,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 0,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 4,
+      "style": 5
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 11,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 198
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 199
+      },
+      "label": 7,
+      "style": 6
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 12,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 0,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 6,
+      "style": 7
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 14,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 198
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 201
+      },
+      "label": 9,
+      "style": 8
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 15,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 0,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 8,
+      "style": 9
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 17,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 198
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 204
+      },
+      "label": 11,
+      "style": 10
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 18,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 0,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 10,
+      "style": 11
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 23,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 198
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 207
+      },
+      "label": 13,
+      "style": 12
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 24,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 0,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 12,
+      "style": 13
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 26,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 204
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 205
+      },
+      "label": 15,
+      "style": 14
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 27,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 0,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 14,
+      "style": 15
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 125,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 204
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 206
+      },
+      "label": 17,
+      "style": 16
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 126,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 16,
+      "style": 17
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 128,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 199
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 200
+      },
+      "label": 19,
+      "style": 18
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 129,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 18,
+      "style": 19
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 131,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 201
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 202
+      },
+      "label": 21,
+      "style": 20
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 132,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 20,
+      "style": 21
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 134,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 201
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 203
+      },
+      "label": 23,
+      "style": 22
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 135,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 22,
+      "style": 23
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 137,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 197
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 209
+      },
+      "label": 25,
+      "style": 24
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 138,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 24,
+      "style": 25
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 140,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 209
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 210
+      },
+      "label": 27,
+      "style": 26
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 141,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 26,
+      "style": 27
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 143,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 210
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 211
+      },
+      "label": 29,
+      "style": 28
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 144,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 28,
+      "style": 29
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 146,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 210
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 212
+      },
+      "label": 31,
+      "style": 30
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 147,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 30,
+      "style": 31
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 149,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 210
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 213
+      },
+      "label": 33,
+      "style": 32
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 150,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 32,
+      "style": 33
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 155,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 209
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 214
+      },
+      "label": 35,
+      "style": 34
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 156,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 34,
+      "style": 35
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 158,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 214
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 215
+      },
+      "label": 37,
+      "style": 36
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 159,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 36,
+      "style": 37
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 161,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 214
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 216
+      },
+      "label": 39,
+      "style": 38
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 162,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 38,
+      "style": 39
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 164,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 214
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 217
+      },
+      "label": 41,
+      "style": 40
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 165,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 40,
+      "style": 41
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 167,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 209
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 219
+      },
+      "label": 43,
+      "style": 42
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 168,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 42,
+      "style": 43
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 170,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 209
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 220
+      },
+      "label": 45,
+      "style": 44
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 171,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 44,
+      "style": 45
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 173,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 209
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 222
+      },
+      "label": 47,
+      "style": 46
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 174,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 46,
+      "style": 47
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 176,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 209
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 223
+      },
+      "label": 49,
+      "style": 48
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 177,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 48,
+      "style": 49
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 179,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 214
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 218
+      },
+      "label": 51,
+      "style": 50
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 180,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 50,
+      "style": 51
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 182,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 209
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 224
+      },
+      "label": 53,
+      "style": 52
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 183,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 52,
+      "style": 53
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 185,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 224
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 225
+      },
+      "label": 55,
+      "style": 54
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 186,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 54,
+      "style": 55
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 188,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 209
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 226
+      },
+      "label": 57,
+      "style": 56
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 189,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 56,
+      "style": 57
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 191,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 220
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 221
+      },
+      "label": 59,
+      "style": 58
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 192,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 58,
+      "style": 59
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 194,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 209
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 227
+      },
+      "label": 61,
+      "style": 60
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 195,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 60,
+      "style": 61
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 197,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 197
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 228
+      },
+      "label": 63,
+      "style": 62
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 198,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 62,
+      "style": 63
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 200,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 228
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 229
+      },
+      "label": 65,
+      "style": 64
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 201,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 64,
+      "style": 65
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 203,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 229
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 230
+      },
+      "label": 67,
+      "style": 66
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 204,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 66,
+      "style": 67
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 206,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 230
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 231
+      },
+      "label": 69,
+      "style": 68
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 207,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 68,
+      "style": 69
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 209,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 229
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 232
+      },
+      "label": 71,
+      "style": 70
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 210,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 70,
+      "style": 71
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 212,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 229
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 234
+      },
+      "label": 73,
+      "style": 72
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 213,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 72,
+      "style": 73
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 215,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 229
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 235
+      },
+      "label": 75,
+      "style": 74
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 216,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 74,
+      "style": 75
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 218,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 232
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 233
+      },
+      "label": 77,
+      "style": 76
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 219,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 76,
+      "style": 77
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 221,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 229
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 240
+      },
+      "label": 79,
+      "style": 78
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 222,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 78,
+      "style": 79
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 224,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 229
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 241
+      },
+      "label": 81,
+      "style": 80
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 225,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 80,
+      "style": 81
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 227,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 229
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 244
+      },
+      "label": 83,
+      "style": 82
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 228,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 82,
+      "style": 83
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 230,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 235
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 236
+      },
+      "label": 85,
+      "style": 84
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 231,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 84,
+      "style": 85
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 233,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 235
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 237
+      },
+      "label": 87,
+      "style": 86
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 234,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 86,
+      "style": 87
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 236,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 235
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 238
+      },
+      "label": 89,
+      "style": 88
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 237,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 88,
+      "style": 89
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 239,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 235
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 239
+      },
+      "label": 91,
+      "style": 90
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 240,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 90,
+      "style": 91
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 242,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 198
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 208
+      },
+      "label": 93,
+      "style": 92
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 243,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 92,
+      "style": 93
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 245,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 229
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 245
+      },
+      "label": 95,
+      "style": 94
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 246,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 94,
+      "style": 95
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 248,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 241
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 242
+      },
+      "label": 97,
+      "style": 96
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 249,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 96,
+      "style": 97
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 251,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 241
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 243
+      },
+      "label": 99,
+      "style": 98
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 252,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 98,
+      "style": 99
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 254,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 197
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 246
+      },
+      "label": 101,
+      "style": 100
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 255,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 100,
+      "style": 101
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 257,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 246
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 247
+      },
+      "label": 103,
+      "style": 102
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 258,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 102,
+      "style": 103
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 260,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 247
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 248
+      },
+      "label": 105,
+      "style": 104
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 261,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 104,
+      "style": 105
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 263,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 246
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 256
+      },
+      "label": 107,
+      "style": 106
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 264,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 106,
+      "style": 107
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 266,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 256
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 257
+      },
+      "label": 109,
+      "style": 108
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 267,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 108,
+      "style": 109
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 269,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 248
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 249
+      },
+      "label": 111,
+      "style": 110
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 270,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 110,
+      "style": 111
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 272,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 248
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 250
+      },
+      "label": 113,
+      "style": 112
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 273,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 112,
+      "style": 113
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 275,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 248
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 251
+      },
+      "label": 115,
+      "style": 114
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 276,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 1,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 114,
+      "style": 115
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 451,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 247
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 253
+      },
+      "label": 117,
+      "style": 116
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 452,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 116,
+      "style": 117
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 457,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 247
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 254
+      },
+      "label": 119,
+      "style": 118
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 458,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 118,
+      "style": 119
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 463,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 247
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 255
+      },
+      "label": 121,
+      "style": 120
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 464,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 120,
+      "style": 121
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 466,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 248
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 252
+      },
+      "label": 123,
+      "style": 122
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 467,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 122,
+      "style": 123
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 472,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 257
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 258
+      },
+      "label": 125,
+      "style": 124
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 473,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 124,
+      "style": 125
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 475,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 257
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 259
+      },
+      "label": 127,
+      "style": 126
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 476,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 126,
+      "style": 127
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 478,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 259
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 260
+      },
+      "label": 129,
+      "style": 128
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 479,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 128,
+      "style": 129
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 481,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 259
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 261
+      },
+      "label": 131,
+      "style": 130
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 482,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 130,
+      "style": 131
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 484,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 259
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 262
+      },
+      "label": 133,
+      "style": 132
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 485,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 132,
+      "style": 133
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 487,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 259
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 263
+      },
+      "label": 135,
+      "style": 134
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 488,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 134,
+      "style": 135
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 490,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 257
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 264
+      },
+      "label": 137,
+      "style": 136
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 491,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 136,
+      "style": 137
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 493,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 257
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 265
+      },
+      "label": 139,
+      "style": 138
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 494,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 138,
+      "style": 139
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 496,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 257
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 266
+      },
+      "label": 141,
+      "style": 140
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 497,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 140,
+      "style": 141
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 499,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 266
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 267
+      },
+      "label": 143,
+      "style": 142
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 500,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 142,
+      "style": 143
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 502,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 266
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 268
+      },
+      "label": 145,
+      "style": 144
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 503,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 144,
+      "style": 145
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 505,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 266
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 269
+      },
+      "label": 147,
+      "style": 146
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 506,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 146,
+      "style": 147
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 508,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 266
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 270
+      },
+      "label": 149,
+      "style": 148
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 509,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 148,
+      "style": 149
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 511,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 266
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 271
+      },
+      "label": 151,
+      "style": 150
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 512,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 150,
+      "style": 151
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 514,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 266
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 272
+      },
+      "label": 153,
+      "style": 152
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 515,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 152,
+      "style": 153
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 517,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 266
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 273
+      },
+      "label": 155,
+      "style": 154
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 518,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 154,
+      "style": 155
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 520,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 266
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 274
+      },
+      "label": 157,
+      "style": 156
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 521,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 156,
+      "style": 157
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 523,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 266
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 275
+      },
+      "label": 159,
+      "style": 158
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 524,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 158,
+      "style": 159
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 526,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 266
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 276
+      },
+      "label": 161,
+      "style": 160
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 527,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 160,
+      "style": 161
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 529,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 266
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 277
+      },
+      "label": 163,
+      "style": 162
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 530,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 162,
+      "style": 163
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 532,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 266
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 278
+      },
+      "label": 165,
+      "style": 164
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 533,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 164,
+      "style": 165
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 535,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 266
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 279
+      },
+      "label": 167,
+      "style": 166
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 536,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 166,
+      "style": 167
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 538,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 266
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 280
+      },
+      "label": 169,
+      "style": 168
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 539,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 168,
+      "style": 169
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 541,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 257
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 281
+      },
+      "label": 171,
+      "style": 170
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 542,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 170,
+      "style": 171
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 802,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 257
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 282
+      },
+      "label": 173,
+      "style": 172
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 803,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 172,
+      "style": 173
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 805,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 257
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 286
+      },
+      "label": 175,
+      "style": 174
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 806,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 174,
+      "style": 175
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 808,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 282
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 283
+      },
+      "label": 177,
+      "style": 176
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 809,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 176,
+      "style": 177
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 811,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 282
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 284
+      },
+      "label": 179,
+      "style": 178
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 812,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 178,
+      "style": 179
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 814,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 286
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 287
+      },
+      "label": 181,
+      "style": 180
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 815,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 180,
+      "style": 181
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 817,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 282
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 285
+      },
+      "label": 183,
+      "style": 182
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 818,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 182,
+      "style": 183
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 823,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 256
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 288
+      },
+      "label": 185,
+      "style": 184
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 824,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 184,
+      "style": 185
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 826,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 288
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 289
+      },
+      "label": 187,
+      "style": 186
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 827,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 186,
+      "style": 187
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 829,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 289
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 290
+      },
+      "label": 189,
+      "style": 188
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 830,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 188,
+      "style": 189
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 832,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 289
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 291
+      },
+      "label": 191,
+      "style": 190
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 833,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 190,
+      "style": 191
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 835,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 289
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 292
+      },
+      "label": 193,
+      "style": 192
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 836,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 192,
+      "style": 193
+    },
+    {
+      "isLink": true,
+      "className": "Link",
+      "id": 838,
+      "parent": 0,
+      "begin": {
+        "className": "EndpointNearest",
+        "target": 289
+      },
+      "end": {
+        "className": "EndpointNearest",
+        "target": 293
+      },
+      "label": 195,
+      "style": 194
+    },
+    {
+      "isNode": true,
+      "className": "TextNode",
+      "id": 839,
+      "editable": false,
+      "mouseEnabled": false,
+      "connectable": false,
+      "draggable": false,
+      "origin": [
+        0,
+        0.5
+      ],
+      "text": "",
+      "width": 0,
+      "height": 10,
+      "shape": 2,
+      "rotation": 3.141593,
+      "originAlignPosition": "cb",
+      "rotateCenter": "cb",
+      "parent": 194,
+      "style": 195
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 2,
+      "userData": {
+        "type": "root"
+      },
+      "draggable": false,
+      "classList": [
+        ".ball"
+      ],
+      "text": "root",
+      "width": 16,
+      "height": 16,
+      "shape": 0,
+      "radius": 8,
+      "parent": 0,
+      "style": 196
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 3,
+      "userData": {
+        "type": "pose"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "pose1",
+      "x": -16.809828,
+      "y": -137.240661,
+      "width": 16,
+      "height": 16,
+      "shape": 0,
+      "radius": 8,
+      "parent": 196,
+      "style": 197
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 7,
+      "userData": {
+        "type": "room"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "washroom",
+      "x": 23.026448,
+      "y": -120.958384,
+      "width": 16,
+      "height": 16,
+      "shape": 0,
+      "radius": 8,
+      "parent": 197,
+      "style": 198
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 10,
+      "userData": {
+        "type": "asset",
+        "state": "closed,off",
+        "affordances": "turn_on/turn_off,open/close,release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "washing_machine",
+      "x": -35.189478,
+      "y": -93.239204,
+      "width": 16,
+      "height": 16,
+      "shape": 0,
+      "radius": 8,
+      "parent": 198,
+      "style": 199
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 127,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "attributes": "white銆乨irty",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "overcoat",
+      "x": -35.235068,
+      "y": -38.281856,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 199,
+      "style": 200
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 13,
+      "userData": {
+        "type": "asset",
+        "state": "free,off",
+        "affordances": "turn_on/turn_off,release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "sink1",
+      "x": -86.297551,
+      "y": -19.063714,
+      "width": 16,
+      "height": 16,
+      "shape": 0,
+      "radius": 8,
+      "parent": 198,
+      "style": 201
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 130,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "towel",
+      "x": -46.479562,
+      "y": 26.783441,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 201,
+      "style": 202
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 133,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "toothbrush",
+      "x": -44.25063,
+      "y": 1.037692,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 201,
+      "style": 203
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 16,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "shelf1",
+      "x": 104.516572,
+      "y": -4.99132,
+      "width": 16,
+      "height": 16,
+      "shape": 0,
+      "radius": 8,
+      "parent": 198,
+      "style": 204
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 25,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "shampoo",
+      "x": 5.326521,
+      "y": -61.139541,
+      "width": 16,
+      "height": 16,
+      "shape": 0,
+      "radius": 8,
+      "parent": 204,
+      "style": 205
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 124,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "soap",
+      "x": 49.291098,
+      "y": -10.422922,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 204,
+      "style": 206
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 22,
+      "userData": {
+        "type": "asset",
+        "state": "free,off",
+        "affordances": "turn_on/turn_off"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "shower",
+      "x": 46.650094,
+      "y": -90.078476,
+      "width": 16,
+      "height": 16,
+      "shape": 0,
+      "radius": 8,
+      "parent": 198,
+      "style": 207
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 241,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "clothes_basket",
+      "x": -111.771605,
+      "y": -81.241637,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 198,
+      "style": 208
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 136,
+      "userData": {
+        "type": "room"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "study",
+      "x": -343.202324,
+      "y": 51.3136,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 197,
+      "style": 209
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 139,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "bookshelf",
+      "x": -16.826097,
+      "y": -113.220772,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 209,
+      "style": 210
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 142,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "Grimm's_Fairy_Tales",
+      "x": -30.837299,
+      "y": -63.166363,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 210,
+      "style": 211
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 145,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "One_Hundred_years_of_Solitude",
+      "x": -76.09829,
+      "y": -39.561534,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 210,
+      "style": 212
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 148,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "folder",
+      "x": 33.780982,
+      "y": -48.923261,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 210,
+      "style": 213
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 154,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "desk",
+      "x": -231.333104,
+      "y": -33.914304,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 209,
+      "style": 214
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 157,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "monitor",
+      "x": -44.596936,
+      "y": 0.371593,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 214,
+      "style": 215
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 160,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "notebook",
+      "x": -3.931713,
+      "y": 25.837433,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 214,
+      "style": 216
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 163,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "pen",
+      "x": -11.269274,
+      "y": -24.715326,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 214,
+      "style": 217
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 178,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "cup1",
+      "x": 26.748746,
+      "y": -41.886298,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 214,
+      "style": 218
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 166,
+      "userData": {
+        "type": "asset",
+        "state": "off",
+        "affordances": "turn_on/turn_off"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "light",
+      "x": 24.93718,
+      "y": 79.509871,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 209,
+      "style": 219
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 169,
+      "userData": {
+        "type": "asset",
+        "state": "closed",
+        "affordances": "open/close,release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "cabinet1",
+      "x": -205.062968,
+      "y": -170.939105,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 209,
+      "style": 220
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 190,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "keyboard",
+      "x": -71.355894,
+      "y": -8.694794,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 220,
+      "style": 221
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 172,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "chair1",
+      "x": -178.164082,
+      "y": -5.913185,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 209,
+      "style": 222
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 175,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "chair2",
+      "x": -176.208558,
+      "y": -48.340877,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 209,
+      "style": 223
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 181,
+      "userData": {
+        "type": "asset",
+        "state": "closed",
+        "affordances": "release,open/close"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "trash_can",
+      "x": -188.582037,
+      "y": 55.959766,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 209,
+      "style": 224
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 184,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "waste_paper",
+      "x": -56.423235,
+      "y": 17.776486,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 224,
+      "style": 225
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 187,
+      "userData": {
+        "type": "asset",
+        "state": "off,free",
+        "affordances": "turn_on/turn_off,release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "printer",
+      "x": -191.406543,
+      "y": -233.21019,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 209,
+      "style": 226
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 193,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "table1",
+      "x": -71.883869,
+      "y": 70.661253,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 209,
+      "style": 227
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 196,
+      "userData": {
+        "type": "pose"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "pose2",
+      "x": 257.724219,
+      "y": -74.798081,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 196,
+      "style": 228
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 199,
+      "userData": {
+        "type": "room"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "tobis_room",
+      "x": 177.841923,
+      "y": -47.152358,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 228,
+      "style": 229
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 202,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "bed1",
+      "x": 129.057438,
+      "y": -0.032871,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 229,
+      "style": 230
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 205,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "pillow",
+      "x": 35.198714,
+      "y": -18.376647,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 230,
+      "style": 231
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 208,
+      "userData": {
+        "type": "asset",
+        "state": "closed",
+        "affordances": "release,open/close"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "bedside_cupboard",
+      "x": 135.193727,
+      "y": 31.725924,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 229,
+      "style": 232
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 217,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "photo",
+      "x": 44.739006,
+      "y": 27.951432,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 232,
+      "style": 233
+    },
+    {
+      "isNode": true,
+      "className": "Node",
+      "id": 211,
+      "userData": {
+        "type": "agent"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "agent",
+      "x": -5.151822,
+      "y": -61.416407,
+      "width": 30,
+      "height": 12,
+      "shape": 1,
+      "parent": 229,
+      "style": 234
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 214,
+      "userData": {
+        "type": "asset",
+        "state": "closed",
+        "affordances": "release,open/close"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "wardrobe1",
+      "x": 118.418143,
+      "y": 88.286737,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 229,
+      "style": 235
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 229,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "hat",
+      "x": 113.534475,
+      "y": 59.343159,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 235,
+      "style": 236
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 232,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup",
+        "attributes": "blue"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "jeans",
+      "x": 50.252818,
+      "y": 57.864391,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 235,
+      "style": 237
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 235,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "Down_Jackets",
+      "x": 30.685431,
+      "y": 93.043223,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 235,
+      "style": 238
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 238,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup",
+        "attributes": "white"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "short_sleeve",
+      "x": 110.143606,
+      "y": 7.327973,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 235,
+      "style": 239
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 220,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "sofa1",
+      "x": 50.072208,
+      "y": 181.839957,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 229,
+      "style": 240
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 223,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "desk2",
+      "x": -48.183787,
+      "y": 126.286492,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 229,
+      "style": 241
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 247,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "potato_chips",
+      "x": -15.380626,
+      "y": -33.624176,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 241,
+      "style": 242
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 250,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "cola",
+      "x": -41.01231,
+      "y": 6.093393,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 241,
+      "style": 243
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 226,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "chair3",
+      "x": -8.754573,
+      "y": 203.271756,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 229,
+      "style": 244
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 244,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "clothes_airer",
+      "x": 61.344684,
+      "y": -130.977481,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 229,
+      "style": 245
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 253,
+      "userData": {
+        "type": "pose"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "pose3",
+      "x": -95.429908,
+      "y": 13.689459,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 196,
+      "style": 246
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 256,
+      "userData": {
+        "type": "room"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "living_room",
+      "x": 60.923048,
+      "y": 103.136932,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 246,
+      "style": 247
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 259,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "table2",
+      "x": 57.074833,
+      "y": -21.665131,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 247,
+      "style": 248
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 268,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "lighter",
+      "x": 60.958619,
+      "y": -6.177949,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 248,
+      "style": 249
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 271,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "cup3",
+      "x": 48.408739,
+      "y": 49.164347,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 248,
+      "style": 250
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 274,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "cup2",
+      "x": 17.049738,
+      "y": -35.408832,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 248,
+      "style": 251
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 465,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "tangerine",
+      "x": 74.884131,
+      "y": -44.879082,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 248,
+      "style": 252
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 450,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "couch",
+      "x": 56.717544,
+      "y": 41.940851,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 247,
+      "style": 253
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 456,
+      "userData": {
+        "type": "asset",
+        "state": "off",
+        "affordances": "turn_on/turn_off"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "television",
+      "x": 33.488119,
+      "y": 81.364986,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 247,
+      "style": 254
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 462,
+      "userData": {
+        "type": "asset",
+        "state": "off",
+        "affordances": "turn_on/turn_off"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "air_conditioning",
+      "x": 18.922627,
+      "y": -60.415688,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 247,
+      "style": 255
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 262,
+      "userData": {
+        "type": "pose"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "pose4",
+      "x": -190.293772,
+      "y": 160.242582,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 196,
+      "style": 256
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 265,
+      "userData": {
+        "type": "room"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "kitchen",
+      "x": -143.255008,
+      "y": 17.035775,
+      "width": 16,
+      "height": 16,
+      "shape": 1,
+      "radius": 8,
+      "parent": 256,
+      "style": 257
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 471,
+      "userData": {
+        "type": "asset",
+        "state": "free,off",
+        "affordances": "turn_on/turn_off,release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "sink2",
+      "x": -72.246935,
+      "y": 87.096304,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 257,
+      "style": 258
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 474,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "cupboard",
+      "x": -80.99602,
+      "y": 3.329902,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 257,
+      "style": 259
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 477,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "bowl1",
+      "x": -47.383916,
+      "y": -8.796046,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 259,
+      "style": 260
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 480,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "bowl2",
+      "x": -31.968783,
+      "y": -41.105661,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 259,
+      "style": 261
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 483,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "plate1",
+      "x": -43.072079,
+      "y": 23.16314,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 259,
+      "style": 262
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 486,
+      "userData": {
+        "type": "object",
+        "state": "ontop_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "plate2",
+      "x": -62.991272,
+      "y": 59.592771,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 259,
+      "style": 263
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 489,
+      "userData": {
+        "type": "asset",
+        "state": "off,free",
+        "affordances": "release,turn_on/turn_off"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "coffee_machine",
+      "x": -31.684316,
+      "y": -44.053577,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 257,
+      "style": 264
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 492,
+      "userData": {
+        "type": "asset",
+        "state": "closed,off",
+        "affordances": "open/close,release,turn_on/turn_off"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "microwave_oven",
+      "x": 39.592196,
+      "y": -39.205719,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 257,
+      "style": 265
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 495,
+      "userData": {
+        "type": "asset",
+        "state": "closed",
+        "affordances": "release,open/close"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "fridge",
+      "x": 118.457221,
+      "y": 117.527671,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 257,
+      "style": 266
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 498,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "banana",
+      "x": 33.869252,
+      "y": -19.513998,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 266,
+      "style": 267
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 501,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "apple1",
+      "x": 39.826327,
+      "y": 10.22721,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 266,
+      "style": 268
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 504,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "apple2",
+      "x": 40.902043,
+      "y": 56.106535,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 266,
+      "style": 269
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 507,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "bread",
+      "x": 10.123339,
+      "y": 64.206164,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 266,
+      "style": 270
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 510,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "steak",
+      "x": 9.799503,
+      "y": -41.420244,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 266,
+      "style": 271
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 513,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "tomato",
+      "x": -12.349235,
+      "y": 90.411017,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 266,
+      "style": 272
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 516,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "cheese",
+      "x": -64.984257,
+      "y": 47.729265,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 266,
+      "style": 273
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 519,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "carrot",
+      "x": -42.648473,
+      "y": 108.606068,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 266,
+      "style": 274
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 522,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "butter",
+      "x": -68.01289,
+      "y": 80.950371,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 266,
+      "style": 275
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 525,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "orange_juice",
+      "x": 83.318762,
+      "y": 51.1186,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 266,
+      "style": 276
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 528,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "milk",
+      "x": 101.050772,
+      "y": 5.174807,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 266,
+      "style": 277
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 531,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "bottled_water1",
+      "x": 14.134061,
+      "y": 118.893578,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 266,
+      "style": 278
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 534,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "bottled_water2",
+      "x": 42.066289,
+      "y": 106.897939,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 266,
+      "style": 279
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 537,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "bottled_water3",
+      "x": 83.03977,
+      "y": 101.620575,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 266,
+      "style": 280
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 540,
+      "userData": {
+        "type": "asset",
+        "state": "off,free",
+        "affordances": "turn_on/turn_off,release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "stove_burner",
+      "x": 16.938711,
+      "y": 104.161538,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 257,
+      "style": 281
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 801,
+      "userData": {
+        "type": "asset",
+        "state": "closed",
+        "affordances": "open/close,release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "rubbish_bin",
+      "x": -30.536493,
+      "y": 152.420319,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 257,
+      "style": 282
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 807,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "milk_carton",
+      "x": 14.105569,
+      "y": 38.515299,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 282,
+      "style": 283
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 810,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "orange_peel",
+      "x": 37.837989,
+      "y": 8.12207,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 282,
+      "style": 284
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 816,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "plastic_bottle",
+      "x": -21.042862,
+      "y": 63.365652,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 282,
+      "style": 285
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 804,
+      "userData": {
+        "type": "asset",
+        "state": "closed",
+        "affordances": "release,open/close"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "recycling_bin",
+      "x": -76.788854,
+      "y": 157.983363,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 257,
+      "style": 286
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 813,
+      "userData": {
+        "type": "object",
+        "state": "inside_of",
+        "affordances": "pickup"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "apple_core",
+      "x": -13.663293,
+      "y": 35.175804,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 286,
+      "style": 287
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 822,
+      "userData": {
+        "type": "pose"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "pose5",
+      "x": -43.978068,
+      "y": 249.857335,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 196,
+      "style": 288
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 825,
+      "userData": {
+        "type": "room"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "dining_room",
+      "x": 101.531602,
+      "y": 37.786949,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 288,
+      "style": 289
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 828,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "lunch_table",
+      "x": 44.431099,
+      "y": 57.248635,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 289,
+      "style": 290
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 831,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "chair5",
+      "x": 13.667941,
+      "y": 86.901647,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 289,
+      "style": 291
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 834,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "chair4",
+      "x": 65.858982,
+      "y": 24.659672,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 289,
+      "style": 292
+    },
+    {
+      "isNode": true,
+      "className": "CircleNode",
+      "id": 837,
+      "userData": {
+        "type": "asset",
+        "state": "free",
+        "affordances": "release"
+      },
+      "classList": [
+        ".ball"
+      ],
+      "text": "chair6",
+      "x": -37.404968,
+      "y": 89.572066,
+      "width": 16,
+      "height": 16,
+      "shape": 2,
+      "radius": 8,
+      "parent": 289,
+      "style": 293
+    }
+  ],
+  "CustomStyle": {
+    "SelectArea": {
+      "borderStyle": "solid",
+      "borderWidth": 1,
+      "borderColor": "rgba(255,255,255,0.5)",
+      "_border": "1px solid rgba(255,255,255,0.5)",
+      "backgroundColor": "rgba(255,255,255,0.2)"
+    },
+    "Layer": {
+      "backgroundWidth": null,
+      "backgroundHeight": null,
+      "backgroundWidthRate": null,
+      "backgroundHeightRate": null,
+      "_backgroundImage": "data:image/svg+xml;charset=UTF-8,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 100 100\\\"> <rect x=\\\"0\\\" y=\\\"0\\\" width=\\\"100\\\" height=\\\"100\\\" style=\\\"fill:rgb(36,36,36);stroke:rgb(21,21,21);stroke-width:1;\\\"/><line x1=\\\"0\\\" y1=\\\"20\\\" x2=\\\"100\\\" y2=\\\"20\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"0\\\" y1=\\\"40\\\" x2=\\\"100\\\" y2=\\\"40\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"0\\\" y1=\\\"60\\\" x2=\\\"100\\\" y2=\\\"60\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"0\\\" y1=\\\"80\\\" x2=\\\"100\\\" y2=\\\"80\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"0\\\" y1=\\\"100\\\" x2=\\\"100\\\" y2=\\\"100\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"20\\\" y1=\\\"0\\\" x2=\\\"20\\\" y2=\\\"100\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"40\\\" y1=\\\"0\\\" x2=\\\"40\\\" y2=\\\"100\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"60\\\" y1=\\\"0\\\" x2=\\\"60\\\" y2=\\\"100\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"80\\\" y1=\\\"0\\\" x2=\\\"80\\\" y2=\\\"100\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/><line x1=\\\"100\\\" y1=\\\"0\\\" x2=\\\"100\\\" y2=\\\"100\\\" style=\\\"stroke:rgb(21,21,21);stroke-width:0.5\\\"/></svg>",
+      "backgroundColor": "initial",
+      "backgroundRepeat": "repeat",
+      "_backgroundPosition": "initial",
+      "_backgroundSize": "initial",
+      "_background": "url('data:image/svg+xml;charset=UTF-8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">            <rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" style=\"fill:rgb(36,36,36);stroke:rgb(21,21,21);stroke-width:1;\"/><line x1=\"0\" y1=\"20\" x2=\"100\" y2=\"20\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"0\" y1=\"40\" x2=\"100\" y2=\"40\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"0\" y1=\"60\" x2=\"100\" y2=\"60\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"0\" y1=\"80\" x2=\"100\" y2=\"80\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"0\" y1=\"100\" x2=\"100\" y2=\"100\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"100\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"40\" y1=\"0\" x2=\"40\" y2=\"100\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"60\" y1=\"0\" x2=\"60\" y2=\"100\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"80\" y1=\"0\" x2=\"80\" y2=\"100\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/><line x1=\"100\" y1=\"0\" x2=\"100\" y2=\"100\" style=\"stroke:rgb(21,21,21);stroke-width:0.5\"/></svg>') repeat"
+    },
+    "Node": {
+      "textPosition": "cb",
+      "textAlign": "center",
+      "textBaseline": "top",
+      "strokeStyle": "white",
+      "color": "white"
+    },
+    "TextNode": {
+      "textPosition": "center",
+      "textAlign": "center",
+      "textBaseline": "middle",
+      "strokeStyle": "white",
+      "color": "white"
+    },
+    "TipNode": {
+      "textPosition": "ct",
+      "textAlign": "center",
+      "textBaseline": "top",
+      "color": "white"
+    },
+    "ShapeNode": {
+      "lineWidth": 1,
+      "textPosition": "cb",
+      "textAlign": "center",
+      "textBaseline": "top",
+      "strokeStyle": "white",
+      "color": "white"
+    },
+    "CircleNode": {
+      "textPosition": "cb",
+      "textAlign": "center",
+      "textBaseline": "top",
+      "strokeStyle": "white",
+      "color": "white"
+    },
+    "VideoNode": {
+      "textPosition": "cb",
+      "textAlign": "center",
+      "textBaseline": "top",
+      "strokeStyle": "white",
+      "color": "white"
+    },
+    "RatioNode": {
+      "textPosition": "center",
+      "textAlign": "center",
+      "textBaseline": "middle",
+      "color": "white"
+    },
+    "Link": {
+      "strokeStyle": "white"
+    },
+    "AutoFoldLink": {
+      "strokeStyle": "white"
+    },
+    "FoldLink": {
+      "strokeStyle": "white"
+    },
+    "FlexionalLink": {
+      "strokeStyle": "white"
+    },
+    "CurveLink": {
+      "strokeStyle": "white"
+    },
+    "BezierLink": {
+      "strokeStyle": "white"
+    },
+    "ArcLink": {
+      "strokeStyle": "white"
+    },
+    ".ball": {
+      "textPosition": "center",
+      "textBaseline": "middle",
+      "strokeStyle": "rgba(0,0,0,0.3)",
+      "font": "8px arial"
+    }
+  }
+}
